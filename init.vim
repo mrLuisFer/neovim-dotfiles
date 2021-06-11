@@ -94,8 +94,8 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 "close buffer
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
+
 "--gruvbox config--
-"colorscheme onedark
 " let g:gruvbox_contrast_dark = "medium"
 
 set cmdheight=1
@@ -109,6 +109,7 @@ let g:tokyonight_enable_italic = 0
 colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
+" colorscheme onedark
 " - - - - - - - - - - - - 
 
 "Close tags automatically
