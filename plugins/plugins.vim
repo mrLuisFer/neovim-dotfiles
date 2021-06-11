@@ -9,6 +9,24 @@ Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
 Plug 'ghifarit53/tokyonight-vim'
 
+" Space Vim Theme
+Plug 'liuchengxu/space-vim-theme'
+
+" Edge Theme -> https://github.com/sainnhe/edge/blob/master/doc/edge.txt
+Plug 'sainnhe/edge'
+
+
+" Sonokai Theme -> https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt 
+Plug 'sainnhe/sonokai'
+
+
+" Eveforest Theme -> https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt
+Plug 'sainnhe/everforest'
+
+" VsCode Theme
+Plug 'dunstontc/vim-vscode-theme'
+
+
 " "IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
@@ -50,22 +68,6 @@ Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
-" Space Vim Theme
-Plug 'liuchengxu/space-vim-theme'
-
-" Edge Theme -> https://github.com/sainnhe/edge/blob/master/doc/edge.txt
-Plug 'sainnhe/edge'
-
-
-" Sonokai Theme -> https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt 
-Plug 'sainnhe/sonokai'
-
-
-" Eveforest Theme -> https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt
-Plug 'sainnhe/everforest'
-
-" VsCode Theme
-Plug 'dunstontc/vim-vscode-theme'
 
 " Emmet Plugin -> https://github.com/mattn/emmet-vim
 Plug 'mattn/emmet-vim'
