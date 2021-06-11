@@ -114,5 +114,6 @@ colorscheme edge
 "Close tags automatically
 "Cerrar tags automaticamente
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
+
 "-----------------------------------------------------------------
 
