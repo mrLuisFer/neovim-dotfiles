@@ -16,6 +16,11 @@ Plug 'easymotion/vim-easymotion'
 Plug 'christoomey/vim-tmux-navigator'
 "NERDTREE
 Plug 'preservim/nerdtree'
+"" Nerdtree git plugini
+  " show git status in file tree view
+Plug 'Xuyuanp/nerdtree-git-plugin'  
+
+" DevIcons
 Plug 'ryanoasis/vim-devicons'
 
 "ChadTree (Nerdtree Alternative )
@@ -59,6 +64,20 @@ Plug 'sainnhe/sonokai'
 " Eveforest Theme -> https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt
 Plug 'sainnhe/everforest'
 
+" VsCode Theme
+Plug 'dunstontc/vim-vscode-theme'
 
-"_____________________________
+" Emmet Plugin -> https://github.com/mattn/emmet-vim
+Plug 'mattn/emmet-vim'
+
+" JSX Syntax
+Plug 'maxmellon/vim-jsx-pretty'
+
+" Vim Prettier
+Plug 'prettier/vim-prettier' 
+
+" SCSS Syntax
+Plug 'cakebaker/scss-syntax.vim'
+
+"""_____________________________
 call plug#end()
