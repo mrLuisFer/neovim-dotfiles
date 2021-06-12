@@ -26,6 +26,8 @@ Plug 'sainnhe/everforest'
 " VsCode Theme
 Plug 'dunstontc/vim-vscode-theme'
 
+" Miramare theme
+Plug 'franbach/miramare'
 
 " "IDE
 Plug 'easymotion/vim-easymotion'

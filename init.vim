@@ -46,6 +46,7 @@ if has("win32")
 	source ~/AppData/Local/nvim/themes/edge.vim
 	source ~/AppData/Local/nvim/themes/sonokai.vim
 	source ~/AppData/Local/nvim/themes/everforest.vim
+	source ~/AppData/Local/nvim/themes/miramare.vim
 elseif has("unix")
 	" TODO: Do something in linux c:
 	source $HOME/.config/nvim/plugins/plugins.vim
@@ -54,6 +55,7 @@ elseif has("unix")
 	source $HOME/.config/nvim/themes/onedark.vim
 	source $HOME/.config/nvim/themes/sonokai.vim
 	source $HOME/.config/nvim/themes/everforest.vim
+	source $HOME/.config/nvim/themes/miramare.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
@@ -108,10 +110,11 @@ let g:tokyonight_enable_italic = 0
 " colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme space_vim_theme
-colorscheme edge
+" colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
+colorscheme miramare
 " - - - - - - - - - - - - 
 
 "Close tags automatically
