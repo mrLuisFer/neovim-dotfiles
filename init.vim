@@ -88,9 +88,11 @@ nmap <Leader>s <Plug>(easymotion-s2)
 " TAB in general mode will move to text buffer
 " TAB en modo normal se moverá al siguiente buffer
 nnoremap <silent> <TAB> :bnext<CR>
+
 " SHIFT-TAB will go back
 " SHIFT-TAB va para atras 
 nnoremap <silent> <S-TAB> :bprevious<CR>
+
 "close buffer
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
