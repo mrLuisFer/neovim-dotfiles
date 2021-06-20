@@ -100,7 +100,7 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 nmap <leader>bd :bdelete<CR>
 
 "--gruvbox config--
-" let g:gruvbox_contrast_dark = "medium"
+let g:gruvbox_contrast_dark = "medium"
 
 set cmdheight=1
 let g:tokyonight_style = 'night' " available: night, storm
@@ -108,13 +108,13 @@ let g:tokyonight_enable_italic = 0
 
 " - - - - COLORSCHEME - - - - - -
 " colorscheme tokyonight
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme space_vim_theme
 " colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
-colorscheme miramare
+" colorscheme miramare
 " - - - - - - - - - - - - 
 
 "Close tags automatically
