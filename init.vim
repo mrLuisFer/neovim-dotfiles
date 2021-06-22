@@ -109,11 +109,11 @@ let g:tokyonight_enable_italic = 0
 " colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme space_vim_theme
-" colorscheme edge
+colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
-colorscheme miramare
+" colorscheme miramare
 " - - - - - - - - - - - - 
 
 "Close tags automatically
