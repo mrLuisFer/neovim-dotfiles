@@ -8,6 +8,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
 Plug 'ghifarit53/tokyonight-vim'
+" Dracula Theme
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Space Vim Theme
 Plug 'liuchengxu/space-vim-theme'
