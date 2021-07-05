@@ -47,6 +47,7 @@ if has("win32")
 	source ~/AppData/Local/nvim/themes/sonokai.vim
 	source ~/AppData/Local/nvim/themes/everforest.vim
 	source ~/AppData/Local/nvim/themes/miramare.vim
+	source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
 elseif has("unix")
 	source $HOME/.config/nvim/plugins/plugins.vim
 	source $HOME/.config/nvim/plugins/plug-config.vim
@@ -55,6 +56,7 @@ elseif has("unix")
 	source $HOME/.config/nvim/themes/sonokai.vim
 	source $HOME/.config/nvim/themes/everforest.vim
 	source $HOME/.config/nvim/themes/miramare.vim
+	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file

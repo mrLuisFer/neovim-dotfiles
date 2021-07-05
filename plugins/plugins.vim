@@ -40,7 +40,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdtree'
 "" Nerdtree git plugini
   " show git status in file tree view
-Plug 'Xuyuanp/nerdtree-git-plugin'  
+  \ Plug 'Xuyuanp/nerdtree-git-plugin'  
 
 " NerdCommenter
 Plug 'preservim/nerdcommenter'
