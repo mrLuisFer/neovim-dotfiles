@@ -89,5 +89,9 @@ Plug 'cakebaker/scss-syntax.vim'
 " Seti.vim
 Plug 'trusktr/seti.vim'
 
+" Vim React Snippets
+Plug 'SirVer/ultisnips'
+Plug 'mlaursen/vim-react-snippets'
+
 """_____________________________
 call plug#end()
