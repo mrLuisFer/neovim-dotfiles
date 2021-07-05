@@ -88,5 +88,8 @@ Plug 'prettier/vim-prettier'
 " SCSS Syntax
 Plug 'cakebaker/scss-syntax.vim'
 
+" Seti.vim
+Plug 'trusktr/seti.vim'
+
 """_____________________________
 call plug#end()
