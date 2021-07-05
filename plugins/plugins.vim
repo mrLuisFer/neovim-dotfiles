@@ -41,12 +41,10 @@ Plug 'preservim/nerdtree'
 "" Nerdtree git plugini
   " show git status in file tree view
   \ Plug 'Xuyuanp/nerdtree-git-plugin'  
+  \ Plug 'ryanoasis/vim-devicons'
 
-" NerdCommenter
+  " NerdCommenter
 Plug 'preservim/nerdcommenter'
-
-" DevIcons
-Plug 'ryanoasis/vim-devicons'
 
 "ChadTree (Nerdtree Alternative )
 "
