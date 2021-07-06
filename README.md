@@ -49,3 +49,35 @@ And do a **pull request** to the **main** branch
 - **RipGrep**
 
 - **nvim** C:
+
+## Usage
+When you clone the repository, please rename the file neovim-dotfiles to nvim so that it is recognized by Neovim
+
+### Install Neovim Windows:
+  Reference: https://github.com/neovim/neovim/wiki/Installing-Neovim
+  
+  scoop install neovim
+
+  Or
+
+  choco install neovim -y
+
+### Setup Windows:
+  mkdir %APPDATA%/Local/nvim
+  cd %APPDATA/Local/
+  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
+  echo "Cloned the configuration :D"
+
+
+### Setup Linux:
+  mkdir -p $HOME/.config/nvim
+  cd $HOME/.config/nvim
+  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
+  echo "Cloned the configuration :D"
+
+### Setup MacOs:
+  mkdir -p $HOME/.config/nvim
+  cd $HOME/.config/nvim
+  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
+  echo "Cloned the configuration :D"
+
