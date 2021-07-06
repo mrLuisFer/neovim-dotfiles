@@ -53,7 +53,7 @@ And do a **pull request** to the **main** branch
 ## 🦄 Usage
 When you clone the repository, please rename the file neovim-dotfiles to nvim so that it is recognized by Neovim
 
-### 📚 Install Neovim Windows:
+### 📚 Install Neovim:
   
   ```
   scoop install neovim
