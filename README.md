@@ -1,4 +1,5 @@
-## 📗 mrLuisFer's - Neovim Config
+# 📗 mrLuisFer's - Neovim Config
+![](./doc/screenshot-init-vim.PNG)
 
 An explanation of how to use this config in Windows is in [this video - Youtube.com](https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A)
 
