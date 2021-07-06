@@ -90,7 +90,7 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'trusktr/seti.vim'
 
 " Vim React Snippets
-Plug 'SirVer/ultisnips'
+"Plug 'SirVer/ultisnips'
 Plug 'mlaursen/vim-react-snippets'
 
 """_____________________________
