@@ -71,7 +71,7 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   `echo "Cloned the configuration :D"`
 
 
-### Setup Linux:
+### 🐧 Setup Linux:
   `mkdir -p $HOME/.config/nvim`
   
   `cd $HOME/.config/nvim`
