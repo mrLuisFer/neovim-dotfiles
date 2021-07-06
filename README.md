@@ -64,7 +64,7 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   choco install neovim -y
   ```
   
-  And for **Linux** and **MacOs** : https://github.com/neovim/neovim/wiki/Installing-Neovim  
+  And for **Linux** and **MacOs** : [neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
   
   
 ### 📘 Setup Windows:
@@ -100,7 +100,7 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   ```
 
 ### 🌈 Colorschemes
-If you do not like the color that comes by default, you can execute the command inside **neovim:** `colorscheme + TAB` and you will see a list of themes that you can select
+If you do not like the color that comes by default, you can execute the command inside **neovim:** `:colorscheme + TAB` and you will see a list of themes that you can select
 
 When you find one you like, go to `init.vim` and search with *neovim* `/colorscheme` and write down the name of the **theme** you want to use.
 
