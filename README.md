@@ -100,3 +100,15 @@ If you do not like the color that comes by default, you can execute the command 
 
 When you find one you like, go to `init.vim` and search with *neovim* `/colorscheme` and write down the name of the **theme** you want to use.
 
+## 🐊 CoC Extensions
+[Whats Coc?](https://github.com/neoclide/coc.nvim)
+
+If you want to **install** or **add** an extension for **Coc** you can check the following page and without modifying anything unless necessary, just **run the command** and it will be ready to use
+
+Install extensions like:
+
+```
+:CocInstall coc-json coc-tsserver
+```
+
+[You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
