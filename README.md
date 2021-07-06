@@ -64,30 +64,36 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   ```
   
 ### 📘 Setup Windows:
-  `cd %APPDATA/Local/`
+  ```
+  cd %APPDATA/Local/
   
-  `git clone https://github.com/mrLuisFer/neovim-dotfiles.git`
+  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
   
-  `echo "Cloned the configuration :D"`
+  echo "Cloned the configuration :D"
+  ```
 
 
 ### 🐧 Setup Linux:
-  `mkdir -p $HOME/.config/nvim`
+  ```
+  mkdir -p $HOME/.config/nvim
   
-  `cd $HOME/.config/nvim`
+  cd $HOME/.config/nvim
   
-  `git clone https://github.com/mrLuisFer/neovim-dotfiles.git`
+  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
   
-  `echo "Cloned the configuration :D"`
+  echo "Cloned the configuration :D"
+  ```
 
 ### 🍎 Setup MacOs:
-  `mkdir -p $HOME/.config/nvim`
+  ```
+  mkdir -p $HOME/.config/nvim
   
-  `cd $HOME/.config/nvim`
+  cd $HOME/.config/nvim
   
-  `git clone https://github.com/mrLuisFer/neovim-dotfiles.git`
+  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
   
-  `echo "Cloned the configuration :D"`
+  echo "Cloned the configuration :D"
+  ```
 
 ### 🌈 Colorschemes
 If you do not like the color that comes by default, you can execute the command inside **neovim:** `colorscheme + TAB` and you will see a list of themes that you can select
