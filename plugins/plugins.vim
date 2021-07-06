@@ -93,8 +93,7 @@ Plug 'trusktr/seti.vim'
 "Plug 'SirVer/ultisnips'
 Plug 'mlaursen/vim-react-snippets'
 
-" Vim Dashboard
-" Plug 'glepnir/dashboard-nvim'
+" Vim Clap
 Plug 'liuchengxu/vim-clap'
 
 """_____________________________
