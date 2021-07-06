@@ -14,7 +14,11 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
     "v": "open:vsplit"
   },
   "suggest.completionItemKindLabels": {
