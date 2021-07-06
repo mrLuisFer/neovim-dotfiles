@@ -55,7 +55,7 @@ And do a **pull request** to the **main** branch
 When you clone the repository, please rename the file neovim-dotfiles to nvim so that it is recognized by Neovim
 
 ### 📚 Install Neovim:
-  
+  For **Windows** run one of the two commands within **powershell**, you can use **choco** or **scoop**
   ```
   scoop install neovim
   
