@@ -31,7 +31,7 @@ Plug 'dunstontc/vim-vscode-theme'
 " Miramare theme
 Plug 'franbach/miramare'
 
-" "IDE
+" IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k

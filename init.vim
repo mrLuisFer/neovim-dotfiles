@@ -83,7 +83,6 @@ let g:indentLine_fileTypeExclude=["nerdtree"]
 
 "abrir Nerdtree
 "open nerdtree
-" TODO: Change this for F3 key
 nmap <Leader>e :NERDTree<CR>
 
 "open cocExplorer 
@@ -118,8 +117,8 @@ let g:tokyonight_enable_italic = 0
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
-colorscheme miramare
-" colorscheme dracula
+" colorscheme miramare
+colorscheme dracula
 " - - - - - - - - - - - - 
 
 "Close tags automatically
