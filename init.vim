@@ -50,6 +50,7 @@ if has("win32")
 	source ~/AppData/Local/nvim/themes/miramare.vim
 	source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
+	source ~/AppData/Local/nvim/plugins/coc-extensions.vim
 elseif has("unix")
 	source $HOME/.config/nvim/plugins/plugins.vim
 	source $HOME/.config/nvim/plugins/plug-config.vim
@@ -60,6 +61,7 @@ elseif has("unix")
 	source $HOME/.config/nvim/themes/miramare.vim
 	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
 	source $HOME/.config/nvim/plugins/vim-clap.vim
+	source $HOME/.config/nvim/plugins/coc-extensions.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
