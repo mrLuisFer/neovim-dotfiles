@@ -17,12 +17,13 @@ Plug 'liuchengxu/space-vim-theme'
 " Edge Theme -> https://github.com/sainnhe/edge/blob/master/doc/edge.txt
 Plug 'sainnhe/edge'
 
-
 " Sonokai Theme -> https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt 
 Plug 'sainnhe/sonokai'
 
+" Oceanic Next Theme 
+Plug 'mhartington/oceanic-next'
 
-" Eveforest Theme -> https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt
+"" Eveforest Theme -> https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt
 Plug 'sainnhe/everforest'
 
 " VsCode Theme
