@@ -81,6 +81,9 @@ Plug 'mattn/emmet-vim'
 " JSX Syntax
 Plug 'maxmellon/vim-jsx-pretty'
 
+" Vim JSX Improve
+Plug 'chemzqm/vim-jsx-improve' 
+
 " Vim Prettier
 Plug 'prettier/vim-prettier' 
 

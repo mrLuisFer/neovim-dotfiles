@@ -20,3 +20,5 @@ let g:javascript_conceal_arrow_function       = "⇒"
 let g:javascript_conceal_noarg_arrow_function = "🞅"
 let g:javascript_conceal_underscore_arrow_function = "🞅"
 
+let g:vim_jsx_pretty_colorful_config = 1 " default 0
+
