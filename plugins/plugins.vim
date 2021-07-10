@@ -106,6 +106,8 @@ Plug 'pangloss/vim-javascript'
 " Vim Styled Components
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' } 
 
+" Vim Typescript
+Plug 'leafgarland/typescript-vim' 
 
 """_____________________________
 call plug#end()

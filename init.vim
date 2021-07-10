@@ -53,6 +53,9 @@ if has("win32")
 	source ~/AppData/Local/nvim/plugins/coc-extensions.vim
 	source ~/AppData/Local/nvim/themes/oceanic-next.vim
 	source ~/AppData/Local/nvim/plugins/vim-javascript.vim
+	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
+	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
+
 elseif has("unix")
 	source $HOME/.config/nvim/plugins/plugins.vim
 	source $HOME/.config/nvim/plugins/plug-config.vim
@@ -66,6 +69,8 @@ elseif has("unix")
 	source $HOME/.config/nvim/plugins/coc-extensions.vim
 	source $HOME/.config/nvim/themes/oceanic-next.vim
 	source $HOME/.config/nvim/plugins/vim-javascript.vim
+	source $HOME/.config/nvim/plugins/vim-typescript.vim
+	source $HOME/.config/nvim/plugins/vim-prettier.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
