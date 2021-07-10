@@ -97,5 +97,8 @@ Plug 'mlaursen/vim-react-snippets'
 " Vim Clap
 Plug 'liuchengxu/vim-clap'
 
+" Vim Javascript
+Plug 'pangloss/vim-javascript'
+
 """_____________________________
 call plug#end()
