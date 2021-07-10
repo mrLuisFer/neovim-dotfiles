@@ -115,9 +115,11 @@ set cmdheight=1
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 
+set background=dark
+
 " - - - - COLORSCHEME - - - - - -
 " colorscheme tokyonight
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
@@ -126,12 +128,12 @@ let g:tokyonight_enable_italic = 0
 " colorscheme onedark
 " colorscheme miramare
 " colorscheme dracula
-colorscheme OceanicNext
+" colorscheme OceanicNext
 " - - - - - - - - - - - - 
 
 "Close tags automatically
 "Cerrar tags automaticamente
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.tsx'
 
 "-----------------------------------------------------------------
 
