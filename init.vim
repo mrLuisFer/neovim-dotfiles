@@ -124,7 +124,7 @@ set background=dark
 
 " - - - - COLORSCHEME - - - - - -
 " colorscheme tokyonight
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
@@ -134,6 +134,7 @@ colorscheme gruvbox
 " colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
+colorscheme spacegray 
 " - - - - - - - - - - - - 
 
 "Close tags automatically

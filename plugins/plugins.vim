@@ -14,6 +14,9 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " Space Vim Theme
 Plug 'liuchengxu/space-vim-theme'
 
+" Spacegray Theme
+Plug 'ackyshake/Spacegray.vim'
+
 " Edge Theme -> https://github.com/sainnhe/edge/blob/master/doc/edge.txt
 Plug 'sainnhe/edge'
 
