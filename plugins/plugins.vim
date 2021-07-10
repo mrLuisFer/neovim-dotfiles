@@ -103,5 +103,9 @@ Plug 'liuchengxu/vim-clap'
 " Vim Javascript
 Plug 'pangloss/vim-javascript'
 
+" Vim Styled Components
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' } 
+
+
 """_____________________________
 call plug#end()

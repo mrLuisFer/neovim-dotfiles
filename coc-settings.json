@@ -52,5 +52,8 @@
   "diagnostic.warningSign": "",
   "diagnostic.infoSign": "●",
   "diagnostic.hintSign": "○",
-  "coc.preferences.colorSupport": true
+  "coc.preferences.colorSupport": true,
+  "eslint.autoFixOnSave": true,
+  "tsserver.formatOnType": true,
+  "eslint.run": "onSave"
 }
