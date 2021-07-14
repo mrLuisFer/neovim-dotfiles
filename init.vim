@@ -55,6 +55,7 @@ if has("win32")
 	source ~/AppData/Local/nvim/plugins/vim-javascript.vim
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
+	source ~/AppData/Local/nvim/themes/vim-closetag.vim
 
 elseif has("unix")
 	source $HOME/.config/nvim/plugins/plugins.vim
@@ -71,6 +72,7 @@ elseif has("unix")
 	source $HOME/.config/nvim/plugins/vim-javascript.vim
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
+	source $HOME/.config/nvim/themes/vim-closetag.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
