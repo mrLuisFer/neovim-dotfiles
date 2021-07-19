@@ -8,7 +8,8 @@
     "yaml",
     "json",
     "typescript",
-    "python"
+    "python",
+    "go"
   ],
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
@@ -48,12 +49,27 @@
     "value": "  ",
     "enumMember": "  "
   },
-  "diagnostic.errorSign": "✖",
-  "diagnostic.warningSign": "",
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "!",
   "diagnostic.infoSign": "●",
   "diagnostic.hintSign": "○",
   "coc.preferences.colorSupport": true,
   "eslint.autoFixOnSave": true,
   "tsserver.formatOnType": true,
-  "eslint.run": "onSave"
+  "eslint.run": "onSave",
+  "coc.preferences.hoverTarget": "float",
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": [
+        "go.mod"
+      ],
+      "filetypes": [
+        "go"
+      ]
+    }
+  },
+  "go.goplsOptions": {
+    "staticcheck": true
+  }
 }
