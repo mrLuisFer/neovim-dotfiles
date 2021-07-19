@@ -1,14 +1,14 @@
 "
-"██╗███╗░░██╗██╗████████╗░░░██╗░░░██╗██╗███╗░░░███╗
-"██║████╗░██║██║╚══██╔══╝░░░██║░░░██║██║████╗░████║
-"██║██╔██╗██║██║░░░██║░░░░░░╚██╗░██╔╝██║██╔████╔██║
-"██║██║╚████║██║░░░██║░░░░░░░╚████╔╝░██║██║╚██╔╝██║
-"██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║ 
-"╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
+"	██╗███╗░░██╗██╗████████╗░░░██╗░░░██╗██╗███╗░░░███╗
+"	██║████╗░██║██║╚══██╔══╝░░░██║░░░██║██║████╗░████║
+"	██║██╔██╗██║██║░░░██║░░░░░░╚██╗░██╔╝██║██╔████╔██║
+"	██║██║╚████║██║░░░██║░░░░░░░╚████╔╝░██║██║╚██╔╝██║
+"	██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║ 
+"	╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 "
 "
 " By: mrLuisFer
-"---------------------------------vim config---------------------------- 
+"--------------------------------- vim config ---------------------------- 
 syntax on 
 set number 
 set mouse=a
@@ -19,6 +19,7 @@ set encoding=UTF-8
 set showmatch
 set sw=2
 " set relativenumber
+set hlsearch
 let mapleader = " "
 set laststatus=2
 set backspace=2
@@ -43,36 +44,41 @@ vnoremap > >gv
 if has("win32")
 	source ~/AppData/Local/nvim/plugins/plugins.vim
 	source ~/AppData/Local/nvim/plugins/plug-config.vim
+	source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
+	source ~/AppData/Local/nvim/plugins/coc-extensions.vim
+	source ~/AppData/Local/nvim/plugins/vim-javascript.vim
+	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
+	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
+	source ~/AppData/Local/nvim/plugins/vim-clap.vim
+	
 	source ~/AppData/Local/nvim/themes/onedark.vim
 	source ~/AppData/Local/nvim/themes/edge.vim
 	source ~/AppData/Local/nvim/themes/sonokai.vim
 	source ~/AppData/Local/nvim/themes/everforest.vim
 	source ~/AppData/Local/nvim/themes/miramare.vim
-	source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
-	source ~/AppData/Local/nvim/plugins/vim-clap.vim
-	source ~/AppData/Local/nvim/plugins/coc-extensions.vim
 	source ~/AppData/Local/nvim/themes/oceanic-next.vim
-	source ~/AppData/Local/nvim/plugins/vim-javascript.vim
-	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
-	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/themes/vim-closetag.vim
 
 elseif has("unix")
-	source $HOME/.config/nvim/plugins/plugins.vim
-	source $HOME/.config/nvim/plugins/plug-config.vim
-	source $HOME/.config/nvim/themes/edge.vim
-	source $HOME/.config/nvim/themes/onedark.vim
-	source $HOME/.config/nvim/themes/sonokai.vim
-	source $HOME/.config/nvim/themes/everforest.vim
-	source $HOME/.config/nvim/themes/miramare.vim
-	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
-	source $HOME/.config/nvim/plugins/vim-clap.vim
-	source $HOME/.config/nvim/plugins/coc-extensions.vim
-	source $HOME/.config/nvim/themes/oceanic-next.vim
-	source $HOME/.config/nvim/plugins/vim-javascript.vim
-	source $HOME/.config/nvim/plugins/vim-typescript.vim
-	source $HOME/.config/nvim/plugins/vim-prettier.vim
-	source $HOME/.config/nvim/themes/vim-closetag.vim
+	source ./themes/edge.vim
+	source ./themes/onedark.vim
+	source ./themes/sonokai.vim
+	source ./themes/everforest.vim
+	source ./themes/miramare.vim
+	source ./themes/oceanic-next.vim	
+
+	source ./plugins/plugins.vim
+	source ./plugins/plug-config.vim
+	source ./plugins/nerdtree-git-indicators.vim
+	source ./plugins/vim-clap.vim
+	source ./plugins/coc-extensions.vim
+	source ./plugins/vim-javascript.vim
+	source ./plugins/vim-typescript.vim
+	source ./plugins/vim-prettier.vim
+	source ./plugins/vim-closetag.vim
+	" Native LSP
+	source ./plugins/native-lsp/lsp-config.vim
+	source ./plugins/native-lsp/compe-config.lua
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
@@ -133,15 +139,10 @@ set background=dark
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
-" colorscheme miramare
+colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
-colorscheme spacegray 
+" colorscheme spacegray 
 " - - - - - - - - - - - - 
 
-"Close tags automatically
-"Cerrar tags automaticamente
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.tsx'
-
 "-----------------------------------------------------------------
-
