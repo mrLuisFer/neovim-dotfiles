@@ -60,25 +60,25 @@ if has("win32")
 	source ~/AppData/Local/nvim/themes/vim-closetag.vim
 
 elseif has("unix")
-	source ./themes/edge.vim
-	source ./themes/onedark.vim
-	source ./themes/sonokai.vim
-	source ./themes/everforest.vim
-	source ./themes/miramare.vim
-	source ./themes/oceanic-next.vim	
+	source $HOME/.config/nvim/themes/edge.vim
+	source $HOME/.config/nvim/themes/onedark.vim
+	source $HOME/.config/nvim/themes/sonokai.vim
+	source $HOME/.config/nvim/themes/everforest.vim
+	source $HOME/.config/nvim/themes/miramare.vim
+	source $HOME/.config/nvim/themes/oceanic-next.vim	
 
-	source ./plugins/plugins.vim
-	source ./plugins/plug-config.vim
-	source ./plugins/nerdtree-git-indicators.vim
-	source ./plugins/vim-clap.vim
-	source ./plugins/coc-extensions.vim
-	source ./plugins/vim-javascript.vim
-	source ./plugins/vim-typescript.vim
-	source ./plugins/vim-prettier.vim
-	source ./plugins/vim-closetag.vim
+	source $HOME/.config/nvim/plugins/plugins.vim
+	source $HOME/.config/nvim/plugins/plug-config.vim
+	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
+	source $HOME/.config/nvim/plugins/vim-clap.vim
+	source $HOME/.config/nvim/plugins/coc-extensions.vim
+	source $HOME/.config/nvim/plugins/vim-javascript.vim
+	source $HOME/.config/nvim/plugins/vim-typescript.vim
+	source $HOME/.config/nvim/plugins/vim-prettier.vim
+	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	" Native LSP
-	source ./plugins/native-lsp/lsp-config.vim
-	source ./plugins/native-lsp/compe-config.lua
+	source $HOME/.config/nvim/plugins/native-lsp/lsp-config.vim
+	source $HOME/.config/nvim/plugins/native-lsp/compe-config.lua
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
