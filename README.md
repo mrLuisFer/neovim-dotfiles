@@ -115,6 +115,13 @@ Install extensions like:
 :CocInstall coc-json coc-tsserver
 ```
 
+## ⚠ Warning
+
+It may be that when you enter the cloned configuration in nvim for the first time, you will get multiple errors
+
+But don't worry just run **:PlugInstall**
+Several plugins will be downloaded, then **exit and enter neovim again**
+
 [You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
 ## 🐙 Change Repository
