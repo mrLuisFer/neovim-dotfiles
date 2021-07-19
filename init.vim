@@ -76,9 +76,6 @@ elseif has("unix")
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
-	" Native LSP
-	source $HOME/.config/nvim/plugins/native-lsp/lsp-config.vim
-	source $HOME/.config/nvim/plugins/native-lsp/compe-config.lua
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
