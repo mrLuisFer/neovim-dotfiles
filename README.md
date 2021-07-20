@@ -28,7 +28,7 @@ If you don't have an idea, you can follow these steps:
 - When you have all the changes you have:
 
   ```bash
-  git add.
+  git add .
   ```
 
   ```bash
@@ -52,7 +52,7 @@ And do a **pull request** to the **main** branch
 - **nvim** C:
 
 ## 🦄 Usage
-When you clone the repository, please rename the file neovim-dotfiles to nvim so that it is recognized by Neovim
+When cloning the repository, in case the folder is named *neovim-dotfiles*, change the name to **nvim** so that Neovim recognizes it
 
 ### 📚 Install Neovim:
   For **Windows** run one of the two commands within **powershell**, you can use **choco** or **scoop**
@@ -96,8 +96,17 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   
 ### 📘 Setup Windows:
   ```
-  cd %APPDATA/Local/
+  cd %APPDATA\Local\nvim
+  ```
   
+  If you don't have **the nvim folder** do this: (if you have it, ignore this step)
+  ```bash
+  mkdir nvim
+  
+  cd nvim
+  ```
+  
+  ```bash
   git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
   
   echo "Cloned the configuration :D"
