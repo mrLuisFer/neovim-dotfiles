@@ -26,6 +26,7 @@ set backspace=2
 set guioptions-=T
 set guioptions-=L
 set guifont=CaskaydiaCove\ Nerd\ Font:h16
+set cursorline
 
 "Get out of insert mode 
 "Salir de modo insertar
@@ -41,7 +42,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 "-------------------------------Sources-------------------------------
-if has("win32")
+if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/plugins/plugins.vim
 	source ~/AppData/Local/nvim/plugins/plug-config.vim
 	source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
@@ -60,7 +61,7 @@ if has("win32")
 	source ~/AppData/Local/nvim/themes/vim-closetag.vim
 	source ~/AppData/Local/nvim/utils/nvim-golang-support.vim
 
-elseif has("unix")
+elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/themes/edge.vim
 	source $HOME/.config/nvim/themes/onedark.vim
 	source $HOME/.config/nvim/themes/sonokai.vim
