@@ -66,12 +66,39 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   
   And for **Linux** and **MacOs** : [neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
   
+### 🌙 Install Manager:
+  In this config use vim plug to handle and install plugins
+
+  To install **Vim Plug** you can run any of these commands
+
+  Linux, Unix
+  ```bash
+    sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  ```
+  
+  Linux (Flatpak)
+  ```bash
+  curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ```
+  
+  Windows (Powershell)
+  ```bash
+  iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+  ```
+  
+  More information about vim plug:
+  - [Documentation](https://github.com/junegunn/vim-plug)
+  - [Tutorial](https://github.com/junegunn/vim-plug/wiki/tutorial)
+  - [Requirements](https://github.com/junegunn/vim-plug/wiki/requirements)
   
 ### 📘 Setup Windows:
   ```
   cd %APPDATA/Local/
   
-  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
+  git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
   
   echo "Cloned the configuration :D"
   ```
@@ -83,7 +110,7 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   
   cd $HOME/.config/nvim
   
-  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
+  git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
   
   echo "Cloned the configuration :D"
   ```
@@ -94,7 +121,7 @@ When you clone the repository, please rename the file neovim-dotfiles to nvim so
   
   cd $HOME/.config/nvim
   
-  git clone https://github.com/mrLuisFer/neovim-dotfiles.git
+  git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
   
   echo "Cloned the configuration :D"
   ```
