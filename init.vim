@@ -77,8 +77,6 @@ elseif has("unix")
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
-
-	source $HOME/.config/nvim/utils/nvim-golang-support.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
