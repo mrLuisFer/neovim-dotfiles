@@ -112,11 +112,8 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 " Vim Typescript
 Plug 'leafgarland/typescript-vim' 
 
-if has("unix")
-  Plug 'neovim/nvim-lspconfig'
-  Plug 'hrsh7th/nvim-compe'
-endif
-
+" EditorConfig
+Plug 'editorconfig/editorconfig-vim' 
 
 """_____________________________
 call plug#end()
