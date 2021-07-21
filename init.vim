@@ -52,6 +52,7 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
+	source ~/AppData/Local/nvim/plugins/vim-scrollbar.vim
 " source ~/AppData/Local/nvim/plugins/vim-minimap.vim
 	" Themes
 	source ~/AppData/Local/nvim/themes/onedark.vim
@@ -80,6 +81,7 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
+	source $HOME/.config/nvim/plugins/vim-scrollbar.vim
 "	source $HOME/.config/nvim/plugins/vim-minimap.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------

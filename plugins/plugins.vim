@@ -119,5 +119,8 @@ Plug 'editorconfig/editorconfig-vim'
 " " Cargo is required
 " Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
+" Vim Scrollbar
+Plug 'Xuyuanp/scrollbar.nvim'
+
 """_____________________________
 call plug#end()
