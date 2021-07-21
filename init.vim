@@ -43,6 +43,7 @@ vnoremap > >gv
 
 "-------------------------------Sources-------------------------------
 if has("win32") || has("win64")
+	" Plugins
 	source ~/AppData/Local/nvim/plugins/plugins.vim
 	source ~/AppData/Local/nvim/plugins/plug-config.vim
 	source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
@@ -51,7 +52,8 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
-	
+" source ~/AppData/Local/nvim/plugins/vim-minimap.vim
+	" Themes
 	source ~/AppData/Local/nvim/themes/onedark.vim
 	source ~/AppData/Local/nvim/themes/edge.vim
 	source ~/AppData/Local/nvim/themes/sonokai.vim
@@ -59,16 +61,16 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/themes/miramare.vim
 	source ~/AppData/Local/nvim/themes/oceanic-next.vim
 	source ~/AppData/Local/nvim/themes/vim-closetag.vim
-	source ~/AppData/Local/nvim/utils/nvim-golang-support.vim
 
 elseif has("unix") || has("osxdarwin")
+	" Themes
 	source $HOME/.config/nvim/themes/edge.vim
 	source $HOME/.config/nvim/themes/onedark.vim
 	source $HOME/.config/nvim/themes/sonokai.vim
 	source $HOME/.config/nvim/themes/everforest.vim
 	source $HOME/.config/nvim/themes/miramare.vim
 	source $HOME/.config/nvim/themes/oceanic-next.vim	
-
+	" Plugins
 	source $HOME/.config/nvim/plugins/plugins.vim
 	source $HOME/.config/nvim/plugins/plug-config.vim
 	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
@@ -78,6 +80,7 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
+"	source $HOME/.config/nvim/plugins/vim-minimap.vim
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
@@ -131,14 +134,14 @@ set background=dark
 
 " - - - - COLORSCHEME - - - - - -
 " colorscheme tokyonight
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
-colorscheme miramare
+" colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
 " colorscheme spacegray 

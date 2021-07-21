@@ -115,5 +115,9 @@ Plug 'leafgarland/typescript-vim'
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim' 
 
+" Vim Minimap
+" " Cargo is required
+" Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
+
 """_____________________________
 call plug#end()
