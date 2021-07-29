@@ -46,6 +46,7 @@ Plug 'preservim/nerdtree'
 " show git status in file tree view
 Plug 'Xuyuanp/nerdtree-git-plugin'  
 Plug 'ryanoasis/vim-devicons'
+Plug 'kyazdani42/nvim-web-devicons'
 
   " NerdCommenter
 Plug 'preservim/nerdcommenter'

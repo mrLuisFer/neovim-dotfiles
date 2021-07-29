@@ -83,6 +83,8 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/vim-scrollbar.vim
 "	source $HOME/.config/nvim/plugins/vim-minimap.vim
+else
+	echoerr "Unsupported platform"
 endif
 "--------------------------------Plugins Config--------------------------------------------
 "save file
@@ -134,16 +136,20 @@ let g:tokyonight_enable_italic = 0
 
 set background=dark
 
+if has('termguicolors')
+  set termguicolors
+endif
+
 " - - - - COLORSCHEME - - - - - -
 " colorscheme tokyonight
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
-" colorscheme miramare
+colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
 " colorscheme spacegray 
