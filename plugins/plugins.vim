@@ -123,5 +123,8 @@ Plug 'editorconfig/editorconfig-vim'
 " Vim Scrollbar
 Plug 'Xuyuanp/scrollbar.nvim'
 
+" Vim Presence
+Plug 'andweeb/presence.nvim'
+
 """_____________________________
 call plug#end()
