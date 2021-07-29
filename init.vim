@@ -62,7 +62,8 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/themes/miramare.vim
 	source ~/AppData/Local/nvim/themes/oceanic-next.vim
 	source ~/AppData/Local/nvim/themes/vim-closetag.vim
-
+	" Lang tools
+	source ~/AppData/Local/nvim/langs/lang.vim
 elseif has("unix") || has("osxdarwin")
 	" Themes
 	source $HOME/.config/nvim/themes/edge.vim
@@ -82,7 +83,9 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/vim-scrollbar.vim
-"	source $HOME/.config/nvim/plugins/vim-minimap.vim
+	"	source $HOME/.config/nvim/plugins/vim-minimap.vim
+	"	Lang tools
+	source $HOME/.config/nvim/langs/lang.vim
 else
 	echoerr "Unsupported platform"
 endif
