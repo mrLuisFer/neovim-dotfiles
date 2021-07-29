@@ -126,5 +126,8 @@ Plug 'Xuyuanp/scrollbar.nvim'
 " Vim Presence
 Plug 'andweeb/presence.nvim'
 
+" Awesome Vim Plugins -> by rufi
+Plug 'rafi/awesome-vim-colorschemes'
+
 """_____________________________
 call plug#end()
