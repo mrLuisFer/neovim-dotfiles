@@ -53,8 +53,7 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
 	source ~/AppData/Local/nvim/plugins/vim-scrollbar.vim
-" source ~/AppData/Local/nvim/plugins/vim-minimap.vim
-	source ~/AppData/Local/nvim/plugins/vim-presence.vim
+	" source ~/AppData/Local/nvim/plugins/vim-minimap.vim
 	" Themes
 	source ~/AppData/Local/nvim/themes/onedark.vim
 	source ~/AppData/Local/nvim/themes/edge.vim
@@ -62,7 +61,6 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/themes/everforest.vim
 	source ~/AppData/Local/nvim/themes/miramare.vim
 	source ~/AppData/Local/nvim/themes/oceanic-next.vim
-	source ~/AppData/Local/nvim/themes/vim-closetag.vim
 	" Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
 elseif has("unix") || has("osxdarwin")
@@ -161,3 +159,4 @@ colorscheme miramare
 " - - - - - - - - - - - - 
 
 "-----------------------------------------------------------------
+

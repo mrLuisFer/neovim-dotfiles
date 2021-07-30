@@ -123,11 +123,14 @@ Plug 'editorconfig/editorconfig-vim'
 " Vim Scrollbar
 Plug 'Xuyuanp/scrollbar.nvim'
 
-" Vim Presence
-Plug 'andweeb/presence.nvim'
+if has('unix') || has("osxdarwin")
+  " Vim Presence
+  Plug 'andweeb/presence.nvim'
+endif
 
 " Awesome Vim Plugins -> by rufi
 Plug 'rafi/awesome-vim-colorschemes'
 
 """_____________________________
 call plug#end()
+
