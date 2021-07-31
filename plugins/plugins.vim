@@ -131,6 +131,9 @@ endif
 " Awesome Vim Plugins -> by rufi
 Plug 'rafi/awesome-vim-colorschemes'
 
+" Emberk theme
+Plug 'embark-theme/vim', { 'as': 'embark' }
+
 """_____________________________
 call plug#end()
 

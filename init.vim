@@ -54,7 +54,8 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
 	source ~/AppData/Local/nvim/plugins/vim-scrollbar.vim
 	" source ~/AppData/Local/nvim/plugins/vim-minimap.vim
-	" Themes
+	source ~/AppData/Local/nvim/plugins/emberk.vim
+	"" Themes
 	source ~/AppData/Local/nvim/themes/onedark.vim
 	source ~/AppData/Local/nvim/themes/edge.vim
 	source ~/AppData/Local/nvim/themes/sonokai.vim
@@ -73,6 +74,7 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/themes/oceanic-next.vim	
 	" Plugins
 	source $HOME/.config/nvim/plugins/plugins.vim
+	source $HOME/.config/nvim/plugins/emberk.vim
 	source $HOME/.config/nvim/plugins/plug-config.vim
 	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
 	source $HOME/.config/nvim/plugins/vim-clap.vim
@@ -156,6 +158,7 @@ colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
 " colorscheme spacegray 
+colorscheme embark 
 " - - - - - - - - - - - - 
 
 "-----------------------------------------------------------------
