@@ -30,7 +30,7 @@ Plug 'mhartington/oceanic-next'
 Plug 'sainnhe/everforest'
 
 " VsCode Theme
-Plug 'dunstontc/vim-vscode-theme'
+Plug 'dunstontc/vim-vscode-theme' " As <dark_plus>
 
 " Miramare theme
 Plug 'franbach/miramare'
