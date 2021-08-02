@@ -121,7 +121,7 @@ Plug 'editorconfig/editorconfig-vim'
 " Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
 " Vim Scrollbar
-Plug 'Xuyuanp/scrollbar.nvim'
+" Plug 'Xuyuanp/scrollbar.nvim'
 
 if has('unix') || has("osxdarwin")
   " Vim Presence

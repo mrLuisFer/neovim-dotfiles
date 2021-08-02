@@ -52,7 +52,7 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
-	source ~/AppData/Local/nvim/plugins/vim-scrollbar.vim
+	" source ~/AppData/Local/nvim/plugins/vim-scrollbar.vim
 	" source ~/AppData/Local/nvim/plugins/vim-minimap.vim
 	source ~/AppData/Local/nvim/plugins/emberk.vim
 	"" Themes
@@ -83,7 +83,7 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
-	source $HOME/.config/nvim/plugins/vim-scrollbar.vim
+	" source $HOME/.config/nvim/plugins/vim-scrollbar.vim
 	source $HOME/.config/nvim/plugins/vim-presence.vim
 	"	source $HOME/.config/nvim/plugins/vim-minimap.vim
 	"	Lang tools
@@ -133,7 +133,7 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 nmap <leader>bd :bdelete<CR>
 
 "--gruvbox config--
-" let g:gruvbox_contrast_dark = "medium"
+let g:gruvbox_contrast_dark = "medium"
 
 set cmdheight=1
 let g:tokyonight_style = 'night' " available: night, storm
@@ -153,12 +153,12 @@ endif
 " colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
-" colorscheme onedark
-colorscheme miramare
+colorscheme onedark
+" colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
 " colorscheme spacegray 
-colorscheme embark 
+" colorscheme embark 
 " - - - - - - - - - - - - 
 
 "-----------------------------------------------------------------
