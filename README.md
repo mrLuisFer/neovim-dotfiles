@@ -12,7 +12,7 @@ And they will correct things in the future
 
 ### 🌱 Contribute
 
-You can contribute by making a **pull request** with any _fix_ or _feature_ that you want to add: D
+You can contribute by making a **pull request** with any _fix_ or _feature_ that you want to add :D
 
 If you don't have an idea, you can follow these steps:
 
@@ -150,15 +150,15 @@ Install extensions like:
 ```
 :CocInstall coc-json coc-tsserver
 ```
+[You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
 ## ⚠ Warning
 
 It may be that when you enter the cloned configuration in nvim for the first time, you will get multiple errors
 
-But don't worry just run **:PlugInstall**
+But don't worry just press `Enter` and run this command **:PlugInstall**
 Several plugins will be downloaded, then **exit and enter neovim again**
 
-[You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
 ## 🐙 Change Repository
 
