@@ -160,6 +160,23 @@ Puede ser que cuando ingrese a la configuración clonada en neovim **por primera
 No se preocupe, solo presione `Enter` y ejecute **:PlugInstall**
 Se descargarán varios plugins, luego **salga y entre a neovim**
 
-## 🐙 Change Repository
+## 🐙 Cambiar Repositorio
 
-En mantenimiento...
+Si quieres cambiar el repositorio utilizando esta config, pero con tus propias configuraciones y/o adaptar a tus necesidades
+
+Otra forma es cambiando el **git-remote**, siguiendo estos pasos:
+
+- Para ver las lista de los remotos que estan en el repositiorio
+```bash
+git remote -v
+```
+
+- Para remover ese remoto, ejecuta:
+```bash
+git remote remove origin
+```
+
+- Y añadir el nuevo remoto de tu repositorio
+```bash
+git remote add origin <url del repo>
+```
