@@ -162,4 +162,22 @@ Several plugins will be downloaded, then **exit and enter neovim again**
 
 ## 🐙 Change Repository
 
-In maintaining...
+If you want to change the repository using this config, but with your own configurations and / or adapt to your needs
+
+Another way is by changing the **git-remote**, following these steps:
+
+- To see the list of remotes that are in the repository
+```bash
+git remote -v
+```
+
+- To remove that remote, run:
+```bash
+git remote remove origin
+```
+
+- And add the new remote from your repository
+```bash
+git remote add origin <url del repo>
+```
+
