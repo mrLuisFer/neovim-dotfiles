@@ -134,6 +134,11 @@ Plug 'rafi/awesome-vim-colorschemes'
 " Emberk theme
 Plug 'embark-theme/vim', { 'as': 'embark' }
 
+if has('win32') || has('win64')
+  " NeovimQt Plugin
+  Plug 'equalsraf/neovim-gui-shim'
+endif
+
 """_____________________________
 call plug#end()
 

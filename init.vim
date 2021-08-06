@@ -25,6 +25,7 @@ set laststatus=2
 set backspace=2
 set guioptions-=T
 set guioptions-=L
+" I recommend this font -> https://www.nerdfonts.com/font-downloads
 set guifont=CaskaydiaCove\ Nerd\ Font:h16
 set cursorline
 
@@ -40,8 +41,35 @@ xnoremap J :move '>+1<CR>gv-gv
 " Mejor Indentación
 vnoremap < <gv
 vnoremap > >gv
+"-----------------------------------------------------------------
 
-"-------------------------------Sources-------------------------------
+"-------------------------------Windows Scroll-------------------------------"
+" For disable scroll in windows you need install NeovimQt
+" https://github.com/equalsraf/neovim-qt
+if has("win32") || has("win64")
+	" Disable GUI Tabline
+	if exists(':GuiTabline')
+		GuiTabline 0
+	endif
+
+	" Disable GUI Popupmenu
+	if exists(':GuiPopupmenu')
+		GuiPopupmenu 0
+	endif
+
+	" Enable GUI Scrollbar
+	if exists(':GuiScrollBar')
+		GuiScrollBar 1
+	endif
+
+	" Right Click Context Menu (Copy-Cut-Paste)
+	nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
+	inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
+	vnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
+endif
+"-----------------------------------------------------------------
+
+"-------------------------------Sources-------------------------------"
 if has("win32") || has("win64")
 	" Plugins
 	source ~/AppData/Local/nvim/plugins/plugins.vim
@@ -91,6 +119,8 @@ elseif has("unix") || has("osxdarwin")
 else
 	echoerr "Unsupported platform"
 endif
+"-----------------------------------------------------------------
+
 "--------------------------------Plugins Config--------------------------------------------
 "save file
 "guardar archivo
@@ -144,8 +174,9 @@ set background=dark
 if has('termguicolors')
   set termguicolors
 endif
+"-----------------------------------------------------------------
 
-" - - - - COLORSCHEME - - - - - -
+"-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme abstract
@@ -159,7 +190,5 @@ colorscheme onedark
 " colorscheme OceanicNext
 " colorscheme spacegray 
 " colorscheme embark 
-" - - - - - - - - - - - - 
-
 "-----------------------------------------------------------------
 
