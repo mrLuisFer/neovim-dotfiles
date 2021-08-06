@@ -3,6 +3,8 @@
 
 An explanation of how to use this config in Windows is in [this video - Youtube.com](https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A)
 
+Leer el [readme en español?](./README-es.md)
+
 ## ⚡ About
 
 This is my personal config and adapted to my needs, but it can be easily adapted to any config, as well as separate vim files
