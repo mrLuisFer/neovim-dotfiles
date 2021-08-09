@@ -112,7 +112,6 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	" source $HOME/.config/nvim/plugins/vim-scrollbar.vim
-	source $HOME/.config/nvim/plugins/vim-presence.vim
 	"	source $HOME/.config/nvim/plugins/vim-minimap.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim
