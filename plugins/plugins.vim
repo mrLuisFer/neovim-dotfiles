@@ -64,10 +64,7 @@ Plug 'yggdroot/indentline'
 Plug 'psliwka/vim-smoothie'
 " Vim Clap
 Plug 'liuchengxu/vim-clap'
-if has('unix') || has("osxdarwin")
-  " Vim Presence
-  Plug 'andweeb/presence.nvim'
-endif
+
 if has('win32') || has('win64')
   " NeovimQt Plugin
   Plug 'equalsraf/neovim-gui-shim'
