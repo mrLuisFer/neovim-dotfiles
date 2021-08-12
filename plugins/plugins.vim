@@ -106,5 +106,6 @@ Plug 'editorconfig/editorconfig-vim'
 " Native LSP
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
+Plug 'norcalli/nvim-colorizer.lua'
 
 call plug#end()

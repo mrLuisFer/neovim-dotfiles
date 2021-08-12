@@ -38,4 +38,3 @@ require'lspconfig'.rust_analyzer.setup{}
 require'lspconfig'.cssls.setup{}
 
 require'lspconfig'.dartls.setup{}
-
