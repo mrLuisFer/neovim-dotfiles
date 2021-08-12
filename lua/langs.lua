@@ -1,40 +1,102 @@
+local nvim_lsp = require('lspconfig')
+
 --Enable (broadcasting) snippet capability for completion
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
-require'lspconfig'.pyright.setup{}
+nvim_lsp.pyright.setup{}
 
-require'lspconfig'.denols.setup{}
+nvim_lsp.denols.setup{}
 
-require'lspconfig'.cmake.setup{}
+nvim_lsp.cmake.setup{}
 
-require'lspconfig'.gopls.setup{}
+nvim_lsp.gopls.setup{}
 
 -- npm install -g graphql-language-service-cli
-require'lspconfig'.graphql.setup{}
+nvim_lsp.graphql.setup{}
 
 -- npm i -g vscode-langservers-extracted
-require'lspconfig'.html.setup {
+nvim_lsp.html.setup {
   capabilities = capabilities,
 }
 
--- npm i -g vscode-langservers-extracted
-require'lspconfig'.jsonls.setup {}
+nvim_lsp.jsonls.setup {}
 
 -- npm install -g typescript typescript-language-server
-require'lspconfig'.tsserver.setup{}
+nvim_lsp.tsserver.setup{
+  on_attach = on_attach
+}
 
 -- npm install -g vim-language-server
-require'lspconfig'.vimls.setup{}
+nvim_lsp.vimls.setup{}
 
-require'lspconfig'.tailwindcss.setup{}
+nvim_lsp.tailwindcss.setup{}
 
 -- npm install -g svelte-language-server
-require'lspconfig'.svelte.setup{}
+nvim_lsp.svelte.setup{}
 
-require'lspconfig'.rust_analyzer.setup{}
+nvim_lsp.rust_analyzer.setup{}
 
--- npm i -g vscode-langservers-extracted
-require'lspconfig'.cssls.setup{}
+nvim_lsp.cssls.setup{}
 
-require'lspconfig'.dartls.setup{}
+nvim_lsp.dartls.setup{}
+
+-- npm i -g eslint_d prettier
+nvim_lsp.diagnosticls.setup {
+  on_attach = on_attach,
+  filetypes = { 'javascript', 'javascriptreact', 'json', 'typescript', 'typescriptreact', 'css', 'less', 'scss', 'markdown', 'pandoc' },
+  init_options = {
+    linters = {
+      eslint = {
+        command = 'eslint_d',
+        rootPatterns = { '.git' },
+        debounce = 100,
+        args = { '--stdin', '--stdin-filename', '%filepath', '--format', 'json' },
+        sourceName = 'eslint_d',
+        parseJson = {
+          errorsRoot = '[0].messages',
+          line = 'line',
+          column = 'column',
+          endLine = 'endLine',
+          endColumn = 'endColumn',
+          message = '[eslint] ${message} [${ruleId}]',
+          security = 'severity'
+        },
+        securities = {
+          [2] = 'error',
+          [1] = 'warning'
+        }
+      },
+    },
+    filetypes = {
+      javascript = 'eslint',
+      javascriptreact = 'eslint',
+      typescript = 'eslint',
+      typescriptreact = 'eslint',
+    },
+    formatters = {
+      eslint_d = {
+        command = 'eslint_d',
+        args = { '--stdin', '--stdin-filename', '%filename', '--fix-to-stdout' },
+        rootPatterns = { '.git' },
+      },
+      prettier = {
+        command = 'prettier',
+        args = { '--stdin-filepath', '%filename' }
+      }
+    },
+    formatFiletypes = {
+      css = 'prettier',
+      javascript = 'eslint_d',
+      javascriptreact = 'eslint_d',
+      json = 'prettier',
+      scss = 'prettier',
+      less = 'prettier',
+      typescript = 'eslint_d',
+      typescriptreact = 'eslint_d',
+      json = 'prettier',
+      markdown = 'prettier',
+    }
+  }
+}
+

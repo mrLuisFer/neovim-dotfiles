@@ -108,6 +108,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
 Plug 'norcalli/nvim-colorizer.lua'
+Plug 'glepnir/lspsaga.nvim'
+Plug 'nvim-lua/completion-nvim'
 "-----------------------------------------------------------------
 
 "---------------------------- Barbar Tabline -------------------------------

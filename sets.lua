@@ -1,4 +1,4 @@
-require "plug-colorizer"
 require "compe-config"
 require "langs"
+require "config"
 

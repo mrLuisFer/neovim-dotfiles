@@ -8,6 +8,7 @@
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
 	source ~/AppData/Local/nvim/plugins/emberk.vim
 	source ~/AppData/Local/nvim/.config/nvim/plugins/barbar.vim
+  source ~/AppData/Local/nvim/plugins/lspsaga.vim
 	"" Themes
 	source ~/AppData/Local/nvim/themes/onedark.vim
 	source ~/AppData/Local/nvim/themes/edge.vim
