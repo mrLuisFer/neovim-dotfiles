@@ -92,6 +92,7 @@ if has("win32") || has("win64")
 	" LSP
 	source ~AppData/Local/nvim/lsp/nvim-lsp-config.vim
 	source ~AppData/Local/nvim/lsp/compe-config.lua
+	source ~AppData/Local/nvim/lsp/lang-server/langs.lua
 elseif has("unix") || has("osxdarwin")
 	" Themes
 	source $HOME/.config/nvim/themes/edge.vim
@@ -115,6 +116,7 @@ elseif has("unix") || has("osxdarwin")
 	" LSP
 	source $HOME/.config/nvim/lsp/nvim-lsp-config.vim
 	source $HOME/.config/nvim/lsp/compe-config.lua
+	source $HOME/.config/nvim/lsp/lang-server/langs.lua
 else
 	echoerr "Unsupported platform"
 endif
