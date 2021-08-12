@@ -103,9 +103,14 @@ Plug 'leafgarland/typescript-vim'
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim' 
 "-----------------------------------------------------------------
-" Native LSP
+
+" --------------------------- Native LSP -----------------------------------
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
 Plug 'norcalli/nvim-colorizer.lua'
+"-----------------------------------------------------------------
 
+"---------------------------- Barbar Tabline -------------------------------
+Plug 'romgrk/barbar.nvim' 
+"-----------------------------------------------------------------
 call plug#end()

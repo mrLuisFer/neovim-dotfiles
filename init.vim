@@ -80,6 +80,7 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
 	source ~/AppData/Local/nvim/plugins/emberk.vim
+	source ~AppData/Local/nvim/.config/nvim/plugins/barbar.vim
 	"" Themes
 	source ~/AppData/Local/nvim/themes/onedark.vim
 	source ~/AppData/Local/nvim/themes/edge.vim
@@ -109,6 +110,7 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
+	source $HOME/.config/nvim/plugins/barbar.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim
 	" LSP
