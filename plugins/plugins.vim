@@ -49,7 +49,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Stable version of coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Close pairs () [] {} ''
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
@@ -103,4 +103,8 @@ Plug 'leafgarland/typescript-vim'
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim' 
 "-----------------------------------------------------------------
+" Native LSP
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/nvim-compe'
+
 call plug#end()
