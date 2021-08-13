@@ -40,6 +40,7 @@ Plug 'preservim/nerdtree'
 "" Nerdtree git plugin
 " show git status in file tree view
 Plug 'Xuyuanp/nerdtree-git-plugin'  
+" Devicons
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
   " NerdCommenter
@@ -58,6 +59,10 @@ Plug 'yggdroot/indentline'
 Plug 'psliwka/vim-smoothie'
 " Vim Clap
 Plug 'liuchengxu/vim-clap'
+" Galaxyline
+" Plug 'glepnir/galaxyline.nvim', {'branch': 'main'}
+" Vim Dashboard
+Plug 'glepnir/dashboard-nvim'
 
 if has('win32') || has('win64')
   " NeovimQt Plugin

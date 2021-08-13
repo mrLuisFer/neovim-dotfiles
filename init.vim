@@ -28,6 +28,7 @@ set guioptions-=L
 " I recommend this font -> https://www.nerdfonts.com/font-downloads
 set guifont=CaskaydiaCove\ Nerd\ Font:h16
 set cursorline
+set showtabline=2
 
 "Get out of insert mode 
 "Salir de modo insertar
@@ -95,7 +96,7 @@ nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 "configuracion de tabs
 let g:indentLine_enabled = 1
-let g:indentLine_char = '▏'
+let g:indentLine_char = ' '
 let g:indentLine_faster = 1
 let g:indentLine_fileTypeExclude=["nerdtree"]
 
