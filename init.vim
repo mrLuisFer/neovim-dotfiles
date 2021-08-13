@@ -82,7 +82,7 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/themes/oceanic-next.vim
 	" Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
-	source ~/AppData/Local/nvim/plugins/nvim-dashboard.vi
+	source ~/AppData/Local/nvim/plugins/nvim-dashboard.vim
 elseif has("unix") || has("osxdarwin")
 	" Themes
 	source $HOME/.config/nvim/themes/edge.vim
