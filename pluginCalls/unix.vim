@@ -11,14 +11,14 @@
 	source $HOME/.config/nvim/plugins/plug-config.vim
 	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
 	source $HOME/.config/nvim/plugins/vim-clap.vim
+	source $HOME/.config/nvim/plugins/coc-config.vim
 	source $HOME/.config/nvim/plugins/coc-extensions.vim
 	source $HOME/.config/nvim/plugins/vim-javascript.vim
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
-	" source $HOME/.config/nvim/plugins/vim-scrollbar.vim
-	"	source $HOME/.config/nvim/plugins/vim-minimap.vim
+	source $HOME/.config/nvim/plugins/barbar.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim
 

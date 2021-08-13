@@ -106,4 +106,7 @@ Plug 'leafgarland/typescript-vim'
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim' 
 "-----------------------------------------------------------------
+"---------------------------- Barbar Tabline -------------------------------
+Plug 'romgrk/barbar.nvim' 
+"--------------------------------------------------------------------------
 call plug#end()
