@@ -9,6 +9,8 @@
 "
 " By: mrLuisFer
 "--------------------------------- vim config ---------------------------- 
+autocmd BufWritePost plugins.lua source <afile> | PackerCompile
+
 syntax on 
 set number 
 set mouse=a
