@@ -48,8 +48,6 @@ Plug 'preservim/nerdcommenter'
 "Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Stable version of coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Close pairs () [] {} ''
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
@@ -102,5 +100,17 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'leafgarland/typescript-vim' 
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim' 
+"-----------------------------------------------------------------
+
+" --------------------------- Native LSP -----------------------------------
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/nvim-compe'
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'glepnir/lspsaga.nvim'
+Plug 'nvim-lua/completion-nvim'
+"-----------------------------------------------------------------
+
+"---------------------------- Barbar Tabline -------------------------------
+Plug 'romgrk/barbar.nvim' 
 "-----------------------------------------------------------------
 call plug#end()
