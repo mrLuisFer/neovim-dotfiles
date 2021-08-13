@@ -1,4 +1,4 @@
-require "compe-config"
+-- require "compe-config"
 require "langs"
 require "config"
 

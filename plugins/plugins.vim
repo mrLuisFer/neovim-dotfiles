@@ -48,8 +48,6 @@ Plug 'preservim/nerdcommenter'
 "Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Stable version of coc
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Close pairs () [] {} ''
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
