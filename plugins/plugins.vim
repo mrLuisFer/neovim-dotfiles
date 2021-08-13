@@ -59,8 +59,6 @@ Plug 'yggdroot/indentline'
 Plug 'psliwka/vim-smoothie'
 " Vim Clap
 Plug 'liuchengxu/vim-clap'
-" Galaxyline
-" Plug 'glepnir/galaxyline.nvim', {'branch': 'main'}
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
 
