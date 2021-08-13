@@ -92,6 +92,7 @@ if has("win32") || has("win64")
 	source ~/AppData/Local/nvim/themes/oceanic-next.vim
 	" Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
+	source ~/AppData/Local/nvim/plugins/nvim-dashboard.vi
 elseif has("unix") || has("osxdarwin")
 	" Themes
 	source $HOME/.config/nvim/themes/edge.vim
@@ -111,6 +112,7 @@ elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
+	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
 	" source $HOME/.config/nvim/plugins/vim-scrollbar.vim
 	"	source $HOME/.config/nvim/plugins/vim-minimap.vim
 	"	Lang tools
@@ -136,7 +138,7 @@ nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 "configuracion de tabs
 let g:indentLine_enabled = 1
-let g:indentLine_char = '▏'
+let g:indentLine_char = ' '
 let g:indentLine_faster = 1
 let g:indentLine_fileTypeExclude=["nerdtree"]
 
