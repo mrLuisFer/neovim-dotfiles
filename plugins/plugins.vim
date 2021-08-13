@@ -40,14 +40,11 @@ Plug 'preservim/nerdtree'
 "" Nerdtree git plugin
 " show git status in file tree view
 Plug 'Xuyuanp/nerdtree-git-plugin'  
+" Devicons
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
   " NerdCommenter
 Plug 'preservim/nerdcommenter'
-"ChadTree (Nerdtree Alternative )
-"Airline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 "Close pairs () [] {} ''
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
@@ -62,6 +59,8 @@ Plug 'yggdroot/indentline'
 Plug 'psliwka/vim-smoothie'
 " Vim Clap
 Plug 'liuchengxu/vim-clap'
+" Vim Dashboard
+Plug 'glepnir/dashboard-nvim'
 
 if has('win32') || has('win64')
   " NeovimQt Plugin

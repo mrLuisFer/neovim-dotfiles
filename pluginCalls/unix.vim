@@ -16,6 +16,7 @@
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/barbar.vim
+	source $HOME/.config/nvim/plugins/dashboard-nvim.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim
 	" LSP
