@@ -44,7 +44,6 @@ local on_attach = function(client, bufnr)
 end
 
 local on_attach = function(client, bufnr)
-  ...
   protocol.CompletionItemKind = {
     '', -- Text
     '', -- Method
@@ -73,5 +72,4 @@ local on_attach = function(client, bufnr)
     '', -- TypeParameter
   }
 end
-
 

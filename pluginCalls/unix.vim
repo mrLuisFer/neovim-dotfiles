@@ -24,4 +24,5 @@
   source $HOME/.config/nvim/lua/compe-config.lua
   source $HOME/.config/nvim/lua/langs.lua
   source $HOME/.config/nvim/plugins/lspsaga.vim
+	source $HOME/.config/nvim/lua/config.lua
 
