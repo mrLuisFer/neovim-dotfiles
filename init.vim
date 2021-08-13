@@ -47,16 +47,6 @@ vnoremap > >gv
 " For disable scroll in windows you need install NeovimQt
 " https://github.com/equalsraf/neovim-qt
 if has("win32") || has("win64")
-	" Disable GUI Tabline
-	if exists(':GuiTabline')
-		GuiTabline 0
-	endif
-
-	" Disable GUI Popupmenu
-	if exists(':GuiPopupmenu')
-		GuiPopupmenu 0
-	endif
-
 	" Enable GUI Scrollbar
 	if exists(':GuiScrollBar')
 		GuiScrollBar 1
