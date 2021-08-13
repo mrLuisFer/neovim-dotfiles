@@ -25,4 +25,5 @@
   source $HOME/.config/nvim/lua/langs.lua
 	source $HOME/.config/nvim/lua/plugins.lua
 	source $HOME/.config/nvim/plugin/packer_compiled.lua
+  source $HOME/.config/nvim/lua/statusline.lua
 

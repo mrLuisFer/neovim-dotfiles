@@ -1,4 +1,3 @@
-
 local gl = require('galaxyline')
 local colors = require('galaxyline.theme').default
 local condition = require('galaxyline.condition')
@@ -23,9 +22,10 @@ gls.left[2] = {
                           cv = colors.red,ce=colors.red, r = colors.cyan,
                           rm = colors.cyan, ['r?'] = colors.cyan,
                           ['!']  = colors.red,t = colors.red}
-      vim.api.nvim_command('hi GalaxyViMode guifg='..mode_color[vim.fn.mode()] ..' guibg='..colors.bg)
+      vim.api.nvim_command('hi GalaxyViMode guifg='..mode_color[vim.fn.mode()])
       return '  '
     end,
+    highlight = {colors.red,colors.bg,'bold'},
   },
 }
 gls.left[3] = {
@@ -47,7 +47,7 @@ gls.left[5] = {
   FileName = {
     provider = 'FileName',
     condition = condition.buffer_not_empty,
-    highlight = {colors.fg,colors.bg,'bold'}
+    highlight = {colors.magenta,colors.bg,'bold'}
   }
 }
 
@@ -111,7 +111,7 @@ gls.mid[1] = {
       return true
     end,
     icon = ' LSP:',
-    highlight = {colors.yellow,colors.bg,'bold'}
+    highlight = {colors.cyan,colors.bg,'bold'}
   }
 }
 
@@ -207,6 +207,4 @@ gls.short_line_right[1] = {
     provider= 'BufferIcon',
     highlight = {colors.fg,colors.bg}
   }
-}
-
-gl.load_galaxyline()
+}l.load_galaxyline()

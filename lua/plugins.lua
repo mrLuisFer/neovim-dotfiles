@@ -1,4 +1,3 @@
-
 return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
@@ -40,8 +39,12 @@ return require('packer').startup(function()
   use { 'glacambre/firenvim', run = function() vim.fn['firenvim#install'](0) end }
 
   -- Use specific branch, dependency and run lua file after load
-  use { 'glepnir/galaxyline.nvim', branch = 'main', config = function() require'statusline' end,
-    requires = {'kyazdani42/nvim-web-devicons'}, opt = true
+  use { 
+    'glepnir/galaxyline.nvim', 
+    branch = 'main', 
+    config = function() require'statusline' end,
+    requires = {'kyazdani42/nvim-web-devicons'}, 
+    opt = true
   }
 
   -- Use dependency and run lua function after load
