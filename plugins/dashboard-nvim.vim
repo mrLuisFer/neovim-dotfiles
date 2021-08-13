@@ -17,7 +17,7 @@ let g:dashboard_custom_header =[
     \'',
     \]
 
-let g:dashboard_default_executive ='fzf'
+let g:dashboard_default_executive ='clap'
 
 let g:dashboard_custom_shortcut={
 \ 'last_session'       : 'SPC s l',
@@ -30,4 +30,7 @@ let g:dashboard_custom_shortcut={
 \ }
 
 let g:indentLine_fileTypeExclude = ['dashboard']
+
+nmap <Leader>ss :<C-u>SessionSave<CR>
+nmap <Leader>sl :<C-u>SessionLoad<CR>
 
