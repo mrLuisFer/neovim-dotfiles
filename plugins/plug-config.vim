@@ -7,3 +7,5 @@ let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
 let g:signify_sign_change            = '~'
 
+let g:spaceline_seperate_style = 'arrow'
+

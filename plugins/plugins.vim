@@ -61,6 +61,8 @@ Plug 'psliwka/vim-smoothie'
 Plug 'liuchengxu/vim-clap'
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
+" Spaceline
+Plug 'glepnir/spaceline.vim'
 
 if has('win32') || has('win64')
   " NeovimQt Plugin
