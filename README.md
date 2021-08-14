@@ -193,5 +193,24 @@ git remote add origin <url del repo>
 ```
 
 ### 📔 Vim Dashboard
+![vim Dashboard](./doc/dashboard.png)
 
+If you want neovim to show you a dashboard screen similar to this one, you need certain things
 
+The most important is that you need [Neovim 0.5 or higher](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+You also need **[Ripgrep](https://github.com/BurntSushi/ripgrep)**, this is for the operation of search engines for files, words, history, etc.
+
+[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
+
+You also need to have **[FZF](https://github.com/junegunn/fzf)** installed, this is already included in the configuration but if it shows you an error you can read the documentation
+
+[junegunn/fzf](https://github.com/junegunn/fzfv)
+
+An alternative that you can use is **[Vim Clap](https://github.com/liuchengxu/vim-clap/)**, it also comes inside the config but you can check its documentation
+
+[liuchengxu/vim-clap](https://github.com/liuchengxu/vim-clap/)
+
+And obviously you can check out the original repository from **vim dashboard creator**
+
+[glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
