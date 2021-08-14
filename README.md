@@ -215,4 +215,4 @@ And obviously you can check out the original repository from **vim dashboard cre
 
 - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
 
-[By mrLuisFer](https://mrluisfer-linktry.netlify.app/)
+Made with 💙 [by mrLuisFer](https://mrluisfer-linktry.netlify.app/)
