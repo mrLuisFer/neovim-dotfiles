@@ -31,6 +31,7 @@ set guioptions-=L
 set guifont=CaskaydiaCove\ Nerd\ Font:h16
 set cursorline
 set showtabline=2
+set shortmess +=c
 
 "Get out of insert mode 
 "Salir de modo insertar

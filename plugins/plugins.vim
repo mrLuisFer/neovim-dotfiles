@@ -109,6 +109,8 @@ Plug 'hrsh7th/nvim-compe'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'glepnir/lspsaga.nvim'
 Plug 'nvim-lua/completion-nvim'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'norcalli/snippets.nvim'
 "-----------------------------------------------------------------
 
 "---------------------------- Barbar Tabline -------------------------------
