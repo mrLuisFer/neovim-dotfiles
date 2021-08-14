@@ -73,5 +73,3 @@ local on_attach = function(client, bufnr)
   }
 end
 
-vim.api.nvim_set_keymap('i', '<cr>', 'compe#confirm("<cr>")', { expr = true })
-

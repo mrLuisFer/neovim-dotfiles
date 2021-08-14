@@ -139,14 +139,14 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
-" colorscheme tokyonight
+colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
-colorscheme onedark
+" colorscheme onedark
 " colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext

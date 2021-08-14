@@ -15,8 +15,10 @@
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/plugins/vim-closetag.vim
-	source ~/AppData/Local/nvim/plugins/barbar.vim
 	source ~/AppData/Local/nvim/plugins/dashboard-nvim.vim
+	"	" Tabs
+	" source ~/AppData/Local/nvim/plugins/barbar.vim
+	source ~/AppData/Local/nvim/plugins/bufferline.vim
 	"	Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
 	" LSP

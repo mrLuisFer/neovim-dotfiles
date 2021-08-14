@@ -18,5 +18,3 @@ let g:spaceline_colorscheme = 'nord'
 " let g:spaceline_colorscheme = 'one'
 " let g:spaceline_colorscheme = 'dracula'
 
-let g:AutoClosePumvisible = {"ENTER": "<C-Y>", "ESC": "<ESC>"}
-
