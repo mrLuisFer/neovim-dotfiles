@@ -215,7 +215,7 @@ And obviously you can check out the original repository from **vim dashboard cre
 
 - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
 
-## RipGrep
+## ⚙ RipGrep
 
 To **install RipGrep** on your pc you can use one of the following commands
 
@@ -353,7 +353,7 @@ same port as Haiku x86_64 using the x86 secondary architecture build:
 $ pkgman install ripgrep_x86
 ```
 
-If you're a **Rust programmer**, ripgrep can be installed with `cargo`.
+If you're a 🦀 **Rust programmer**, ripgrep can be installed with `cargo`.
 
 * Note that the minimum supported version of Rust for ripgrep is **1.34.0**,
   although ripgrep may work with older versions.
