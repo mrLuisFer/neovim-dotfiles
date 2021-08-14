@@ -55,12 +55,12 @@ And do a **pull request** to the **main** branch
 
 ## 🔥 Important
 
-For a good operation of this configuration and to take **advantage of all** the Plugins, we recommend you to use **version 0.5 or higher
-** that adds many improvements and support for many things
+For a good operation of this configuration and to take **advantage of all** the Plugins, we recommend you to use **📗 version 0.5 or higher** that adds many improvements and support for many things
 
 More information below:
-[Official Documentation](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-[Releases](https://github.com/neovim/neovim/releases)
+- [Official Documentation](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+- [Releases](https://github.com/neovim/neovim/releases)
 
 ## 🦄 Usage
 When cloning the repository, in case the folder is named *neovim-dotfiles*, change the name to **nvim** so that Neovim recognizes it
