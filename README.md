@@ -214,3 +214,5 @@ An alternative that you can use is **[Vim Clap](https://github.com/liuchengxu/vi
 And obviously you can check out the original repository from **vim dashboard creator**
 
 - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
+
+[By mrLuisFer](https://mrluisfer-linktry.netlify.app/)
