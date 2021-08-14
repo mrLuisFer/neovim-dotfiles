@@ -9,7 +9,14 @@ let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
 let g:signify_sign_change            = '~'
 
-let g:spaceline_seperate_style = 'arrow'
+" Spaceline
+" let g:spaceline_seperate_style = 'arrow'
+let g:spaceline_seperate_style = 'arrow-fade'
+" let g:spaceline_seperate_style = 'slant-cons'
+
+let g:spaceline_colorscheme = 'nord'
+" let g:spaceline_colorscheme = 'one'
+" let g:spaceline_colorscheme = 'dracula'
 
 let g:AutoClosePumvisible = {"ENTER": "<C-Y>", "ESC": "<ESC>"}
 
