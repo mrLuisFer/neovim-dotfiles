@@ -62,6 +62,10 @@ Plug 'glepnir/dashboard-nvim'
 " Spaceline
 Plug 'glepnir/spaceline.vim'
 
+" Treesitter
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+" usage - usage -> :TSInstall <language_to_install>
+
 if has('win32') || has('win64')
   " NeovimQt Plugin
   Plug 'equalsraf/neovim-gui-shim'
@@ -111,7 +115,7 @@ Plug 'hrsh7th/vim-vsnip'
 Plug 'norcalli/snippets.nvim'
 "-----------------------------------------------------------------
 
-"---------------------------- Barbar Tabline -------------------------------
+"---------------------------- Bufferline -------------------------------
 Plug 'akinsho/nvim-bufferline.lua'
 "-----------------------------------------------------------------
 call plug#end()
