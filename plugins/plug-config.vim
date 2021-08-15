@@ -13,6 +13,7 @@ let g:signify_sign_change            = '~'
 " let g:spaceline_seperate_style = 'arrow'
 let g:spaceline_seperate_style = 'arrow-fade'
 " let g:spaceline_seperate_style = 'slant-cons'
+" let g:spaceline_seperate_style = 'curve'
 
 let g:spaceline_colorscheme = 'nord'
 " let g:spaceline_colorscheme = 'one'
