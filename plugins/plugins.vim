@@ -35,11 +35,17 @@ Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
-"NERDTREE
-Plug 'preservim/nerdtree'
+" - - - - - - - - - - - - - - - - - - - - NERDTREE
+" Plug 'preservim/nerdtree'
 "" Nerdtree git plugin
 " show git status in file tree view
-Plug 'Xuyuanp/nerdtree-git-plugin'  
+" Plug 'Xuyuanp/nerdtree-git-plugin'  
+" - - - - - - - - - - - - - - - - - - - - NERDTREE
+
+" - - - - - - - - - - - - - - - - - - - - Tree Lua
+Plug 'kyazdani42/nvim-tree.lua'
+" - - - - - - - - - - - - - - - - - - - - Tree Lua
+
 " Devicons
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
