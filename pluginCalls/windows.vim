@@ -9,7 +9,6 @@
 	source ~/AppData/Local/nvim/plugins/plugins.vim
 	source ~/AppData/Local/nvim/plugins/emberk.vim
 	source ~/AppData/Local/nvim/plugins/plug-config.vim
-	" source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
 	source ~/AppData/Local/nvim/plugins/vim-javascript.vim
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
@@ -18,7 +17,6 @@
 	source ~/AppData/Local/nvim/plugins/dashboard-nvim.vim
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
 	"	" Tabs
-	" source ~/AppData/Local/nvim/plugins/barbar.vim
 	source ~/AppData/Local/nvim/plugins/bufferline.vim
 	"	Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
