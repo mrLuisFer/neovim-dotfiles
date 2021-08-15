@@ -9,15 +9,14 @@
 	source $HOME/.config/nvim/plugins/plugins.vim
 	source $HOME/.config/nvim/plugins/emberk.vim
 	source $HOME/.config/nvim/plugins/plug-config.vim
-	source $HOME/.config/nvim/plugins/nerdtree-git-indicators.vim
 	source $HOME/.config/nvim/plugins/vim-clap.vim
 	source $HOME/.config/nvim/plugins/vim-javascript.vim
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/dashboard-nvim.vim
+	source $HOME/.config/nvim/plugins/tree-lua.vim
 	"	" Tabs
-	" source $HOME/.config/nvim/plugins/barbar.vim
 	source $HOME/.config/nvim/plugins/bufferline.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim

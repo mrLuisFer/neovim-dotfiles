@@ -41,7 +41,7 @@ require('bufferline').setup{
     end,
     offsets = {
         {
-            filetype = "NERDTree",
+            filetype = "NvimTree",
             text = function()
                 return vim.fn.getcwd()
             end,

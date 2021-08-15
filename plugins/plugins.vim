@@ -35,11 +35,9 @@ Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
-"NERDTREE
-Plug 'preservim/nerdtree'
-"" Nerdtree git plugin
-" show git status in file tree view
-Plug 'Xuyuanp/nerdtree-git-plugin'  
+" - - - - - - - - - - - - - - - - - - - - Tree Lua
+Plug 'kyazdani42/nvim-tree.lua'
+" - - - - - - - - - - - - - - - - - - - - Tree Lua
 " Devicons
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -111,10 +109,6 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'norcalli/snippets.nvim'
-"-----------------------------------------------------------------
-
-"---------------------------- Barbar Tabline -------------------------------
-" Plug 'romgrk/barbar.nvim' 
 "-----------------------------------------------------------------
 
 "---------------------------- Barbar Tabline -------------------------------

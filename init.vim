@@ -101,11 +101,8 @@ nmap <leader>rg :Rg<CR>
 let g:indentLine_enabled = 1
 let g:indentLine_char = ' '
 let g:indentLine_faster = 1
-let g:indentLine_fileTypeExclude=["nerdtree"]
 
-"abrir Nerdtree
-"open nerdtree
-nmap <Leader>e :NERDTree<CR>
+let g:indentLine_fileTypeExclude=["NvimTree"]
 
 "open cocExplorer 
 "Buscar dos carácteres con easymotion
