@@ -16,6 +16,7 @@
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/dashboard-nvim.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
+	source $HOME/.config/nvim/plugins/todo-comments.vim
 	"	" Tabs
 	source $HOME/.config/nvim/plugins/bufferline.vim
 	"	Lang tools

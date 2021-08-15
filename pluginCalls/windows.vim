@@ -16,6 +16,7 @@
 	source ~/AppData/Local/nvim/plugins/vim-closetag.vim
 	source ~/AppData/Local/nvim/plugins/dashboard-nvim.vim
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
+	source ~/AppData/Local/nvim/plugins/todo-comments.vim
 	"	" Tabs
 	source ~/AppData/Local/nvim/plugins/bufferline.vim
 	"	Lang tools

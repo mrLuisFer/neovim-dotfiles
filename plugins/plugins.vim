@@ -66,6 +66,10 @@ Plug 'glepnir/spaceline.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 " usage - usage -> :TSInstall <language_to_install>
 
+" Todo Comments
+Plug 'nvim-lua/plenary.nvim'
+Plug 'folke/todo-comments.nvim'
+
 if has('win32') || has('win64')
   " NeovimQt Plugin
   Plug 'equalsraf/neovim-gui-shim'
