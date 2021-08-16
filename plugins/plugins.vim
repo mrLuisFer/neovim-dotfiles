@@ -107,6 +107,9 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'leafgarland/typescript-vim' 
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim' 
+" Vim Svelte
+Plug 'evanleck/vim-svelte'
+
 "-----------------------------------------------------------------
 
 " --------------------------- Native LSP -----------------------------------
