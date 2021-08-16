@@ -9,7 +9,6 @@
 	source ~/AppData/Local/nvim/plugins/plugins.vim
 	source ~/AppData/Local/nvim/plugins/emberk.vim
 	source ~/AppData/Local/nvim/plugins/plug-config.vim
-	source ~/AppData/Local/nvim/plugins/nerdtree-git-indicators.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
 	source ~/AppData/Local/nvim/plugins/coc-config.vim
 	source ~/AppData/Local/nvim/plugins/coc-extensions.vim
