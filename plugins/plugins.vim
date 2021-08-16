@@ -35,11 +35,9 @@ Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
-"NERDTREE
-Plug 'preservim/nerdtree'
-"" Nerdtree git plugin
-" show git status in file tree view
-Plug 'Xuyuanp/nerdtree-git-plugin'  
+" Nvim Tree Lua
+Plug 'kyazdani42/nvim-tree.lua'
+" ICONS
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
   " NerdCommenter
@@ -71,7 +69,6 @@ if has('win32') || has('win64')
 endif
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
- 
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
@@ -107,8 +104,6 @@ Plug 'leafgarland/typescript-vim'
 Plug 'editorconfig/editorconfig-vim' 
 " Svelte
 Plug 'evanleck/vim-svelte'
- 
-"-----------------------------------------------------------------
 "---------------------------- Barbar Tabline -------------------------------
 Plug 'romgrk/barbar.nvim' 
 "--------------------------------------------------------------------------
