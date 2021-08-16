@@ -105,6 +105,9 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'leafgarland/typescript-vim' 
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim' 
+" Svelte
+Plug 'evanleck/vim-svelte'
+ 
 "-----------------------------------------------------------------
 "---------------------------- Barbar Tabline -------------------------------
 Plug 'romgrk/barbar.nvim' 
