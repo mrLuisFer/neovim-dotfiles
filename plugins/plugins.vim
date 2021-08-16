@@ -69,7 +69,6 @@ if has('win32') || has('win64')
 endif
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
- 
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
@@ -105,8 +104,6 @@ Plug 'leafgarland/typescript-vim'
 Plug 'editorconfig/editorconfig-vim' 
 " Svelte
 Plug 'evanleck/vim-svelte'
- 
-"-----------------------------------------------------------------
 "---------------------------- Barbar Tabline -------------------------------
 Plug 'romgrk/barbar.nvim' 
 "--------------------------------------------------------------------------
