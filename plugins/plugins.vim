@@ -28,7 +28,9 @@ Plug 'franbach/miramare'
 Plug 'embark-theme/vim', { 'as': 'embark' }
 " Awesome Vim Plugins -> by rufi
 Plug 'rafi/awesome-vim-colorschemes'
-"-----------------------------------------------------------------
+" Rose Pine Theme
+Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
+" -----------------------------------------------------------------
 
 "--------------------------- IDE -----------------------------------
 Plug 'easymotion/vim-easymotion'
