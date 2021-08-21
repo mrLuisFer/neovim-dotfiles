@@ -27,7 +27,7 @@ set guioptions-=T
 set guioptions-=L
 " I recommend this font -> https://www.nerdfonts.com/font-downloads
 " set guifont=CaskaydiaCove\ Nerd\ Font:h15
-set guifont=DejaVuSansMono\ Nerd\ Font:h15
+" set guifont=DejaVuSansMono\ Nerd\ Font:h15
 set cursorline
 
 "Get out of insert mode 
