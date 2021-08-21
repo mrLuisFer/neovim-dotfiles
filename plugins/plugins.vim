@@ -106,7 +106,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'editorconfig/editorconfig-vim' 
 " Svelte
 Plug 'evanleck/vim-svelte'
-"---------------------------- Barbar Tabline -------------------------------
-Plug 'romgrk/barbar.nvim' 
-"--------------------------------------------------------------------------
+"---------------------------- Bufferline -------------------------------
+Plug 'akinsho/nvim-bufferline.lua'
+"-----------------------------------------------------------------
 call plug#end()

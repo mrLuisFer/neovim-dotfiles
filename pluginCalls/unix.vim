@@ -17,7 +17,7 @@
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
-	source $HOME/.config/nvim/plugins/barbar.vim
+	source $HOME/.config/nvim/plugins/bufferline.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim
