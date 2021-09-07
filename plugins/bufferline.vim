@@ -84,10 +84,3 @@ require('bufferline').setup{
 }
 EOF
 
-nnoremap <silent>[b :BufferLineCycleNext<CR>
-nnoremap <silent>b] :BufferLineCyclePrev<CR>
-
-nnoremap <silent>be :BufferLineSortByExtension<CR>
-nnoremap <silent>bd :BufferLineSortByDirectory<CR>
-
-nnoremap <silent> gb :BufferLinePick<CR>
