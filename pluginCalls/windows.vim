@@ -21,4 +21,6 @@
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
 	"	Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
+	" Key Maps
+	source ~/AppData/Local/nvim/nmaps/nmaps.vim
 

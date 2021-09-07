@@ -9,6 +9,7 @@
 "
 " By: mrLuisFer
 "--------------------------------- vim config ---------------------------- 
+" I recommend use a Nerd Font -> https://www.nerdfonts.com/font-downloads
 syntax on 
 set number 
 set mouse=a
@@ -25,23 +26,7 @@ set laststatus=2
 set backspace=2
 set guioptions-=T
 set guioptions-=L
-" I recommend this font -> https://www.nerdfonts.com/font-downloads
-" set guifont=CaskaydiaCove\ Nerd\ Font:h15
-" set guifont=DejaVuSansMono\ Nerd\ Font:h15
 set cursorline
-
-"Get out of insert mode 
-"Salir de modo insertar
-imap jk <Esc>
-imap <C-c> <Esc>l
-"mueve bloques de codigo en modo visual o V-Line
-"Moves Blocks of code in visual mode or V-Line xnoremap K :move '<-2<CR>gv-gv xnoremap J :move '>+1<CR>gv-gv 
-xnoremap K :move '<-2<CR>gv-gv
-xnoremap J :move '>+1<CR>gv-gv 
-" Better indenting
-" Mejor Indentación
-vnoremap < <gv
-vnoremap > >gv
 "-----------------------------------------------------------------
 
 "-------------------------------Windows Scroll-------------------------------"
@@ -71,42 +56,12 @@ endif
 "-----------------------------------------------------------------
 
 "--------------------------------Plugins Config--------------------------------------------
-"save file
-"guardar archivo
-nmap <leader>w :w <CR>
-"cerrar ventana
-"close current  window
-nmap <C-w> :q <CR>
-nmap <leader>q :q <CR>
-nmap <leader>so :so%<CR>
-"search commands 
-"comandos de busqueda
-nmap <leader>gs  :CocSearch
-nmap <leader>fs :FZF<CR>
-nmap <leader>rg :Rg<CR>
 "configuracion de tabs
 let g:indentLine_enabled = 1
 let g:indentLine_char = ' '
 let g:indentLine_faster = 1
 
 let g:indentLine_fileTypeExclude=["NvimTree"]
-"open cocExplorer 
-"Buscar dos carácteres con easymotion
-"Search for two chars with easymotion
-nmap <Leader>s <Plug>(easymotion-s2)
-
-" TAB in general mode will move to text buffer
-" TAB en modo normal se moverá al siguiente buffer
-nnoremap <silent> <TAB> :bnext<CR>
-
-" SHIFT-TAB will go back
-" SHIFT-TAB va para atras 
-nnoremap <silent> <S-TAB> :bprevious<CR>
-
-"close buffer
-"cerrar buffer
-nmap <leader>bd :bdelete<CR>
-
 "--gruvbox config--
 let g:gruvbox_contrast_dark = "medium"
 
@@ -135,5 +90,8 @@ colorscheme tokyonight
 " colorscheme OceanicNext
 " colorscheme spacegray 
 " colorscheme embark 
+"
+" these are just examples, if you want more colorschemes, 
+" please type `:colorschemes + TAB` and show all available colorschemes
 "-----------------------------------------------------------------
 
