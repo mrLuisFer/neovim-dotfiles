@@ -71,6 +71,8 @@ if has('win32') || has('win64')
 endif
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
+
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
