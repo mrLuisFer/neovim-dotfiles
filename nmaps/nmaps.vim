@@ -1,4 +1,10 @@
-""" INIT.vim
+"------------------------------------------------------------------------------------
+" NOTE: These are some of the nmaps or shortcuts that are available, 
+" they are in a single file so that it is easier to configure 
+" and thus not overwriting one that is already in use
+"------------------------------------------------------------------------------------
+
+""" INFO: INIT.vim
 " Get out of insert mode 
 "Salir de modo insertar
 imap jk <Esc>
@@ -43,7 +49,7 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
 
-" Bufferline.vim
+""" INFO: Bufferline.vim
 nnoremap <silent>[b :BufferLineCycleNext<CR>
 nnoremap <silent>b] :BufferLineCyclePrev<CR>
 
@@ -52,7 +58,7 @@ nnoremap <silent>bd :BufferLineSortByDirectory<CR>
 
 nnoremap <silent> gb :BufferLinePick<CR>
 
-""" COC-CONFIG.vim
+""" INFO: COC-CONFIG.vim
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
@@ -75,16 +81,14 @@ xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
 nmap <space>f :CocCommand explorer --preset floating<CR>
-""" NVIM-DASHBOARD.vim
+""" INFO: NVIM-DASHBOARD.vim
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
 
-""" TREE-LUA.vim
+""" INFO: TREE-LUA.vim
 nnoremap <C-n> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
 nnoremap <leader>e :NvimTreeOpen<CR>
 " NvimTreeOpen, NvimTreeClose and NvimTreeFocus are also available if you need them
-
-
 
