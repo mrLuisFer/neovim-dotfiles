@@ -30,6 +30,8 @@ Plug 'embark-theme/vim', { 'as': 'embark' }
 Plug 'rafi/awesome-vim-colorschemes'
 " Rose Pine Theme
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
+" Catppuccino Theme
+Plug 'Pocco81/Catppuccino.nvim'
 " -----------------------------------------------------------------
 
 "--------------------------- IDE -----------------------------------
@@ -72,7 +74,7 @@ endif
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
 
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
