@@ -2,8 +2,6 @@ lua << EOF
 require('bufferline').setup{
   options = {
     numbers = "none",
-    number_style = "superscript",
-    mappings = false,
     close_command = "bdelete! %d",
     right_mouse_command = "vertical sbuffer %d",
     left_mouse_command = "buffer %d",
