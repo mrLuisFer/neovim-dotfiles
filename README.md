@@ -117,7 +117,9 @@ More information about vim plug:
 
 Also you need install python neovim support
 
+```bash
 $ sudo apt-get install python3-neovim
+```
 
 ### 📘 Setup Windows:
 
