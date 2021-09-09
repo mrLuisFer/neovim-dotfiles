@@ -47,9 +47,10 @@ Plug 'kyazdani42/nvim-web-devicons'
   " NerdCommenter
 Plug 'preservim/nerdcommenter'
 "ChadTree (Nerdtree Alternative )
+
 "Airline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Close pairs () [] {} ''
@@ -75,6 +76,8 @@ endif
 Plug 'glepnir/dashboard-nvim'
 
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
+ 
+Plug 'tamton-aquib/staline.nvim'
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
