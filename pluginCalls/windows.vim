@@ -20,6 +20,7 @@
 	source ~/AppData/Local/nvim/plugins/bufferline.vim
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
 	source ~/AppData/Local/nvim/plugins/airline.vim
+	source ~/AppData/Local/nvim/plugins/staline.vim
 	" source ~/AppData/Local/nvim/plugins/treesitter.vim
 	"	Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
