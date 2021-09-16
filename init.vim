@@ -77,8 +77,8 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
-colorscheme tokyonight
-" colorscheme gruvbox
+" colorscheme tokyonight
+colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
