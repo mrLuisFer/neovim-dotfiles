@@ -20,7 +20,7 @@ set ruler
 set encoding=UTF-8
 set showmatch
 set sw=2
-" set relativenumber
+set relativenumber
 set hlsearch
 let mapleader = " "
 set laststatus=2
@@ -136,7 +136,7 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
-colorscheme tokyonight
+" colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
@@ -145,7 +145,7 @@ colorscheme tokyonight
 " colorscheme everforest
 " colorscheme onedark
 " colorscheme miramare
-" colorscheme dracula
+colorscheme dracula
 " colorscheme OceanicNext
 " colorscheme spacegray 
 " colorscheme embark 
