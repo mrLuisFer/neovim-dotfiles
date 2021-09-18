@@ -120,6 +120,7 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'norcalli/snippets.nvim'
+Plug 'williamboman/nvim-lsp-installer'
 "-----------------------------------------------------------------
 
 "---------------------------- Bufferline -------------------------------
