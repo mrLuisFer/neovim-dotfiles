@@ -226,7 +226,7 @@ $ git remote add origin <url del repo>
 
 ## 📔 Vim Dashboard
 
-![vim Dashboard](./doc/dashboard.png)
+![vim Dashboard](./doc/dashboard.jpg)
 
 If you want neovim to show you a dashboard screen similar to this one, you need certain things
 
