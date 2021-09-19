@@ -172,11 +172,8 @@ If you do not like the color that comes by default, you can execute the command 
 When you find one you like, go to `init.vim` and search with _neovim_ `/colorscheme` and write down the name of the **theme** you want to use.
 
 ## 💫 LSP Support
-```
-The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc. The goal of the Language Server Index Format (LSIF, pronounced like "else if") is to support rich code navigation in development tools or a Web UI without needing a local copy of the source code.
-
-- Microsoft
-```
+> The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, > go to definition, find all references etc. The goal of the Language Server Index Format (LSIF, pronounced like "else if") is to support rich code navigation in > development tools or a Web UI without needing a local copy of the source code.
+> - Microsoft
 
 You can see the original lsp neovim repository -> [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 
