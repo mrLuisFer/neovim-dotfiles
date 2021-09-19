@@ -171,19 +171,29 @@ If you do not like the color that comes by default, you can execute the command 
 
 When you find one you like, go to `init.vim` and search with _neovim_ `/colorscheme` and write down the name of the **theme** you want to use.
 
-## 🐊 CoC Extensions
-
-[Whats Coc?](https://github.com/neoclide/coc.nvim)
-
-If you want to **install** or **add** an extension for **Coc** you can check the following page and without modifying anything unless necessary, just **run the command** and it will be ready to use
-
-Install extensions like:
-
+## 💫 LSP Support
 ```
-:CocInstall coc-json coc-tsserver
+The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc. The goal of the Language Server Index Format (LSIF, pronounced like "else if") is to support rich code navigation in development tools or a Web UI without needing a local copy of the source code.
+
+- Microsoft
 ```
 
-[You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
+You can see the original lsp neovim repository -> [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+
+When you open neovim for the first time, you need to install the language servers, in this case this configuration uses an Lsp Installer -> [williamboman/nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer)
+
+### 🤖 Lsp Installer Commands
+- `:LspInstallInfo` - opens a graphical overview of your language servers
+- `:LspInstall <server> ...` - installs/reinstalls language servers
+- `:LspUninstall <server> ...` - uninstalls language servers
+- `:LspUninstallAll` - uninstalls all language servers
+- `:LspPrintInstalled` - prints all installed language servers
+
+You can also use **TSServer** to install some language or tool support
+`:TSInstall <lang_to_install>`
+
+List of tools that you should install on Linux or Ubuntu based distributions for python lsp support
+- `sudo apt-get -y install python3.8-venv python3-pip`
 
 ## ⚠ Warning
 
@@ -191,6 +201,7 @@ It may be that when you enter the cloned configuration in nvim for the first tim
 
 But don't worry just press `Enter` and run this command **:PlugInstall**
 Several plugins will be downloaded, then **exit and enter neovim again**
+
 
 ## 🐙 Change Repository
 
