@@ -17,6 +17,7 @@
 	source $HOME/.config/nvim/plugins/dashboard-nvim.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
 	source $HOME/.config/nvim/plugins/todo-comments.vim
+	source $HOME/.config/nvim/plugins/staline.vim
 	"	" Tabs
 	source $HOME/.config/nvim/plugins/bufferline.vim
 	"	Lang tools

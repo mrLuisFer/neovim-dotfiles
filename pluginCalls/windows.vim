@@ -17,6 +17,7 @@
 	source ~/AppData/Local/nvim/plugins/dashboard-nvim.vim
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
 	source ~/AppData/Local/nvim/plugins/todo-comments.vim
+	source ~/AppData/Local/nvim/plugins/staline.vim
 	"	" Tabs
 	source ~/AppData/Local/nvim/plugins/bufferline.vim
 	"	Lang tools
@@ -27,3 +28,4 @@
   source ~/AppData/Local/nvim/plugins/lspsaga.vim
 	source ~/AppData/Local/nvim/lua/config.lua
   source ~/AppData/Local/nvim/plugins/lsp-installer.vim
+

@@ -60,7 +60,7 @@ Plug 'liuchengxu/vim-clap'
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
 " Spaceline
-Plug 'glepnir/spaceline.vim'
+" Plug 'glepnir/spaceline.vim'
 
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
@@ -69,6 +69,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 " Todo Comments
 Plug 'nvim-lua/plenary.nvim'
 Plug 'folke/todo-comments.nvim'
+Plug 'tamton-aquib/staline.nvim'
 
 if has('win32') || has('win64')
   " NeovimQt Plugin
@@ -125,5 +126,5 @@ Plug 'williamboman/nvim-lsp-installer'
 
 "---------------------------- Bufferline -------------------------------
 Plug 'akinsho/nvim-bufferline.lua'
-"-----------------------------------------------------------------
+" -----------------------------------------------------------------
 call plug#end()
