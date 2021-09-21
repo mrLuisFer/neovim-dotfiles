@@ -6,7 +6,6 @@
 "	██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║ 
 "	╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 "
-"
 " By: mrLuisFer
 "--------------------------------- vim config ---------------------------- 
 autocmd BufWritePost plugins.lua source <afile> | PackerCompile
@@ -20,7 +19,7 @@ set ruler
 set encoding=UTF-8
 set showmatch
 set sw=2
-set relativenumber
+"set relativenumber
 set hlsearch
 let mapleader = " "
 set laststatus=2
@@ -51,21 +50,10 @@ vnoremap > >gv
 " For disable scroll in windows you need install NeovimQt
 " https://github.com/equalsraf/neovim-qt
 if has("win32") || has("win64")
-	" Disable GUI Tabline
-	if exists(':GuiTabline')
-		GuiTabline 0
-	endif
-
-	" Disable GUI Popupmenu
-	if exists(':GuiPopupmenu')
-		GuiPopupmenu 0
-	endif
-
 	" Enable GUI Scrollbar
 	if exists(':GuiScrollBar')
 		GuiScrollBar 1
 	endif
-
 	" Right Click Context Menu (Copy-Cut-Paste)
 	nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
 	inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
@@ -136,7 +124,7 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
-" colorscheme tokyonight
+colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
@@ -145,7 +133,7 @@ endif
 " colorscheme everforest
 " colorscheme onedark
 " colorscheme miramare
-colorscheme dracula
+" colorscheme dracula
 " colorscheme OceanicNext
 " colorscheme spacegray 
 " colorscheme embark 
