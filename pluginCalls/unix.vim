@@ -28,7 +28,8 @@
   source $HOME/.config/nvim/plugins/lspsaga.vim
 	source $HOME/.config/nvim/lua/config.lua
   source $HOME/.config/nvim/plugins/lsp-installer.vim
+	" This file is because I have the lsp langs installed global with npm
+	" But if you can use the LSPInstaller you can comment this line
 	source $HOME/.config/nvim/lsp/lsp-langs.vim
-	
 	source $HOME/.config/nvim/lua/compe-config.lua
 	
