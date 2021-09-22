@@ -1,3 +1,3 @@
 lua << EOF
-    require('staline').setup{}
+require('staline').setup {}
 EOF
