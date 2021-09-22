@@ -28,4 +28,5 @@
   source ~/AppData/Local/nvim/plugins/lspsaga.vim
 	source ~/AppData/Local/nvim/lua/config.lua
   source ~/AppData/Local/nvim/plugins/lsp-installer.vim
+	source ~/AppData/Local/nvim/lsp/lsp-langs.vim
 

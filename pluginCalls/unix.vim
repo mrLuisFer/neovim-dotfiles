@@ -28,5 +28,7 @@
   source $HOME/.config/nvim/plugins/lspsaga.vim
 	source $HOME/.config/nvim/lua/config.lua
   source $HOME/.config/nvim/plugins/lsp-installer.vim
+	source $HOME/.config/nvim/lsp/lsp-langs.vim
+	
 	source $HOME/.config/nvim/lua/compe-config.lua
 	
