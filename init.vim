@@ -22,14 +22,16 @@ set sw=2
 "set relativenumber
 set hlsearch
 let mapleader = " "
+
 set laststatus=2
+set showtabline=2
+
 set backspace=2
 set guioptions-=T
 set guioptions-=L
 " I recommend this font -> https://www.nerdfonts.com/font-downloads
 set guifont=CaskaydiaCove\ Nerd\ Font:h16
 set cursorline
-set showtabline=2
 set shortmess +=c
 
 "Get out of insert mode 
