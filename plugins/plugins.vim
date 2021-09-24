@@ -35,9 +35,9 @@ Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
-" - - - - - - - - - - - - - - - - - - - - Tree Lua
+"--------------------------- Nvim TreeLua -----------------------------------
 Plug 'kyazdani42/nvim-tree.lua'
-" - - - - - - - - - - - - - - - - - - - - Tree Lua
+
 " Devicons
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -69,12 +69,13 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 " Todo Comments
 Plug 'nvim-lua/plenary.nvim'
 Plug 'folke/todo-comments.nvim'
-Plug 'tamton-aquib/staline.nvim'
 
 if has('win32') || has('win64')
   " NeovimQt Plugin
   Plug 'equalsraf/neovim-gui-shim'
 endif
+
+Plug 'tamton-aquib/staline.nvim'
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------

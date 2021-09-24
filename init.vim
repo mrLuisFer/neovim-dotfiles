@@ -8,7 +8,6 @@
 "
 " By: mrLuisFer
 "--------------------------------- vim config ---------------------------- 
-" autocmd BufWritePost plugins.lua source <afile> | PackerCompile
 
 syntax on 
 set number 
@@ -82,8 +81,11 @@ nmap <leader>q :q <CR>
 nmap <leader>so :so%<CR>
 "search commands 
 "comandos de busqueda
-nmap <leader>gs  :CocSearch
-nmap <leader>fs :FZF<CR>
+" nmap <leader>gs  :CocSearch
+" Find File
+nmap <leader>ff :FZF<CR>
+" Find Word
+nmap <leader>fw :DashboardFindWord<CR>
 nmap <leader>rg :Rg<CR>
 "configuracion de tabs
 let g:indentLine_enabled = 1
@@ -105,8 +107,8 @@ nnoremap <silent> <TAB> :bnext<CR>
 " SHIFT-TAB va para atras 
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
-"close buffer
-"cerrar buffer
+" close buffer
+" cerrar buffer
 nmap <leader>bd :bdelete<CR>
 
 "--gruvbox config--
@@ -124,7 +126,7 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
-colorscheme tokyonight
+" colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
@@ -132,7 +134,7 @@ colorscheme tokyonight
 " colorscheme sonokai
 " colorscheme everforest
 " colorscheme onedark
-" colorscheme miramare
+colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
 " colorscheme spacegray 
