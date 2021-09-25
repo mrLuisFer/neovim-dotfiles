@@ -51,6 +51,7 @@ Plug 'preservim/nerdcommenter'
 "Airline
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
+"
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Close pairs () [] {} ''
@@ -74,10 +75,8 @@ if has('win32') || has('win64')
 endif
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
-
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
- 
-Plug 'tamton-aquib/staline.nvim'
+" Lualine
+Plug 'hoob3rt/lualine.nvim'
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------

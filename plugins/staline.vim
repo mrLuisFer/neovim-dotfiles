@@ -1,4 +1,0 @@
-lua << EOF
-require('staline').setup {}
-EOF
-
