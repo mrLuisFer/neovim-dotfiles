@@ -28,6 +28,8 @@ Plug 'franbach/miramare'
 Plug 'embark-theme/vim', { 'as': 'embark' }
 " Awesome Vim Plugins -> by rufi
 Plug 'rafi/awesome-vim-colorschemes'
+" Catppuccino Theme
+Plug 'Pocco81/Catppuccino.nvim' 
 "-----------------------------------------------------------------
 
 "--------------------------- IDE -----------------------------------
