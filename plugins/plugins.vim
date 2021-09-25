@@ -75,6 +75,10 @@ if has('win32') || has('win64')
 endif
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
+" --- Airline Extensions ----------------------------
+Plug 'dense-analysis/ale'
+
+
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
