@@ -49,8 +49,8 @@ Plug 'preservim/nerdcommenter'
 "ChadTree (Nerdtree Alternative )
 
 "Airline
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 "
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -75,8 +75,6 @@ if has('win32') || has('win64')
 endif
 " Vim Dashboard
 Plug 'glepnir/dashboard-nvim'
-" Lualine
-Plug 'hoob3rt/lualine.nvim'
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
