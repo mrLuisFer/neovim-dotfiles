@@ -20,6 +20,7 @@
 	source $HOME/.config/nvim/plugins/bufferline.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
 	source $HOME/.config/nvim/plugins/airline.vim
+	source $HOME/.config/nvim/plugins/ale.vim
 	" source $HOME/.config/nvim/plugins/lualine.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim
