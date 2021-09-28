@@ -3,15 +3,15 @@
 "	██║████╗░██║██║╚══██╔══╝░░░██║░░░██║██║████╗░████║
 "	██║██╔██╗██║██║░░░██║░░░░░░╚██╗░██╔╝██║██╔████╔██║
 "	██║██║╚████║██║░░░██║░░░░░░░╚████╔╝░██║██║╚██╔╝██║
-"	██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║ 
+"	██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║
 "	╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 "
 "
 " By: mrLuisFer
-"--------------------------------- vim config ---------------------------- 
+"--------------------------------- vim config ----------------------------
 " I recommend use a Nerd Font -> https://www.nerdfonts.com/font-downloads
-syntax on 
-set number 
+syntax on
+set number
 set mouse=a
 set clipboard=unnamed
 set showcmd
@@ -78,7 +78,7 @@ endif
 
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
@@ -88,10 +88,10 @@ colorscheme gruvbox
 " colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
-" colorscheme spacegray 
-" colorscheme embark 
+" colorscheme spacegray
+" colorscheme embark
+colorscheme oceanic_material
 "
-" these are just examples, if you want more colorschemes, 
+" these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes
 "-----------------------------------------------------------------
-

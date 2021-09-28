@@ -14,10 +14,12 @@ Plug 'liuchengxu/space-vim-theme'
 Plug 'ackyshake/Spacegray.vim'
 " Edge Theme -> https://github.com/sainnhe/edge/blob/master/doc/edge.txt
 Plug 'sainnhe/edge'
-" Sonokai Theme -> https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt 
+" Sonokai Theme -> https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt
 Plug 'sainnhe/sonokai'
-" Oceanic Next Theme 
+" Oceanic Next Theme
 Plug 'mhartington/oceanic-next'
+" Oceanic Material
+Plug 'glepnir/oceanic-material'
 "" Eveforest Theme -> https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt
 Plug 'sainnhe/everforest'
 " VsCode Theme
@@ -62,7 +64,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
 "Multiple cursor like in vscode
 Plug 'terryma/vim-multiple-cursors'
-"Have the indent lines 
+"Have the indent lines
 Plug 'yggdroot/indentline'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
@@ -94,9 +96,9 @@ Plug 'mattn/emmet-vim'
 " JSX Syntax
 Plug 'maxmellon/vim-jsx-pretty'
 " Vim JSX Improve
-Plug 'chemzqm/vim-jsx-improve' 
+Plug 'chemzqm/vim-jsx-improve'
 " Vim Prettier
-Plug 'prettier/vim-prettier' 
+Plug 'prettier/vim-prettier'
 " SCSS Syntax
 Plug 'cakebaker/scss-syntax.vim'
 " Seti.vim
@@ -107,11 +109,11 @@ Plug 'mlaursen/vim-react-snippets'
 " Vim Javascript
 Plug 'pangloss/vim-javascript'
 " Vim Styled Components
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' } 
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 " Vim Typescript
-Plug 'leafgarland/typescript-vim' 
+Plug 'leafgarland/typescript-vim'
 " EditorConfig
-Plug 'editorconfig/editorconfig-vim' 
+Plug 'editorconfig/editorconfig-vim'
 " Svelte
 Plug 'evanleck/vim-svelte'
 
