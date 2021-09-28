@@ -65,6 +65,10 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
 nmap <Leader>fw :DashboardFindWord<CR>
+nmap <Leader>tc :DashboardChangeColorscheme<CR>
+" Or <Leader>fs using FZF
+nmap <Leader>ff :DashboardFindFile<CR>
+nmap <Leader>fh :DashboardFindHistory<CR>
 
 """ INFO: TREE-LUA.vim
 nnoremap <C-n> :NvimTreeToggle<CR>
