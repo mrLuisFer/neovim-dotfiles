@@ -56,7 +56,7 @@ endfunction
 "-------------------------------Windows Scroll-------------------------------"
 " For disable scroll in windows you need install NeovimQt
 " https://github.com/equalsraf/neovim-qt
-if has("win32") || has("win64")
+if has("win32") || has("win64") || has("win16")
 	" Enable GUI Scrollbar
 	if exists(':GuiScrollBar')
 		GuiScrollBar 1
@@ -70,7 +70,7 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Sources-------------------------------"
-if has("win32") || has("win64")
+if has("win32") || has("win64") || has("win16")
 	source ~/AppData/Local/nvim/pluginCalls/windows.vim
 elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/pluginCalls/unix.vim
