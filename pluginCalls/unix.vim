@@ -11,8 +11,8 @@
 	source $HOME/.config/nvim/plugins/emberk.vim
 	source $HOME/.config/nvim/plugins/plug-config.vim
 	source $HOME/.config/nvim/plugins/vim-clap.vim
-	source $HOME/.config/nvim/plugins/coc-config.vim
-	source $HOME/.config/nvim/plugins/coc-extensions.vim
+	" source $HOME/.config/nvim/plugins/coc-config.vim
+	" source $HOME/.config/nvim/plugins/coc-extensions.vim
 	source $HOME/.config/nvim/plugins/vim-javascript.vim
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
