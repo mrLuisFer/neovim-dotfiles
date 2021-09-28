@@ -171,19 +171,29 @@ If you do not like the color that comes by default, you can execute the command 
 
 When you find one you like, go to `init.vim` and search with _neovim_ `/colorscheme` and write down the name of the **theme** you want to use.
 
-## 🐊 CoC Extensions
+## 🌙 Deoplete Intellisense
 
-[Whats Coc?](https://github.com/neoclide/coc.nvim)
+This branch uses torch for syntax autocompletion.
 
-If you want to **install** or **add** an extension for **Coc** you can check the following page and without modifying anything unless necessary, just **run the command** and it will be ready to use
+Deoplete requires Neovim or Vim8 with if_python3.
 
-Install extensions like:
+If :echo has("python3") returns 1, then you have python 3 support; otherwise, see below.
 
+You can enable Python3 interface with pip:
+
+```bash
+pip3 install --user pynvim
 ```
-:CocInstall coc-json coc-tsserver
-```
+or
 
-[You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
+*Note: deoplete needs pynvim ver.0.3.0+.*
+
+You need update pynvim module
+
+```bash
+pip3 install --user --upgrade pynvim
+```
+![](https://user-images.githubusercontent.com/29815830/36537450-bfbf4884-1802-11e8-8ad4-dd4a0dccfed3.png)
 
 ## ⚠ Warning
 
