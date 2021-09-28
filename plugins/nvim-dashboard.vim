@@ -11,7 +11,7 @@ let g:dashboard_custom_shortcut={
 \ 'find_file'          : 'SPC f f',
 \ 'new_file'           : 'SPC c n',
 \ 'change_colorscheme' : 'SPC t c',
-\ 'find_word'          : 'SPC f a',
+\ 'find_word'          : 'SPC f w',
 \ 'book_marks'         : 'SPC f b',
 \ }
 
@@ -35,4 +35,3 @@ let g:dashboard_custom_header = [
     \'     ⠸⠿  ⠿  ⠸⠿  ⠿⠷⠶⠿⠃⠸⠿⠄⠙⠷⠤⠿⠉⠉⠿⠆   ',
     \'',
     \]
-

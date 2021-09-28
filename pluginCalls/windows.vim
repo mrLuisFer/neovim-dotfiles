@@ -11,8 +11,8 @@
 	source ~/AppData/Local/nvim/plugins/emberk.vim
 	source ~/AppData/Local/nvim/plugins/plug-config.vim
 	source ~/AppData/Local/nvim/plugins/vim-clap.vim
-	source ~/AppData/Local/nvim/plugins/coc-config.vim
-	source ~/AppData/Local/nvim/plugins/coc-extensions.vim
+	" source ~/AppData/Local/nvim/plugins/coc-config.vim
+	" source ~/AppData/Local/nvim/plugins/coc-extensions.vim
 	source ~/AppData/Local/nvim/plugins/vim-javascript.vim
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
@@ -22,7 +22,7 @@
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
 	source ~/AppData/Local/nvim/plugins/airline.vim
 	source ~/AppData/Local/nvim/plugins/ale.vim
-	" source ~/AppData/Local/nvim/plugins/lualine.vim
+	source ~/AppData/Local/nvim/plugins/deoplete-config.vim
 	"	Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
 	" Key Maps
