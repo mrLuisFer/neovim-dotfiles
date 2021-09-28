@@ -123,7 +123,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'editorconfig/editorconfig-vim'
 " Svelte
 Plug 'evanleck/vim-svelte'
-
+" Golang
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 "---------------------------- Bufferline -------------------------------

@@ -5,6 +5,8 @@
 "██║░░░░░███████╗╚██████╔╝╚██████╔╝░░░░░░╚█████╔╝╚█████╔╝██║░╚███║██║░░░░░██║╚██████╔╝
 "╚═╝░░░░░╚══════╝░╚═════╝░░╚═════╝░░░░░░░░╚════╝░░╚════╝░╚═╝░░╚══╝╚═╝░░░░░╚═╝░╚═════╝░
 "
+" These are just some more general configurations which
+" i consider do not require their own configuration file.
 " Always show tabs
 set showtabline=2
 
