@@ -71,9 +71,7 @@ let g:tokyonight_enable_italic = 0
 
 set background=dark
 
-if has('termguicolors')
-  set termguicolors
-endif
+set termguicolors
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
