@@ -22,7 +22,7 @@
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
 	source ~/AppData/Local/nvim/plugins/airline.vim
 	source ~/AppData/Local/nvim/plugins/ale.vim
-	" source ~/AppData/Local/nvim/plugins/lualine.vim
+	source ~/AppData/Local/nvim/plugins/deoplete-config.vim
 	"	Lang tools
 	source ~/AppData/Local/nvim/langs/lang.vim
 	" Key Maps

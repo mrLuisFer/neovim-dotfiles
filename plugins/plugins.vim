@@ -55,7 +55,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "
 " Stable version of coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Close pairs () [] {} ''
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
@@ -80,7 +80,14 @@ Plug 'glepnir/dashboard-nvim'
 " --- Airline Extensions ----------------------------
 Plug 'dense-analysis/ale'
 
-
+" Deoplete
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
