@@ -52,6 +52,32 @@ else
   set signcolumn=yes
 endif
 
+"------------------------Check Python3 Host Script------------------"
+if has("win32") || has("win64") || has("win16")
+	let g:python3_host_prog = 'C:\Python39\python.exe'
+endif
+
+function! Check_python()
+	if has("python3")
+		echomsg "python3 detected"
+		if !exists("g:os")
+			if has("win64") || has("win32") || has("win16")
+				let g:os = "Windows"
+			else
+				let g:os = substitute(system("uname"), '\ņ', '', '')
+			endif
+		endif
+		if g:os == "Windows"
+			let g:python3_host_prog = system('scoop which python')
+		elseif g:os == 'Linux' || g:os == 'Unix'
+			let g:python3_host_prog = system('which python3')
+		endif
+	else
+		echoerr 'Python 3 support needed'
+	endif
+endfunction
+"-------------------------------------------------------------------"
+
 "-------------------------------Windows Scroll-------------------------------"
 " For disable scroll in windows you need install NeovimQt
 " https://github.com/equalsraf/neovim-qt
