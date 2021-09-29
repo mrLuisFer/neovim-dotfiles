@@ -70,6 +70,8 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Sources-------------------------------"
+" Lua config
+lua require('plugins')
 if has("win32") || has("win64") || has("win16")
 	source ~/AppData/Local/nvim/pluginCalls/windows.vim
 elseif has("unix") || has("osxdarwin")
