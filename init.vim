@@ -28,6 +28,9 @@ set guioptions-=T
 set guioptions-=L
 set cursorline
 set nocompatible
+
+" Always show tabs
+set showtabline=2
 "-----------------------------------------------------------------
 "------------------------Check Python3 Host Script------------------"
 if has("win32") || has("win64") || has("win16")
@@ -75,6 +78,7 @@ endif
 lua require('plugins')
 lua require('treelua-config')
 lua require('staline-config')
+lua require('bufferline-config')
 
 if has("win32") || has("win64") || has("win16")
   source ~/AppData/Local/nvim/pluginCalls/windows.vim

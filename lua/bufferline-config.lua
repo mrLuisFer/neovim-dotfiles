@@ -1,5 +1,5 @@
-lua << EOF
-require('bufferline').setup{
+-- Bufferline
+require('bufferline').setup {
   options = {
     numbers = "none",
     close_command = "bdelete! %d",
@@ -20,7 +20,7 @@ require('bufferline').setup{
     max_name_length = 18,
     max_prefix_length = 15, -- prefix used when a buffer is de-duplicated
     tab_size = 18,
-    diagnostics = "nvim_lsp",
+    diagnostics = "coc", --nvim_lsp,
     diagnostics_indicator = function(count, level, diagnostics_dict, context)
         local icon = level:match("error") and " " or " "
         return " " .. icon .. count
@@ -63,7 +63,7 @@ require('bufferline').setup{
             local warning = vim.lsp.diagnostic.get_count(0, [[Warning]])
             local info = vim.lsp.diagnostic.get_count(0, [[Information]])
             local hint = vim.lsp.diagnostic.get_count(0, [[Hint]])
-            
+
             if error ~= 0 then
                 table.insert(result, {text = "  " .. error, guifg = "#EC5241"})
             end
@@ -80,5 +80,3 @@ require('bufferline').setup{
         end,
     }
 }
-EOF
-
