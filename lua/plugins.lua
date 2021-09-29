@@ -63,8 +63,10 @@ return require('packer').startup(function()
   -- NerdCommenter
   use 'preservim/nerdcommenter'
   -- Airline
-  use 'vim-airline/vim-airline'
-  use 'vim-airline/vim-airline-themes'
+  -- use 'vim-airline/vim-airline'
+  -- use 'vim-airline/vim-airline-themes'
+	-- Staline
+	use 'tamton-aquib/staline.nvim'
   -- Stable version of coc
   use {
     'neoclide/coc.nvim',

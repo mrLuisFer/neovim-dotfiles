@@ -73,7 +73,8 @@ endif
 "-------------------------------Sources-------------------------------"
 " Lua config
 lua require('plugins')
-lua require('treelua')
+lua require('treelua-config')
+lua require('staline-config')
 
 if has("win32") || has("win64") || has("win16")
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
