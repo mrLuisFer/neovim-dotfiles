@@ -104,6 +104,8 @@ Plug 'mattn/emmet-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 " Vim JSX Improve
 Plug 'chemzqm/vim-jsx-improve'
+" Vim JSX Typescript
+Plug 'peitalin/vim-jsx-typescript'
 " Vim Prettier
 Plug 'prettier/vim-prettier'
 " SCSS Syntax
