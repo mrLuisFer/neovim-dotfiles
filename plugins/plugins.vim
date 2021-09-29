@@ -1,41 +1,4 @@
-call plug#begin('~/.vim/plugged')
-"--------------------------- THEMES -----------------------------------
-Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
-Plug 'sheerun/vim-polyglot'
-Plug 'joshdick/onedark.vim'
-Plug 'safv12/andromeda.vim'
-Plug 'ghifarit53/tokyonight-vim'
-" Dracula Theme
-Plug 'dracula/vim', { 'as': 'dracula' }
-" Space Vim Theme
-Plug 'liuchengxu/space-vim-theme'
-" Spacegray Theme
-Plug 'ackyshake/Spacegray.vim'
-" Edge Theme -> https://github.com/sainnhe/edge/blob/master/doc/edge.txt
-Plug 'sainnhe/edge'
-" Sonokai Theme -> https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt
-Plug 'sainnhe/sonokai'
-" Oceanic Next Theme
-Plug 'mhartington/oceanic-next'
-" Oceanic Material
-Plug 'glepnir/oceanic-material'
-"" Eveforest Theme -> https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt
-Plug 'sainnhe/everforest'
-" VsCode Theme
-Plug 'dunstontc/vim-vscode-theme' " As <dark_plus>
-" Miramare theme
-Plug 'franbach/miramare'
-" Emberk theme
-Plug 'embark-theme/vim', { 'as': 'embark' }
-" Awesome Vim Plugins -> by rufi
-Plug 'rafi/awesome-vim-colorschemes'
-" Rose Pine Theme
-Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
-" Catppuccino Theme
-Plug 'Pocco81/Catppuccino.nvim'
-" -----------------------------------------------------------------
-
+all plug#begin('~/.vim/plugged')
 "--------------------------- IDE -----------------------------------
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k

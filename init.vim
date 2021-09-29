@@ -19,7 +19,7 @@ set ruler
 set encoding=UTF-8
 set showmatch
 set sw=2
-set relativenumber
+" set relativenumber
 set hlsearch
 let mapleader = " "
 set laststatus=2
@@ -72,12 +72,14 @@ endif
 "-------------------------------Sources-------------------------------"
 " Lua config
 lua require('plugins')
+lua require('treelua')
+
 if has("win32") || has("win64") || has("win16")
-	source ~/AppData/Local/nvim/pluginCalls/windows.vim
+  source ~/AppData/Local/nvim/pluginCalls/windows.vim
 elseif has("unix") || has("osxdarwin")
-	source $HOME/.config/nvim/pluginCalls/unix.vim
+  source $HOME/.config/nvim/pluginCalls/unix.vim
 else
-	echoerr "Unsupported platform"
+  echoerr "Unsupported platform"
 endif
 "-----------------------------------------------------------------
 
