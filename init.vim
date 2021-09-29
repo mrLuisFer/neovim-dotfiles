@@ -33,14 +33,14 @@ set nocompatible
 set showtabline=2
 "-----------------------------------------------------------------
 "------------------------Check Python3 Host Script------------------"
-if has("win32") || has("win64") || has("win16")
+if has("win32") || has("win64") || has("win16") || has('win95') || has('windows')
 	let g:python3_host_prog = 'C:\Python39\python.exe'
 
 	function! Check_python()
 		if has("python3")
 			echomsg "python3 detected"
 			if !exists("g:os")
-				if has("win64") || has("win32") || has("win16")
+				if has("win64") || has("win32") || has("win16") || has('win95') || has('windows')
 					let g:os = "Windows"
 				else
 					let g:os = substitute(system("uname"), '\ņ', '', '')
@@ -60,7 +60,7 @@ endif
 "-------------------------------Windows Scroll-------------------------------"
 " For disable scroll in windows you need install NeovimQt
 " https://github.com/equalsraf/neovim-qt
-if has("win32") || has("win64") || has("win16")
+if has("win32") || has("win64") || has("win16") || has('win95') || has('windows')
 	" Enable GUI Scrollbar
 	if exists(':GuiScrollBar')
 		GuiScrollBar 1
@@ -80,7 +80,7 @@ lua require('treelua-config')
 lua require('staline-config')
 lua require('bufferline-config')
 
-if has("win32") || has("win64") || has("win16")
+if has("win32") || has("win64") || has("win16") || has('win95') || has('windows')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
 elseif has("unix") || has("osxdarwin")
   source $HOME/.config/nvim/pluginCalls/unix.vim

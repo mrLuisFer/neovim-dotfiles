@@ -17,7 +17,7 @@ let g:dashboard_custom_shortcut={
 
 " Ascii Header
 " https://github.com/glepnir/dashboard-nvim/wiki/Ascii-Header-Text
-if has('win32') || has('win64') || has('win16')
+if has('win32') || has('win64') || has('win16') || has('win95') || has('windows')
   source ~/AppData/Local/nvim/plugins/nvim_dashboard_ascii.vim
 elseif has('unix') || has('linux')
   source $HOME/.config/nvim/plugins/nvim_dashboard_ascii.vim
