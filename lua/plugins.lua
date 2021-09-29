@@ -1,3 +1,5 @@
+local use = require('packer').use
+
 -- Packer
 return require('packer').startup(function()
   -- IDE
@@ -62,9 +64,6 @@ return require('packer').startup(function()
   use 'kyazdani42/nvim-web-devicons'
   -- NerdCommenter
   use 'preservim/nerdcommenter'
-  -- Airline
-  -- use 'vim-airline/vim-airline'
-  -- use 'vim-airline/vim-airline-themes'
 	-- Staline
 	use 'tamton-aquib/staline.nvim'
   -- Stable version of coc
