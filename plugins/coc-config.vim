@@ -59,7 +59,7 @@ function! s:show_documentation()
 endfunction
 
 " Highlight the symbol and its references when holding the cursor.
-" autocmd CursorHold * silent call CocActionAsync('highlight')
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
 augroup mygroup
   autocmd!
@@ -173,3 +173,19 @@ let g:coc_explorer_global_presets = {
 \   }
 \ }
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+
+" Ignore errors
+function Null(error, response) abort
+endfunction
+" Documentation on hover
+augroup hover
+	autocmd!
+	autocmd CursorHold * if !coc#float#has_float()
+		\| call CocActionAsync('doHover', 'float', function('Null'))
+		\| call CocActionAsync('highlight', function('Null'))
+	\| endif
+	autocmd CursorHoldI * if CocAction('ensureDocument')
+		\|silent call CocAction('showSignatureHelp')
+	\| endif
+augroup end
