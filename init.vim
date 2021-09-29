@@ -27,6 +27,7 @@ set backspace=2
 set guioptions-=T
 set guioptions-=L
 set cursorline
+set nocompatible
 "-----------------------------------------------------------------
 "------------------------Check Python3 Host Script------------------"
 if has("win32") || has("win64") || has("win16")
