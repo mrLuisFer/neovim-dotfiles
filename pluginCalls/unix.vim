@@ -18,7 +18,5 @@
 	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
 	source $HOME/.config/nvim/plugins/ale.vim
-	"	Lang tools
-	source $HOME/.config/nvim/langs/lang.vim
 	" Key Maps
 	source $HOME/.config/nvim/nmaps/nmaps.vim

@@ -96,7 +96,23 @@ return require('packer').startup(function()
   use 'glepnir/dashboard-nvim'
   --- Ale
   use 'dense-analysis/ale'
-  -----------------------------------------------------------------
+	-- Bufferline
+  use 'akinsho/nvim-bufferline.lua'
+
+  ---------------------- Langs ------------------------------
+	-- Rust
+  use 'rust-lang/rust.vim'
+	-- Elixir
+  use 'elixir-editors/vim-elixir'
+  use 'mhinz/vim-mix-format'
+	-- Python
+	use 'ambv/black'
+	-- Editor Config
+	use 'editorconfig/editorconfig-vim'
+	-- Powershell
+	use 'pprovost/vim-ps1'
+	-----------------------------------------------------------------
+
   ---------------------- Integrations ------------------------------
   -- colorizer plugin for #fe4918
   use 'norcalli/nvim-colorizer.lua'
@@ -131,16 +147,13 @@ return require('packer').startup(function()
   }
   -- Vim Typescript
   use 'leafgarland/typescript-vim'
-  -- EditorConfig
-  use 'editorconfig/editorconfig-vim'
   -- Svelte
   use 'evanleck/vim-svelte'
+	-- Golang
   use {
     'fatih/vim-go',
     run = ':GoUpdateBinaries'
   }
-  ---------------------------- Bufferline -------------------------------
-  use 'akinsho/nvim-bufferline.lua'
   -----------------------------------------------------------------
 
 end)
