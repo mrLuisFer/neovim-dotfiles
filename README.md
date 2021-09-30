@@ -70,7 +70,7 @@ When cloning the repository, in case the folder is named _neovim-dotfiles_, chan
 
 For **Windows** run one of the two commands within **powershell**, you can use **choco** or **scoop**
 
-```
+```bash
 $ scoop install neovim
 
 # Or
@@ -80,10 +80,15 @@ $ choco install neovim -y
 
 And for **Linux** and **MacOs** : [neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
+or see this custom gist, on how to install Neovim on different Linux distributions:
+- [gist.github.com/mrLuisFer/install-neovim](https://gist.github.com/mrLuisFer/19b8bc00d7e1295a1a7453a010b5d623)
+
 Also you need install python neovim support.
 
 ```bash
 $ sudo apt-get install python3-neovim
+
+$ pip install pynvim
 ```
 
 ### 🌙 Install Manager:
