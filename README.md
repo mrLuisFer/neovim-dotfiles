@@ -1,10 +1,8 @@
 # 📗 mrLuisFer's - Neovim Config
 
-![](./doc/screenshot-init-vim.PNG)
+![Neovim Preview](./doc/screenshot-init-vim.PNG)
 
 An explanation of how to use this config in Windows is in [this video - Youtube.com](https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A)
-
-Leer el [readme en español?](./README-es.md)
 
 ## ⚡ About
 
@@ -82,44 +80,37 @@ $ choco install neovim -y
 
 And for **Linux** and **MacOs** : [neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
-### 🌙 Install Manager:
-
-In this config use vim plug to handle and install plugins
-
-To install **Vim Plug** you can run any of these commands
-
-Linux, Unix
-
-```bash
-  sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-```
-
-Linux (Flatpak)
-
-```bash
-curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-Windows (Powershell)
-
-```bash
-iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
-  ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
-```
-
-More information about vim plug:
-
-- [Documentation](https://github.com/junegunn/vim-plug)
-- [Tutorial](https://github.com/junegunn/vim-plug/wiki/tutorial)
-- [Requirements](https://github.com/junegunn/vim-plug/wiki/requirements)
-
-Also you need install python neovim support
+Also you need install python neovim support.
 
 ```bash
 $ sudo apt-get install python3-neovim
 ```
+
+### 🌙 Install Manager:
+
+In this config use **packer** to handle and install plugins.
+
+To install **Packer.nvim** you can run any of these commands
+
+Linux, Unix
+
+```bash
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+If you use Arch Linux, there is also an [AUR package.](https://aur.archlinux.org/packages/nvim-packer-git/)
+
+Windows (Powershell)
+
+```bash
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+```
+
+More information about vim plug:
+
+- [Documentation](https://github.com/wbthomason/packer.nvim)
+- [Tips and Tricks](https://github.com/wbthomason/packer.nvim/wiki/Tips-and-Tricks)
+- [Requirements](https://github.com/wbthomason/packer.nvim#requirements)
 
 ### 📘 Setup Windows:
 
@@ -134,6 +125,10 @@ $ mkdir nvim
 
 $ cd nvim
 ```
+
+If you want to test another branch, change `main` to to the name of the branch you want to test
+
+But the main branch is so to speak the stable version
 
 ```bash
 $ git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
