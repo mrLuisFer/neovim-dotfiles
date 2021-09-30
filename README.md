@@ -1,17 +1,17 @@
-# 📗 mrLuisFer's - Neovim Config
+# 📗  mrLuisFer's - Neovim Config
 
 ![Neovim Preview](./doc/screenshot-init-vim.PNG)
 
 An explanation of how to use this config in Windows is in [this video - Youtube.com](https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A)
 
-## ⚡ About
+## ⚡  About
 
 This is my personal config and adapted to my needs, but it can be easily adapted to any config, as well as separate vim files
 
 This will be adapted for **Windows** and **Linux** systems
 And they will correct things in the future
 
-### 🌱 Contribute
+### 🌱  Contribute
 
 You can contribute by making a **pull request** with any _fix_ or _feature_ that you want to add :D
 
@@ -42,7 +42,7 @@ If you don't have an idea, you can follow these steps:
 
 And do a **pull request** to the **main** branch
 
-### 📦 Requirements
+### 📦  Requirements
 
 - **Vim-Plug**
 
@@ -52,7 +52,7 @@ And do a **pull request** to the **main** branch
 
 - **Neovim** C:
 
-## 🔥 Important
+## 🔥  Important
 
 For a good operation of this configuration and to take **advantage of all** the Plugins, we recommend you to use **📗 version 0.5 or higher** that adds many improvements and support for many things
 
@@ -62,11 +62,11 @@ More information below:
 
 - [Releases](https://github.com/neovim/neovim/releases)
 
-## 🦄 Usage
+## 🦄  Usage
 
 When cloning the repository, in case the folder is named _neovim-dotfiles_, change the name to **nvim** so that Neovim recognizes it
 
-### 📚 Install Neovim:
+### 📚  Install Neovim:
 
 For **Windows** run one of the two commands within **powershell**, you can use **choco** or **scoop**
 
@@ -91,7 +91,7 @@ $ sudo apt-get install python3-neovim
 $ pip install pynvim
 ```
 
-### 🌙 Install Manager:
+### 🌙  Install Manager:
 
 In this config use **packer** to handle and install plugins.
 
@@ -117,7 +117,7 @@ More information about vim plug:
 - [Tips and Tricks](https://github.com/wbthomason/packer.nvim/wiki/Tips-and-Tricks)
 - [Requirements](https://github.com/wbthomason/packer.nvim#requirements)
 
-### 📘 Setup Windows:
+### 📘  Setup Windows:
 
 ```
 $ cd %APPDATA\Local\nvim
@@ -141,7 +141,7 @@ $ git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
 # echo "Cloned the configuration :D"
 ```
 
-### 🐧 Setup Linux:
+### 🐧  Setup Linux:
 
 ```bash
 $ mkdir -p $HOME/.config/nvim
@@ -153,7 +153,7 @@ $ git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
 # echo "Cloned the configuration :D"
 ```
 
-### 🍎 Setup MacOs:
+### 🍎  Setup MacOs:
 
 ```bash
 $ mkdir -p $HOME/.config/nvim
@@ -165,13 +165,13 @@ $ git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
 # "Cloned the configuration :D"
 ```
 
-### 🌈 Colorschemes
+### 🌈  Colorschemes
 
 If you do not like the color that comes by default, you can execute the command inside **neovim:** `:colorscheme + TAB` and you will see a list of themes that you can select
 
 When you find one you like, go to `init.vim` and search with _neovim_ `/colorscheme` and write down the name of the **theme** you want to use.
 
-## 🐊 CoC Extensions
+## 🐊  CoC Extensions
 
 [Whats Coc?](https://github.com/neoclide/coc.nvim)
 
@@ -185,14 +185,14 @@ Install extensions like:
 
 [You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
-## ⚠ Warning
+## ⚠  Warning
 
 It may be that when you enter the cloned configuration in nvim for the first time, you will get multiple errors
 
 But don't worry just press `Enter` and run this command **:PlugInstall**
 Several plugins will be downloaded, then **exit and enter neovim again**
 
-## 🐙 Change Repository
+## 🐙  Change Repository
 
 If you want to change the repository using this config, but with your own configurations and / or adapt to your needs
 
@@ -216,7 +216,7 @@ $ git remote remove origin
 $ git remote add origin <url del repo>
 ```
 
-## 📔 Vim Dashboard
+## 📔  Vim Dashboard
 
 ![vim Dashboard](./doc/dashboard.png)
 
@@ -240,14 +240,14 @@ And obviously you can check out the original repository from **vim dashboard cre
 
 - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
 
-## ⚙ RipGrep
+## ⚙  RipGrep
 
 To **install RipGrep** on your pc you can use one of the following commands
 
 If you're a **macOS Homebrew** or a **Linuxbrew** user, then you can install
 ripgrep from homebrew-core:
 
-### 🍎 MacOs
+### 🍎  MacOs
 
 ```bash
 $ brew install ripgrep
@@ -260,7 +260,7 @@ If you're a **MacPorts** user, then you can install ripgrep from the
 $ sudo port install ripgrep
 ```
 
-### 📘 Windows
+### 📘  Windows
 
 If you're a **Windows Chocolatey** user, then you can install ripgrep from the
 [official repo](https://chocolatey.org/packages/ripgrep):
@@ -276,7 +276,7 @@ If you're a **Windows Scoop** user, then you can install ripgrep from the
 $ scoop install ripgrep
 ```
 
-### 🐧 Linux
+### 🐧  Linux
 
 If you're an **Arch Linux** user, then you can install ripgrep from the official repos:
 
