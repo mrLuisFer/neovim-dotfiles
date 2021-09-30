@@ -50,3 +50,8 @@ let g:ale_completion_symbols = {
   \ 'type_parameter': 'type param',
   \ '<default>': 'v'
   \ }
+
+" Golang Linter
+let g:ale_linters = {
+  \ 'go': ['gopls'],
+  \}
