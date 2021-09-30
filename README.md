@@ -185,7 +185,7 @@ Install extensions like:
 
 [You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
-### 🥐  Insall Lua
+## 🥐  Insall Lua
 
 For some plugins or extensions that require Lua, it is advisable to have the Lua language and Luarocks installed
 
