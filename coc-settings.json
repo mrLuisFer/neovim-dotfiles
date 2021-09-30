@@ -53,6 +53,8 @@
   "eslint.autoFixOnSave": true,
   "tsserver.formatOnType": true,
   "eslint.run": "onSave",
+  "suggest.labelMaxLength": 40,
+  "diagnostic.virtualTextCurrentLineOnly": false,
   "languageserver": {
     "golang": {
       "command": "gopls",

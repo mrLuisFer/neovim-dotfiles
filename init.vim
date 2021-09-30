@@ -19,7 +19,7 @@ set ruler
 set encoding=UTF-8
 set showmatch
 set sw=2
-set relativenumber
+" set relativenumber
 set hlsearch
 let mapleader = " "
 set laststatus=2
@@ -27,16 +27,20 @@ set backspace=2
 set guioptions-=T
 set guioptions-=L
 set cursorline
+set nocompatible
+
+" Always show tabs
+set showtabline=2
 "-----------------------------------------------------------------
 "------------------------Check Python3 Host Script------------------"
-if has("win32") || has("win64") || has("win16")
+if has("win32") || has("win64") || has("win16") || has('win95')
 	let g:python3_host_prog = 'C:\Python39\python.exe'
 
 	function! Check_python()
 		if has("python3")
 			echomsg "python3 detected"
 			if !exists("g:os")
-				if has("win64") || has("win32") || has("win16")
+				if has("win64") || has("win32") || has("win16") || has('win95')
 					let g:os = "Windows"
 				else
 					let g:os = substitute(system("uname"), '\ņ', '', '')
@@ -56,7 +60,7 @@ endif
 "-------------------------------Windows Scroll-------------------------------"
 " For disable scroll in windows you need install NeovimQt
 " https://github.com/equalsraf/neovim-qt
-if has("win32") || has("win64") || has("win16")
+if has("win32") || has("win64") || has("win16") || has('win95')
 	" Enable GUI Scrollbar
 	if exists(':GuiScrollBar')
 		GuiScrollBar 1
@@ -70,12 +74,18 @@ endif
 "-----------------------------------------------------------------
 
 "-------------------------------Sources-------------------------------"
-if has("win32") || has("win64") || has("win16")
-	source ~/AppData/Local/nvim/pluginCalls/windows.vim
+" Lua config
+lua require('plugins')
+lua require('treelua-config')
+lua require('staline-config')
+lua require('bufferline-config')
+
+if has("win32") || has("win64") || has("win16") || has('win95')
+  source ~/AppData/Local/nvim/pluginCalls/windows.vim
 elseif has("unix") || has("osxdarwin")
-	source $HOME/.config/nvim/pluginCalls/unix.vim
+  source $HOME/.config/nvim/pluginCalls/unix.vim
 else
-	echoerr "Unsupported platform"
+  echoerr "Unsupported platform"
 endif
 "-----------------------------------------------------------------
 
