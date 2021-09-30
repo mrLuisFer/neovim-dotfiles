@@ -185,6 +185,19 @@ Install extensions like:
 
 [You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
+### 🥐  Insall Lua
+
+For some plugins or extensions that require Lua, it is advisable to have the Lua language and Luarocks installed
+
+- [Download Lua](https://www.lua.org/download.html)
+- [Install Luarocks](https://opensource.com/article/19/11/getting-started-luarocks)
+- [github/Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp)
+
+And install Lua-lsp
+```bash
+$ luarocks install --server=http://luarocks.org/dev lua-lsp
+```
+
 ## ⚠  Warning
 
 It may be that when you enter the cloned configuration in nvim for the first time, you will get multiple errors
