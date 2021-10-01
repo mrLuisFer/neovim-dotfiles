@@ -18,6 +18,8 @@ xnoremap J :move '>+1<CR>gv-gv
 vnoremap < <gv
 vnoremap > >gv
 
+  " Save and close
+nmap <leader>x :x <CR>
 "save file
 "guardar archivo
 nmap <leader>w :w <CR>
