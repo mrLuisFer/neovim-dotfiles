@@ -54,6 +54,7 @@ return require('packer').startup(function()
   -- Navigate with C-h C-l C-j C-k
   -- Navegar con C-h C-l C-j C-k
   use 'christoomey/vim-tmux-navigator'
+
   -- Nvim Tree Lua
   use {
     'kyazdani42/nvim-tree.lua',
@@ -74,6 +75,7 @@ return require('packer').startup(function()
   -- Close pairs () [] {} ''
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
+
   -- FZF
   use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
   use 'junegunn/fzf.vim'
@@ -86,11 +88,6 @@ return require('packer').startup(function()
   use 'psliwka/vim-smoothie'
   -- Vim Clap
   use 'liuchengxu/vim-clap'
-
-  -- if has('win32') || has('win64')
-  -- " NeovimQt Plugin
-  -- Plug 'equalsraf/neovim-gui-shim'
-  -- endif
 
   -- Vim Dashboard
   use 'glepnir/dashboard-nvim'
@@ -111,8 +108,6 @@ return require('packer').startup(function()
   use 'elixir-editors/vim-elixir'
 	-- Editor Config
 	use 'editorconfig/editorconfig-vim'
-	-- Powershell
-	use 'pprovost/vim-ps1'
 	-----------------------------------------------------------------
 
   ---------------------- Integrations ------------------------------
@@ -148,11 +143,10 @@ return require('packer').startup(function()
   use 'leafgarland/typescript-vim'
   -- Svelte
   use 'evanleck/vim-svelte'
+
 	-- Golang
   use {
     'fatih/vim-go',
     run = ':GoUpdateBinaries'
   }
-  -----------------------------------------------------------------
-
 end)
