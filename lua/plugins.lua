@@ -99,14 +99,16 @@ return require('packer').startup(function()
 	-- Bufferline
   use 'akinsho/nvim-bufferline.lua'
 
+  -- Treesitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
   ---------------------- Langs ------------------------------
 	-- Rust
   use 'rust-lang/rust.vim'
 	-- Elixir
   use 'elixir-editors/vim-elixir'
-  use 'mhinz/vim-mix-format'
-	-- Python
-	use 'ambv/black'
 	-- Editor Config
 	use 'editorconfig/editorconfig-vim'
 	-- Powershell
@@ -125,8 +127,6 @@ return require('packer').startup(function()
   use 'mattn/emmet-vim'
   -- JSX Syntax
   use 'maxmellon/vim-jsx-pretty'
-  -- Vim JSX Improve
-  use 'chemzqm/vim-jsx-improve'
   -- Vim JSX Typescript
   use 'peitalin/vim-jsx-typescript'
   -- Vim Prettier
@@ -136,7 +136,6 @@ return require('packer').startup(function()
   -- Seti.vim
   use 'trusktr/seti.vim'
   -- Vim React Snippets
-  -- Plug 'SirVer/ultisnips'
   use 'mlaursen/vim-react-snippets'
   -- Vim Javascript
   use 'pangloss/vim-javascript'

@@ -76,9 +76,10 @@ endif
 "-------------------------------Sources-------------------------------"
 " Lua config
 lua require('plugins')
-lua require('treelua-config')
+" lua require('treelua-config')
 lua require('staline-config')
 lua require('bufferline-config')
+lua require('treesitter-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
@@ -109,8 +110,8 @@ set termguicolors
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
-colorscheme tokyonight
-" colorscheme gruvbox
+" colorscheme tokyonight
+colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
