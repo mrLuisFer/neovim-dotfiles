@@ -67,11 +67,11 @@ return require('packer').startup(function()
   use 'preservim/nerdcommenter'
 	-- Staline
 	use 'tamton-aquib/staline.nvim'
-  -- Stable version of coc
-  --use {
-  --  'neoclide/coc.nvim',
-  --  branch = 'release'
-  --}
+  -- Lua Completion
+  use 'nvim-lua/completion-nvim'
+  -- LSP Config
+  use 'neovim/nvim-lspconfig'
+  use 'williamboman/nvim-lsp-installer'
   -- Close pairs () [] {} ''
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'

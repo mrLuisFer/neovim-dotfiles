@@ -30,7 +30,6 @@ nmap <leader>q :q <CR>
 nmap <leader>so :so%<CR>
 "search commands
 "comandos de busqueda
-nmap <leader>gs  :CocSearch
 nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 
@@ -58,8 +57,6 @@ nnoremap <silent>be :BufferLineSortByExtension<CR>
 nnoremap <silent>bd :BufferLineSortByDirectory<CR>
 
 nnoremap <silent> gb :BufferLinePick<CR>
-
-nmap <space>f :CocCommand explorer --preset floating<CR>
 
 "" INFO: NVIM-DASHBOARD.vim
 nmap <Leader>ss :<C-u>SessionSave<CR>

@@ -92,10 +92,11 @@ endif
 "-------------------------------Sources-------------------------------"
 " Lua config
 lua require('plugins')
-" lua require('treelua-config')
+lua require('treelua-config')
 lua require('staline-config')
 lua require('bufferline-config')
 lua require('treesitter-config')
+lua require('lua-completion-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim

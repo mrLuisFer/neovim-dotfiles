@@ -16,5 +16,6 @@
 	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
 	source $HOME/.config/nvim/plugins/ale.vim
+  source $HOME/.config/nvim/plugins/lua_completion_config.vim
 	" Key Maps
 	source $HOME/.config/nvim/nmaps/nmaps.vim
