@@ -10,8 +10,8 @@ set completeopt=menuone,noinsert,noselect
 
 " Enable/Disable auto popup
 let g:completion_enable_auto_popup = 1
-"imap <tab> <use>(completion_smart_tab)
-"imap <s-tab> <use>(completion_smart_s_tab)
+imap <tab> <Plug>(completion_smart_tab)
+imap <s-tab> <Plug>(completion_smart_s_tab)
 
 " Enable Snippets Support
 " possible value: 'UltiSnips', 'Neosnippet', 'vim-vsnip', 'snippets.nvim'
