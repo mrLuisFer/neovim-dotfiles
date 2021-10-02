@@ -8,7 +8,7 @@ require'nvim-tree'.setup {
   open_on_tab         = false,
   hijack_cursor       = false,
   update_cwd          = false,
-  lsp_diagnostics     = false,
+  lsp_diagnostics     = true,
   update_focused_file = {
     enable      = false,
     update_cwd  = false,

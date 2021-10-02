@@ -10,18 +10,18 @@ set completeopt=menuone,noinsert,noselect
 
 " Enable/Disable auto popup
 let g:completion_enable_auto_popup = 1
-imap <tab> <use>(completion_smart_tab)
-imap <s-tab> <use>(completion_smart_s_tab)
+"imap <tab> <use>(completion_smart_tab)
+"imap <s-tab> <use>(completion_smart_s_tab)
 
 " Enable Snippets Support
 " possible value: 'UltiSnips', 'Neosnippet', 'vim-vsnip', 'snippets.nvim'
-let g:completion_enable_snippet = 'snippets.vim'
+let g:completion_enable_snippet = 'UltiSnips'
 
 " Enable/Disable auto hover
 let g:completion_enable_auto_hover = 0
 
 " Enable/Disable auto signature
-let g:completion_enable_auto_signature = 1
+let g:completion_enable_auto_signature = 0
 
 " Sorting completion items
 " possible value: "length", "alphabet", "none"
