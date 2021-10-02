@@ -149,4 +149,5 @@ return require('packer').startup(function()
     'fatih/vim-go',
     run = ':GoUpdateBinaries'
   }
+  -----------------------------------------------------------------
 end)

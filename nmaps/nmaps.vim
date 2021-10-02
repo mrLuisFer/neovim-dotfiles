@@ -4,7 +4,6 @@
 " and thus not overwriting one that is already in use
 "------------------------------------------------------------------------------------
 
-""" INFO: INIT.vim
 " Get out of insert mode
 "Salir de modo insertar
 imap jk <Esc>
@@ -18,7 +17,7 @@ xnoremap J :move '>+1<CR>gv-gv
 vnoremap < <gv
 vnoremap > >gv
 
-  " Save and close
+" Save and close
 nmap <leader>x :x <CR>
 "save file
 "guardar archivo
@@ -52,10 +51,8 @@ nmap <leader>bd :bdelete<CR>
 """ INFO: Bufferline.vim
 nnoremap <silent>[b :BufferLineCycleNext<CR>
 nnoremap <silent>b] :BufferLineCyclePrev<CR>
-
 nnoremap <silent>be :BufferLineSortByExtension<CR>
 nnoremap <silent>bd :BufferLineSortByDirectory<CR>
-
 nnoremap <silent> gb :BufferLinePick<CR>
 
 "" INFO: NVIM-DASHBOARD.vim
