@@ -9,8 +9,6 @@
 	source ~/AppData/Local/nvim/themes/emberk.vim
 	" Plugins
 	source ~/AppData/Local/nvim/plugins/plugins_config.vim
-	source ~/AppData/Local/nvim/plugins/coc-config.vim
-	source ~/AppData/Local/nvim/plugins/coc-extensions.vim
 	source ~/AppData/Local/nvim/plugins/vim-javascript.vim
 	source ~/AppData/Local/nvim/plugins/vim-typescript.vim
 	source ~/AppData/Local/nvim/plugins/vim-prettier.vim
