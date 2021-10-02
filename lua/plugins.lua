@@ -68,10 +68,10 @@ return require('packer').startup(function()
 	-- Staline
 	use 'tamton-aquib/staline.nvim'
   -- Stable version of coc
-  use {
-    'neoclide/coc.nvim',
-    branch = 'release'
-  }
+  --use {
+  --  'neoclide/coc.nvim',
+  --  branch = 'release'
+  --}
   -- Close pairs () [] {} ''
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
