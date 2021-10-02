@@ -97,6 +97,7 @@ lua require('staline-config')
 lua require('bufferline-config')
 lua require('treesitter-config')
 lua require('lua-completion-config')
+lua require('lsp-installer')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
