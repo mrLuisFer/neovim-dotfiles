@@ -9,8 +9,6 @@
 	source $HOME/.config/nvim/themes/emberk.vim
 	" Plugins
 	source $HOME/.config/nvim/plugins/plugins_config.vim
-	source $HOME/.config/nvim/plugins/coc-config.vim
-	source $HOME/.config/nvim/plugins/coc-extensions.vim
 	source $HOME/.config/nvim/plugins/vim-javascript.vim
 	source $HOME/.config/nvim/plugins/vim-typescript.vim
 	source $HOME/.config/nvim/plugins/vim-prettier.vim
@@ -18,5 +16,6 @@
 	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
 	source $HOME/.config/nvim/plugins/ale.vim
+  source $HOME/.config/nvim/plugins/lua_completion_config.vim
 	" Key Maps
 	source $HOME/.config/nvim/nmaps/nmaps.vim
