@@ -69,4 +69,5 @@ nnoremap <C-n> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
 nnoremap <leader>e :NvimTreeOpen<CR>
+
 " NvimTreeOpen, NvimTreeClose and NvimTreeFocus are also available if you need them

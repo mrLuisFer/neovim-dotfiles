@@ -19,7 +19,7 @@ imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'snippets.vim'
 
 " Enable/Disable auto hover
-let g:completion_enable_auto_hover = 0
+let g:completion_enable_auto_hover = 1
 
 " Enable/Disable auto signature
 let g:completion_enable_auto_signature = 0

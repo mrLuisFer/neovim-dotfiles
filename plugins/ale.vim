@@ -33,6 +33,7 @@ function! SmartInsertCompletion() abort
   " Exit and re-enter insert mode, and use insert completion
   return "\<C-c>a\<C-n>"
 endfunction
+
 inoremap <silent> <C-n> <C-R>=SmartInsertCompletion()<CR>
 
 let g:ale_completion_symbols = {

@@ -38,7 +38,8 @@ set title
 set showtabline=2
 
 scriptencoding utf-8
-set scrolloff=10
+" set scrolloff=10
+set scrolloff=2
 
 " incremental substitution (neovim)
 if has('nvim')
@@ -172,7 +173,7 @@ set termguicolors
 
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
@@ -185,7 +186,7 @@ set termguicolors
 " colorscheme spacegray
 " colorscheme embark
 " colorscheme oceanic_material
-colorscheme NeoSolarized
+" colorscheme NeoSolarized
 "
 " these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes
