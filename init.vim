@@ -146,7 +146,7 @@ lua require('nvimlsp-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
-elseif has("unix") || has("osxdarwin")
+elseif has("unix") || has("osxdarwin") || has('linux')
   source $HOME/.config/nvim/pluginCalls/unix.vim
 else
   echoerr "Unsupported platform"
