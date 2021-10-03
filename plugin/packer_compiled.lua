@@ -93,9 +93,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/awesome-vim-colorschemes"
   },
-  ["coc.nvim"] = {
+  ["completion-nvim"] = {
     loaded = true,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/coc.nvim"
+    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/completion-nvim"
   },
   ["dashboard-nvim"] = {
     loaded = true,
@@ -166,9 +166,12 @@ _G.packer_plugins = {
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
   },
   ["nvim-tree.lua"] = {
-    config = { "\27LJ\2\2;\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0" },
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -187,13 +190,16 @@ _G.packer_plugins = {
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/onedark.vim"
   },
   ["packer.nvim"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/opt/packer.nvim"
+    loaded = true,
+    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
   ["rose-pine"] = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/rose-pine"
+  },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/rust.vim"
   },
   ["scss-syntax.vim"] = {
     loaded = true,
@@ -211,6 +217,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/space-vim-theme"
   },
+  ["staline.nvim"] = {
+    loaded = true,
+    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/staline.nvim"
+  },
   ["tokyonight-vim"] = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/tokyonight-vim"
@@ -218,14 +228,6 @@ _G.packer_plugins = {
   ["typescript-vim"] = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/typescript-vim"
-  },
-  ["vim-airline"] = {
-    loaded = true,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-airline"
-  },
-  ["vim-airline-themes"] = {
-    loaded = true,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-airline-themes"
   },
   ["vim-clap"] = {
     loaded = true,
@@ -243,6 +245,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-easymotion"
   },
+  ["vim-elixir"] = {
+    loaded = true,
+    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-elixir"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-fugitive"
@@ -254,10 +260,6 @@ _G.packer_plugins = {
   ["vim-javascript"] = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-javascript"
-  },
-  ["vim-jsx-improve"] = {
-    loaded = true,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-jsx-improve"
   },
   ["vim-jsx-pretty"] = {
     loaded = true,
@@ -310,10 +312,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\2;\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
-time([[Config for nvim-tree.lua]], false)
 if should_profile then save_profiles() end
 
 end)

@@ -1,3 +1,4 @@
+" NvimTreeLua
 let g:lua_tree_side = 'left'
 let g:lua_tree_width = 30
 let g:lua_tree_ignore = [ '.git', '.cache' ] "empty by default

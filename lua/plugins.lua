@@ -48,12 +48,17 @@ return require('packer').startup(function()
   }
   -- Catppuccino Theme
   use 'Pocco81/Catppuccino.nvim'
-
+  -- NeoSolarized
+  use {
+    'overcache/NeoSolarized',
+    as='NeoSolarized'
+  }
 -------------------------- IDE -----------------------------------
   use 'easymotion/vim-easymotion'
   -- Navigate with C-h C-l C-j C-k
   -- Navegar con C-h C-l C-j C-k
   use 'christoomey/vim-tmux-navigator'
+
   -- Nvim Tree Lua
   use {
     'kyazdani42/nvim-tree.lua',
@@ -66,14 +71,16 @@ return require('packer').startup(function()
   use 'preservim/nerdcommenter'
 	-- Staline
 	use 'tamton-aquib/staline.nvim'
-  -- Stable version of coc
-  use {
-    'neoclide/coc.nvim',
-    branch = 'release'
-  }
+  -- Lua Completion
+  use 'nvim-lua/completion-nvim'
+  -- LSP Config
+  use 'neovim/nvim-lspconfig'
+  use 'williamboman/nvim-lsp-installer'
+  use 'glepnir/lspsaga.nvim'
   -- Close pairs () [] {} ''
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
+
   -- FZF
   use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
   use 'junegunn/fzf.vim'
@@ -87,11 +94,6 @@ return require('packer').startup(function()
   -- Vim Clap
   use 'liuchengxu/vim-clap'
 
-  -- if has('win32') || has('win64')
-  -- " NeovimQt Plugin
-  -- Plug 'equalsraf/neovim-gui-shim'
-  -- endif
-
   -- Vim Dashboard
   use 'glepnir/dashboard-nvim'
   --- Ale
@@ -99,18 +101,18 @@ return require('packer').startup(function()
 	-- Bufferline
   use 'akinsho/nvim-bufferline.lua'
 
+  -- Treesitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
   ---------------------- Langs ------------------------------
 	-- Rust
   use 'rust-lang/rust.vim'
 	-- Elixir
   use 'elixir-editors/vim-elixir'
-  use 'mhinz/vim-mix-format'
-	-- Python
-	use 'ambv/black'
 	-- Editor Config
 	use 'editorconfig/editorconfig-vim'
-	-- Powershell
-	use 'pprovost/vim-ps1'
 	-----------------------------------------------------------------
 
   ---------------------- Integrations ------------------------------
@@ -125,8 +127,6 @@ return require('packer').startup(function()
   use 'mattn/emmet-vim'
   -- JSX Syntax
   use 'maxmellon/vim-jsx-pretty'
-  -- Vim JSX Improve
-  use 'chemzqm/vim-jsx-improve'
   -- Vim JSX Typescript
   use 'peitalin/vim-jsx-typescript'
   -- Vim Prettier
@@ -136,7 +136,6 @@ return require('packer').startup(function()
   -- Seti.vim
   use 'trusktr/seti.vim'
   -- Vim React Snippets
-  -- Plug 'SirVer/ultisnips'
   use 'mlaursen/vim-react-snippets'
   -- Vim Javascript
   use 'pangloss/vim-javascript'
@@ -149,11 +148,11 @@ return require('packer').startup(function()
   use 'leafgarland/typescript-vim'
   -- Svelte
   use 'evanleck/vim-svelte'
+
 	-- Golang
   use {
     'fatih/vim-go',
     run = ':GoUpdateBinaries'
   }
   -----------------------------------------------------------------
-
 end)
