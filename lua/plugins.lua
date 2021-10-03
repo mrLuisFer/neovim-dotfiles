@@ -48,7 +48,11 @@ return require('packer').startup(function()
   }
   -- Catppuccino Theme
   use 'Pocco81/Catppuccino.nvim'
-
+  -- NeoSolarized
+  use {
+    'overcache/NeoSolarized',
+    as='NeoSolarized'
+  }
 -------------------------- IDE -----------------------------------
   use 'easymotion/vim-easymotion'
   -- Navigate with C-h C-l C-j C-k

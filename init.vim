@@ -172,7 +172,7 @@ set termguicolors
 
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
@@ -185,6 +185,7 @@ colorscheme gruvbox
 " colorscheme spacegray
 " colorscheme embark
 " colorscheme oceanic_material
+colorscheme NeoSolarized
 "
 " these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes

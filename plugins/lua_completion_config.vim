@@ -15,7 +15,8 @@ imap <s-tab> <Plug>(completion_smart_s_tab)
 
 " Enable Snippets Support
 " possible value: 'UltiSnips', 'Neosnippet', 'vim-vsnip', 'snippets.nvim'
-let g:completion_enable_snippet = 'UltiSnips'
+" let g:completion_enable_snippet = 'UltiSnips'
+let g:completion_enable_snippet = 'snippets.vim'
 
 " Enable/Disable auto hover
 let g:completion_enable_auto_hover = 0
