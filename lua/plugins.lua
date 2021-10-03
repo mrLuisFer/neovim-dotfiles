@@ -72,6 +72,7 @@ return require('packer').startup(function()
   -- LSP Config
   use 'neovim/nvim-lspconfig'
   use 'williamboman/nvim-lsp-installer'
+  use 'glepnir/lspsaga.nvim'
   -- Close pairs () [] {} ''
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
