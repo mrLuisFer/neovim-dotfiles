@@ -9,9 +9,6 @@
 	source $HOME/.config/nvim/themes/emberk.vim
 	" Plugins
 	source $HOME/.config/nvim/plugins/plugins_config.vim
-	source $HOME/.config/nvim/plugins/vim-javascript.vim
-	source $HOME/.config/nvim/plugins/vim-typescript.vim
-	source $HOME/.config/nvim/plugins/vim-prettier.vim
 	source $HOME/.config/nvim/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
 	source $HOME/.config/nvim/plugins/tree-lua.vim
