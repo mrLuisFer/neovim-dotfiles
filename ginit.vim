@@ -1,8 +1,8 @@
 " Set Editor Font
-if exists(':GuiFont')
-     " Use GuiFont! to ignore font errors
-  GuiFont {font_name}:h{size}
-endif
+"if exists(':GuiFont')
+"     " Use GuiFont! to ignore font errors
+"  GuiFont {font_name}:h{size}
+"ndif
 
 " Disable GUI Tabline
 if exists(':GuiTabline')
