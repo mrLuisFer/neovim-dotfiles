@@ -1,8 +1,10 @@
-" Set Editor Font
-"if exists(':GuiFont')
-"     " Use GuiFont! to ignore font errors
-"  GuiFont {font_name}:h{size}
-"ndif
+" Set custom font
+" To see the all available fonts
+" set guifont=*
+" DOC: More fonts -> https://www.nerdfonts.com/
+if exists(':GuiFont')
+  GuiFont JetBrainsMono Nerd Font Mono:h10
+endif
 
 " Disable GUI Tabline
 if exists(':GuiTabline')
