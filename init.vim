@@ -116,19 +116,9 @@ if has("win32") || has("win64") || has("win16") || has('win95')
 	endfunction
 endif
 "-------------------------------------------------------------------"
-"-------------------------------Windows Scroll-------------------------------"
-" For disable scroll in windows you need install NeovimQt
-" https://github.com/equalsraf/neovim-qt
+"-------------------- Neovim QT - GUI Config -----------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
-	" Enable GUI Scrollbar
-	if exists(':GuiScrollBar')
-		GuiScrollBar 1
-	endif
-
-	" Right Click Context Menu (Copy-Cut-Paste)
-	nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
-	inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
-	vnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
+  source ~/AppData/Local/nvim/ginit.vim
 endif
 "-----------------------------------------------------------------
 
@@ -149,7 +139,7 @@ if has("win32") || has("win64") || has("win16") || has('win95')
 elseif has("unix") || has("osxdarwin") || has('linux')
   source $HOME/.config/nvim/pluginCalls/unix.vim
 else
-  echoerr "Unsupported platform"
+  echoerr "Unsupported platform :("
 endif
 "-----------------------------------------------------------------
 
@@ -162,15 +152,12 @@ let g:indentLine_faster = 1
 let g:indentLine_fileTypeExclude=["NvimTree"]
 "--gruvbox config--
 let g:gruvbox_contrast_dark = "medium"
-
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 
 set background=dark
-
 set termguicolors
 "-----------------------------------------------------------------
-
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
 colorscheme gruvbox
