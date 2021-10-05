@@ -21,7 +21,14 @@ vnoremap > >gv
 nmap <leader>x :x <CR>
 "save file
 "guardar archivo
-nmap <leader>w :w <CR>
+if has("win64") || has("win32") || has("win16") || has('win95')
+  " this is because when you save a file in windows
+  " it shows that the file already exists
+  nmap <leader>w :w! <CR>
+elseif has("unix") || has("osxdarwin") || has('linux')
+  nmap <leader>w :w <CR>
+endif
+
 "cerrar ventana
 "close current  window
 nmap <C-w> :q <CR>
