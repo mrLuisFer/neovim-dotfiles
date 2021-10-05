@@ -3,7 +3,7 @@
 " set guifont=*
 " DOC: More fonts -> https://www.nerdfonts.com/
 if exists(':GuiFont')
-  GuiFont JetBrainsMono Nerd Font Mono:h10
+  GuiFont JetBrainsMono Nerd Font:h10
 endif
 
 " Disable GUI Tabline
