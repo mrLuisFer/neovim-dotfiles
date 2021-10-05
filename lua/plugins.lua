@@ -8,6 +8,10 @@ return require('packer').startup(function()
 	use 'lewis6991/impatient.nvim'
 
   -- Themes
+  use {
+    'marko-cerovac/material.nvim',
+    as='material'
+  }
   use 'morhetz/gruvbox'
   use 'shinchu/lightline-gruvbox.vim'
   use 'joshdick/onedark.vim'

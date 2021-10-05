@@ -130,6 +130,7 @@ lua require('lsp-installer')
 lua require('lspsaga-config')
 lua require('nvimlsp-config')
 lua require('impatient-config')
+lua require('themes/material-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
@@ -157,7 +158,7 @@ set termguicolors
 "-----------------------------------------------------------------
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
@@ -171,6 +172,7 @@ colorscheme gruvbox
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
+colorscheme material
 "
 " these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes
