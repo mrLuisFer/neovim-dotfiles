@@ -6,5 +6,6 @@ require('material').setup {}
 -- oceanic
 -- palenight
 -- deep ocean
-vim.g.material_style = "deep ocean"
+-- vim.g.material_style = "deep ocean"
+vim.g.material_style = "darker"
 
