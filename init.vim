@@ -33,14 +33,11 @@ set nocompatible
 set path+=**
 " Add a title in your terminal
 set title
-
 " Always show tabs
 set showtabline=2
-
 scriptencoding utf-8
 " set scrolloff=10
 set scrolloff=2
-
 " incremental substitution (neovim)
 if has('nvim')
   set inccommand=split
@@ -53,7 +50,19 @@ set shiftwidth=2
 set tabstop=2
 set ai "Auto indent
 set si "Smart indent
-set nowrap "No Wrap lines
+" set nowrap "No Wrap lines
+" TextEdit might fail if hidden is not set.
+set hidden
+" Some servers have issues with backup files, see #649.
+set nobackup
+set nowritebackup
+" Give more space for displaying messages.
+set cmdheight=1
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=300
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
 
 " File types "{{{
 " ---------------------------------------------------------------------
@@ -75,22 +84,7 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 "}}}
 
 "----------------------------------------------------------------
-" TextEdit might fail if hidden is not set.
-set hidden
 
-" Some servers have issues with backup files, see #649.
-set nobackup
-set nowritebackup
-
-" Give more space for displaying messages.
-set cmdheight=1
-
-" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
-" delays and poor user experience.
-set updatetime=300
-
-" Don't pass messages to |ins-completion-menu|.
-set shortmess+=c
 "------------------------Check Python3 Host Script------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
 	let g:python3_host_prog = 'C:\Python39\python.exe'
