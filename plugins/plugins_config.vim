@@ -21,7 +21,7 @@ let g:go_info_mode='gopls'
 "       \ }
 
 " Run gofmt on save
-autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
+autocmd BufWritePre *.go :GoFmt
 
 " Vim Clap
 let g:clap_provider_alias = {'hist:': 'command_history'}
