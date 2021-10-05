@@ -1,9 +1,14 @@
 " Set custom font
-" To see the all available fonts
-" set guifont=*
 " DOC: More fonts -> https://www.nerdfonts.com/
 if exists(':GuiFont')
-  GuiFont JetBrainsMono Nerd Font:h10
+  if has("win32") || has("win64") || has("win95")
+    GuiFont JetBrainsMono Nerd Font:h10
+   elseif has("unix") || has("linux") || has("osxdarwin")
+     GuiFont JetBrainsMono Nerd Font:h11
+  endif
+else
+  " To see the all available fonts
+  set guifont=*
 endif
 
 " Disable GUI Tabline

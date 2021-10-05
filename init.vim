@@ -113,6 +113,8 @@ endif
 "-------------------- Neovim QT - GUI Config -----------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/ginit.vim
+elseif has("unix") || has("linux") || has("osxdarwin")
+  source ~/.config/nvim/ginit.vim
 endif
 "-----------------------------------------------------------------
 
