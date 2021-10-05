@@ -133,6 +133,7 @@ lua require('lua-completion-config')
 lua require('lsp-installer')
 lua require('lspsaga-config')
 lua require('nvimlsp-config')
+lua require('impatient-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim

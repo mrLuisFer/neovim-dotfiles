@@ -4,6 +4,8 @@ local use = require('packer').use
 return require('packer').startup(function()
   -- IDE
   use 'wbthomason/packer.nvim'
+	-- Impatient
+	use 'lewis6991/impatient.nvim'
 
   -- Themes
   use 'morhetz/gruvbox'
