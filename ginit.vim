@@ -6,9 +6,6 @@ if exists(':GuiFont')
    elseif has("unix") || has("linux") || has("osxdarwin")
      GuiFont JetBrainsMono Nerd Font:h11
   endif
-else
-  " To see the all available fonts
-  set guifont=*
 endif
 
 " Disable GUI Tabline
