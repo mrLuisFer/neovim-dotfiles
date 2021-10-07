@@ -5,27 +5,6 @@ local colors = require('galaxyline.theme').default
 
 gl.short_line_list = {'NvimTree','vista','dbui', 'packer'}
 
---local colors = {
---  bg = '#202328',
---  fg = '#bbc2cf',
---  yellow = '#fabd2f',
---  cyan = '#008080',
---  darkblue = '#081633',
---  green = '#98be65',
---  orange = '#FF8800',
---  violet = '#a9a1e1',
---  magenta = '#c678dd',
---  blue = '#51afef';
---  red = '#ec5f67';
---}
-
-local buffer_not_empty = function()
-  if vim.fn.empty(vim.fn.expand('%:t')) ~= 1 then
-    return true
-  end
-  return false
-end
-
 gls.left[1] = {
   RainbowRed = {
     provider = function() return '▊ ' end,
@@ -175,18 +154,10 @@ gls.right[4] = {
   }
 }
 
-local checkwidth = function()
-  local squeeze_width  = vim.fn.winwidth(0) / 2
-  if squeeze_width > 40 then
-    return true
-  end
-  return false
-end
-
 gls.right[5] = {
   DiffAdd = {
     provider = 'DiffAdd',
-    condition = checkwidth,
+    condition = condition.hide_in_width,
     icon = '   ',
     highlight = {colors.green,colors.bg},
   }
@@ -194,7 +165,7 @@ gls.right[5] = {
 gls.right[6] = {
   DiffModified = {
     provider = 'DiffModified',
-    condition = checkwidth,
+    condition = condition.hide_in_width,
     icon = '  柳',
     highlight = {colors.orange,colors.bg},
   }
@@ -202,7 +173,7 @@ gls.right[6] = {
 gls.right[7] = {
   DiffRemove = {
     provider = 'DiffRemove',
-    condition = checkwidth,
+    condition = condition.hide_in_width,
     icon = '   ',
     highlight = {colors.red,colors.bg},
   }
