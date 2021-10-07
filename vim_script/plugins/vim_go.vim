@@ -2,11 +2,6 @@
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
-" Launch gopls when Go files are in use
-let g:LanguageClient_serverCommands = {
-       \ 'go': ['gopls']
-      \ }
-
 " Run gofmt on save
 autocmd BufWritePre *.go :GoFmt
 
@@ -39,10 +34,6 @@ function goimports(timeout_ms)
     else
       vim.lsp.buf.execute_command(action)
     end
-  end
+end
 EOF
-
 autocmd BufWritePre *.go lua goimports(1000)
-EOF
-
-

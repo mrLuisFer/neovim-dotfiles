@@ -8,7 +8,6 @@ let g:ale_fixers = {
 let b:ale_linter_aliases = ['javascript', 'vue', 'css']
 " Golang Linter
 let g:ale_linters = {
-  \ 'go': ['gopls'],
   \ 'vue': ['vls', 'eslint'],
   \ 'jsx': ['stylelint', 'eslint'],
   \ 'python': ['flake8', 'pylint']

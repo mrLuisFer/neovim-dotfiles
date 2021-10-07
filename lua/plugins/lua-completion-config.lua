@@ -40,17 +40,7 @@ require'lspconfig'.cssls.setup{on_attach=require'completion'.on_attach}
 
 --require'lspconfig'.gopls.setup{on_attach=require'completion'.on_attach}
 -- REF: https://github.com/golang/tools/blob/master/gopls/doc/vim.md
-require'lspconfig'.gopls.setup {
-    cmd = {"gopls", "serve"},
-    settings = {
-      gopls = {
-        analyses = {
-          unusedparams = true,
-        },
-        staticcheck = true,
-      },
-    },
-  }
+require'lspconfig'.gopls.setup {on_attach=require'completion'.on_attach}
 
 require'lspconfig'.jsonls.setup{on_attach=require'completion'.on_attach}
 

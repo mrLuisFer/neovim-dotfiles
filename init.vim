@@ -161,7 +161,8 @@ set termguicolors
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
-colorscheme material
+" colorscheme material
+colorscheme onehalfdark
 "
 " these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes
