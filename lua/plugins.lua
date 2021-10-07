@@ -13,7 +13,7 @@ return require('packer').startup(function()
     as='material'
   }
   use 'morhetz/gruvbox'
-  use 'shinchu/lightline-gruvbox.vim'
+  --use 'shinchu/lightline-gruvbox.vim'
   use 'joshdick/onedark.vim'
   use 'safv12/andromeda.vim'
   use 'ghifarit53/tokyonight-vim'
@@ -66,10 +66,7 @@ return require('packer').startup(function()
   use 'christoomey/vim-tmux-navigator'
 
   -- Nvim Tree Lua
-  use {
-    'kyazdani42/nvim-tree.lua',
-    requires = 'kyazdani42/nvim-web-devicons',
-  }
+  use 'kyazdani42/nvim-tree.lua'
   -- ICONS
   use 'ryanoasis/vim-devicons'
   use 'kyazdani42/nvim-web-devicons'
@@ -97,8 +94,6 @@ return require('packer').startup(function()
   use 'yggdroot/indentline'
   -- Smooth Scrolling
   use 'psliwka/vim-smoothie'
-  -- Vim Clap
-  use 'liuchengxu/vim-clap'
 
   -- Vim Dashboard
   use 'glepnir/dashboard-nvim'

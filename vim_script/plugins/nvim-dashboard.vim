@@ -2,8 +2,6 @@
 " " NOTE: If you want to use FZF, u need install ripgrep
 " " https://github.com/BurntSushi/ripgrep
 let g:dashboard_default_executive ='fzf'
-" For Vim Clap
-" let g:dashboard_default_executive = 'clap'
 
 let g:dashboard_custom_shortcut={
 \ 'last_session'       : 'SPC s l',
