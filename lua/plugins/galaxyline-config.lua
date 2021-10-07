@@ -149,7 +149,7 @@ gls.right[3] = {
 gls.right[4] = {
   GitBranch = {
     provider = 'GitBranch',
-    condition = require('galaxyline.provider_vcs').check_git_workspace,
+    condition = condition.check_git_workspace,
     highlight = {colors.violet,colors.bg,'bold'},
   }
 }
