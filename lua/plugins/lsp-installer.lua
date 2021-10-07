@@ -3,7 +3,7 @@ require("nvim-lsp-installer").settings {
         icons = {
             server_installed = "✓",
             server_pending = "➜",
-            server_uninstalled = "'"
+            server_uninstalled = ""
         }
     }
 }

@@ -3,7 +3,7 @@
 	source ~/AppData/Local/nvim/vim_script/themes/onedark.vim
 	source ~/AppData/Local/nvim/vim_script/themes/sonokai.vim
 	source ~/AppData/Local/nvim/vim_script/themes/everforest.vim
-	source ~/AppData/Local/nvim/tvim_script/hemes/miramare.vim
+	source ~/AppData/Local/nvim/vim_script/themes/miramare.vim
 	source ~/AppData/Local/nvim/vim_script/themes/oceanic-next.vim
 	source ~/AppData/Local/nvim/vim_script/themes/oceanic-material.vim
 	source ~/AppData/Local/nvim/vim_script/themes/emberk.vim
