@@ -77,4 +77,4 @@ let g:ale_pattern_options = {
 \ '\.min\.css$': {'ale_linters': [], 'ale_fixers': []},
 \}
 " If you configure g:ale_pattern_options outside of vimrc, you need this.
-let g:ale_pattern_options_enabled = 1
+let g:ale_pattern_options_enabled = 0

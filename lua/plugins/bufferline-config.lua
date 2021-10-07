@@ -9,7 +9,7 @@ require('bufferline').setup {
     indicator_icon = '▎',
     buffer_close_icon = '',
     modified_icon = '●',
-    -- close_icon = '',
+    close_icon = nil,
     left_trunc_marker = '',
     right_trunc_marker = '',
     name_formatter = function(buf)
@@ -20,7 +20,7 @@ require('bufferline').setup {
     max_name_length = 18,
     max_prefix_length = 15, -- prefix used when a buffer is de-duplicated
     tab_size = 18,
-    diagnostics = "nvim_lsp", --nvim_lsp,
+    diagnostics = "nvim_lsp",
     diagnostics_indicator = function(count, level, diagnostics_dict, context)
         local icon = level:match("error") and " " or " "
         return " " .. icon .. count

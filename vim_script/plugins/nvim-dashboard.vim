@@ -2,8 +2,6 @@
 " " NOTE: If you want to use FZF, u need install ripgrep
 " " https://github.com/BurntSushi/ripgrep
 let g:dashboard_default_executive ='fzf'
-" For Vim Clap
-" let g:dashboard_default_executive = 'clap'
 
 let g:dashboard_custom_shortcut={
 \ 'last_session'       : 'SPC s l',
@@ -18,7 +16,7 @@ let g:dashboard_custom_shortcut={
 " Ascii Header
 " https://github.com/glepnir/dashboard-nvim/wiki/Ascii-Header-Text
 if has('win32') || has('win64') || has('win16') || has('win95')
-  source ~/AppData/Local/nvim/plugins/nvim_dashboard_ascii.vim
+  source ~/AppData/Local/nvim/vim_script/plugins/nvim_dashboard_ascii.vim
 elseif has('unix') || has('linux') || has("osxdarwin")
-  source $HOME/.config/nvim/plugins/nvim_dashboard_ascii.vim
+  source $HOME/.config/nvim/vim_script/plugins/nvim_dashboard_ascii.vim
 endif

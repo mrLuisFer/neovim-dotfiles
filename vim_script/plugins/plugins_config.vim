@@ -15,13 +15,7 @@ let g:signify_sign_change            = '~'
 let g:clap_provider_alias = {'hist:': 'command_history'}
 let g:clap_layout = { 'relative': 'editor' }
 
-" LspSaga
-" show hover doc
-nnoremap <silent>K :Lspsaga hover_doc<CR>
-inoremap <silent> <C-k> <Cmd>Lspsaga signature_help<CR>
-nnoremap <silent> gh <Cmd>Lspsaga lsp_finder<CR>
-
-" Vim Typescript
+" INFO: Vim Typescript
 let g:typescript_indent_disable = 1
 let g:typescript_opfirst='\%([<>=,?^%|*/&]\|\([-:+]\)\1\@!\|!=\|in\%(stanceof\)\=\>\)'
 let g:typescript_compiler_binary = 'tsc'
