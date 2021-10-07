@@ -1,22 +1,23 @@
 local gl = require('galaxyline')
 local gls = gl.section
 local condition = require('galaxyline.condition')
+local colors = require('galaxyline.theme').default
 
 gl.short_line_list = {'NvimTree','vista','dbui', 'packer'}
 
-local colors = {
-  bg = '#202328',
-  fg = '#bbc2cf',
-  yellow = '#fabd2f',
-  cyan = '#008080',
-  darkblue = '#081633',
-  green = '#98be65',
-  orange = '#FF8800',
-  violet = '#a9a1e1',
-  magenta = '#c678dd',
-  blue = '#51afef';
-  red = '#ec5f67';
-}
+--local colors = {
+--  bg = '#202328',
+--  fg = '#bbc2cf',
+--  yellow = '#fabd2f',
+--  cyan = '#008080',
+--  darkblue = '#081633',
+--  green = '#98be65',
+--  orange = '#FF8800',
+--  violet = '#a9a1e1',
+--  magenta = '#c678dd',
+--  blue = '#51afef';
+--  red = '#ec5f67';
+--}
 
 local buffer_not_empty = function()
   if vim.fn.empty(vim.fn.expand('%:t')) ~= 1 then
@@ -66,9 +67,9 @@ gls.left[4] ={
 
 gls.left[5] = {
   FileName = {
-    provider = {'FileName'},
+    provider = 'FileName',
     condition = condition.buffer_not_empty,
-    highlight = {colors.green,colors.bg,'bold'}
+    highlight = {colors.fg,colors.bg,'bold'}
   }
 }
 
@@ -132,7 +133,7 @@ gls.mid[1] = {
       return true
     end,
     icon = '  LSP:',
-    highlight = {colors.yellow,colors.bg,'bold'}
+    highlight = {colors.yellow,colors.bg}
   }
 }
 
