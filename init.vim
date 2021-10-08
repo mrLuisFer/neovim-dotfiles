@@ -63,6 +63,8 @@ set cmdheight=1
 set updatetime=300
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
+set background=dark
+set termguicolors
 
 " File types "{{{
 " ---------------------------------------------------------------------
@@ -130,21 +132,6 @@ else
 endif
 "-----------------------------------------------------------------
 
-"--------------------------------Plugins Config--------------------------------------------
-"configuracion de tabs
-let g:indentLine_enabled = 1
-let g:indentLine_char = ' '
-let g:indentLine_faster = 1
-
-let g:indentLine_fileTypeExclude=["NvimTree"]
-"--gruvbox config--
-let g:gruvbox_contrast_dark = "medium"
-let g:tokyonight_style = 'night' " available: night, storm
-let g:tokyonight_enable_italic = 0
-
-set background=dark
-set termguicolors
-"-----------------------------------------------------------------
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
 " colorscheme gruvbox

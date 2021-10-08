@@ -32,3 +32,13 @@ let g:vim_jsx_pretty_colorful_config = 1 " default 0
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
+"configuracion de tabs
+let g:indentLine_enabled = 1
+let g:indentLine_char = ' '
+let g:indentLine_faster = 1
+
+let g:indentLine_fileTypeExclude=["NvimTree"]
+"--gruvbox config--
+let g:gruvbox_contrast_dark = "medium"
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 0
