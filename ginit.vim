@@ -2,7 +2,7 @@
 " DOC: More fonts -> https://www.nerdfonts.com/
 if exists(':GuiFont')
   if has("win32") || has("win64") || has("win95")
-    GuiFont JetBrainsMono Nerd Font:h10
+    GuiFont Cascadia Code:h10
   elseif has("unix") || has("linux") || has("osxdarwin")
     GuiFont JetBrainsMono Nerd Font:h11
   endif
