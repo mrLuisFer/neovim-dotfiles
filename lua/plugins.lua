@@ -66,7 +66,6 @@ return require('packer').startup(function()
   use 'yggdroot/indentline'
   use 'psliwka/vim-smoothie'
   use 'glepnir/dashboard-nvim'
-  use 'dense-analysis/ale'
   use 'akinsho/nvim-bufferline.lua'
   use {
     'nvim-treesitter/nvim-treesitter',
