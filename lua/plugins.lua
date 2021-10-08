@@ -55,7 +55,6 @@ return require('packer').startup(function()
   }
   use 'nvim-lua/completion-nvim'
   use 'neovim/nvim-lspconfig'
-  use 'williamboman/nvim-lsp-installer'
   use 'glepnir/lspsaga.nvim'
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
