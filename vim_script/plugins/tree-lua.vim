@@ -72,4 +72,4 @@ let g:lua_tree_icons = {
     \   }
     \ }
 
-highlight NvimTreeFolderIcon guibg=blue
+" highlight NvimTreeFolderIcon guibg=blue
