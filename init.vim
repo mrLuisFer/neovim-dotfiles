@@ -27,9 +27,11 @@ set guioptions-=T
 set guioptions-=L
 set cursorline
 set nocompatible
-
 " Always show tabs
 set showtabline=2
+set background=dark
+set termguicolors
+set cmdheight=1
 "-----------------------------------------------------------------
 "------------------------Check Python3 Host Script------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
@@ -86,28 +88,9 @@ elseif has("unix") || has("osxdarwin")
 else
   echoerr "Unsupported platform"
 endif
-"-----------------------------------------------------------------
-
-"--------------------------------Plugins Config--------------------------------------------
-"configuracion de tabs
-let g:indentLine_enabled = 1
-let g:indentLine_char = ' '
-let g:indentLine_faster = 1
-
-let g:indentLine_fileTypeExclude=["NvimTree"]
-"--gruvbox config--
-let g:gruvbox_contrast_dark = "medium"
-
-set cmdheight=1
-let g:tokyonight_style = 'night' " available: night, storm
-let g:tokyonight_enable_italic = 0
-
-set background=dark
-
-set termguicolors
-"-----------------------------------------------------------------
-
-"-------------------------------Colorscheme-------------------------------"
+" -------------------------------Colorscheme-------------------------------"
+" these are just examples, if you want more colorschemes,
+" please type `:colorschemes + TAB` and show all available colorschemes
 colorscheme tokyonight
 " colorscheme gruvbox
 " colorscheme abstract
@@ -122,7 +105,4 @@ colorscheme tokyonight
 " colorscheme spacegray
 " colorscheme embark
 " colorscheme oceanic_material
-"
-" these are just examples, if you want more colorschemes,
-" please type `:colorschemes + TAB` and show all available colorschemes
 "-----------------------------------------------------------------

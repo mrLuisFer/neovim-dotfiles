@@ -75,7 +75,6 @@ return require('packer').startup(function()
   use 'cakebaker/scss-syntax.vim'
   use 'trusktr/seti.vim'
   use 'SirVer/ultisnips'
-  use 'mlaursen/vim-react-snippets'
   use 'pangloss/vim-javascript'
   use {
     'styled-components/vim-styled-components',
