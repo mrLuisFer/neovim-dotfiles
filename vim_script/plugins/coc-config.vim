@@ -1,6 +1,6 @@
 "█▀▀ █▀█ █▀▀ ▄▄ █░█ █ █▀▄▀█
 "█▄▄ █▄█ █▄▄ ░░ ▀▄▀ █ █░▀░█
-
+"
 " TextEdit might fail if hidden is not set.
 set hidden
 
@@ -41,12 +41,7 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-" Use <c-space> to trigger completion.
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
+inoremap <silent><expr> <c-space> coc#refresh()
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
@@ -114,29 +109,8 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 " Add `:OR` command for organize imports of the current buffer.
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
-" Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
-" provide custom statusline: lightline.vim, vim-airline.
-"
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
-
-" Mappings for CoCList
-" Show all diagnostics.
-"nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
-" Manage extensions.
-"nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
-" Show commands.
-"nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
-" Find symbol of current document.
-"nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
-" Search workspace symbols.
-"nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
-" Do default action for next item.
-"nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
-" Do default action for previous item.
-"nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
-" Resume latest coc list.
-"nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>i
+" set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " Explorer
 let g:coc_explorer_global_presets = {
@@ -174,18 +148,3 @@ let g:coc_explorer_global_presets = {
 \ }
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
-
-" Ignore errors
-"function Null(error, response) abort
-"endfunction
-" Documentation on hover
-"augroup hover
-"autocmd!
-"autocmd CursorHold * if !coc#float#has_float()
-"		\| call CocActionAsync('doHover', 'float', function('Null'))
-"		\| call CocActionAsync('highlight', function('Null'))
-"	\| endif
-"	autocmd CursorHoldI * if CocAction('ensureDocument')
-"		\|silent call CocAction('showSignatureHelp')
-"	\| endif
-"augroup end

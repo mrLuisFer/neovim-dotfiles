@@ -52,6 +52,7 @@
   "coc.preferences.colorSupport": true,
   "eslint.autoFixOnSave": true,
   "tsserver.formatOnType": true,
+  "tsserver.log": "verbose",
   "eslint.run": "onSave",
   "suggest.labelMaxLength": 40,
   "diagnostic.virtualTextCurrentLineOnly": false,
