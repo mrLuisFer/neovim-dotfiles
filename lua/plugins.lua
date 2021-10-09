@@ -74,17 +74,16 @@ return require('packer').startup(function()
 
   -- LANGS: ------------------------------
   use 'rust-lang/rust.vim'
-  use 'elixir-editors/vim-elixir'
 	use 'editorconfig/editorconfig-vim'
 
   -- INTEGRATIONS: ------------------------------
   use 'norcalli/nvim-colorizer.lua'
-	-- git integration
-	use 'mhinz/vim-signify'
+  -- Git Integration
+  use 'mhinz/vim-signify'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
   use 'junegunn/gv.vim'
-
+  --------------------
   use 'nvim-lua/plenary.nvim'
   use 'mattn/emmet-vim'
   use 'maxmellon/vim-jsx-pretty'
