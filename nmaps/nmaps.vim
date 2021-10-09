@@ -6,10 +6,8 @@
 
 """ INFO: INIT.vim
 " Get out of insert mode
-"Salir de modo insertar
 imap jk <Esc>
 imap <C-c> <Esc>l
-"mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line xnoremap K :move '<-2<CR>gv-gv xnoremap J :move '>+1<CR>gv-gv
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
@@ -34,21 +32,16 @@ nmap <leader>gs  :CocSearch
 nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 
-"open cocExplorer
 "Buscar dos carácteres con easymotion
-"Search for two chars with easymotion
 nmap <Leader>s <Plug>(easymotion-s2)
 
 " TAB in general mode will move to text buffer
-" TAB en modo normal se moverá al siguiente buffer
 nnoremap <silent> <TAB> :bnext<CR>
 
 " SHIFT-TAB will go back
-" SHIFT-TAB va para atras
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
 "close buffer
-"cerrar buffer
 nmap <leader>bd :bdelete<CR>
 
 """ INFO: Bufferline.vim
@@ -73,7 +66,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window.
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+" nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
@@ -94,8 +87,8 @@ nmap <Leader>ff :DashboardFindFile<CR>
 nmap <Leader>fh :DashboardFindHistory<CR>
 
 """ INFO: TREE-LUA.vim
-nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <C-b> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
 nnoremap <leader>e :NvimTreeOpen<CR>
-" NvimTreeOpen, NvimTreeClose and NvimTreeFocus are also available if you need them
+" NvimTreeClose and NvimTreeFocus are also available if you need them
