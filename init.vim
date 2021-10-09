@@ -78,7 +78,7 @@ endif
 " Lua config
 lua require('plugins')
 lua require('plugins/treelua-config')
-lua require('plugins/staline-config')
+lua require('plugins/galaxyline-config')
 lua require('plugins/bufferline-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')

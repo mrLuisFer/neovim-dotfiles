@@ -39,14 +39,21 @@ return require('packer').startup(function()
   use 'ryanoasis/vim-devicons'
   use 'kyazdani42/nvim-web-devicons'
   use 'preservim/nerdcommenter'
-	use 'tamton-aquib/staline.nvim'
+  use {
+    'glepnir/galaxyline.nvim',
+    branch = 'main'
+  }
   use {
     'neoclide/coc.nvim',
     branch = 'release'
   }
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
-  use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
+  use {
+    'junegunn/fzf', 
+    dir = '~/.fzf', 
+    run = './install --all' 
+  }
   use 'junegunn/fzf.vim'
   use 'terryma/vim-multiple-cursors'
   use 'yggdroot/indentline'
