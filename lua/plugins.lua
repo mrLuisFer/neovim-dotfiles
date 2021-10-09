@@ -75,23 +75,17 @@ return require('packer').startup(function()
 
   -- LANGS: ------------------------------
   use 'rust-lang/rust.vim'
-  use 'elixir-editors/vim-elixir'
 	use 'editorconfig/editorconfig-vim'
 
   -- INTEGRATIONS: ------------------------------
-  use 'norcalli/nvim-colorizer.lua'
+  -- Git Integration
   use 'mhinz/vim-signify'
+  use 'tpope/vim-fugitive'
+  use 'tpope/vim-rhubarb'
+  use 'junegunn/gv.vim'
+  --------------------
+  use 'norcalli/nvim-colorizer.lua'
   use 'nvim-lua/plenary.nvim'
-  use {
-    'lewis6991/gitsigns.nvim',
-    requires = {
-      'nvim-lua/plenary.nvim'
-    },
-    config = function()
-      require('gitsigns').setup()
-    end
-  }
-
   use 'mattn/emmet-vim'
   use 'maxmellon/vim-jsx-pretty'
   use 'peitalin/vim-jsx-typescript'
