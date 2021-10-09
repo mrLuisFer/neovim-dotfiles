@@ -70,6 +70,7 @@ return require('packer').startup(function()
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
+  use 'SirVer/ultisnips'
 
   -- LANGS: ------------------------------
   use 'rust-lang/rust.vim'
