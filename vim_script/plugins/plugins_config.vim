@@ -42,3 +42,6 @@ let g:indentLine_fileTypeExclude=["NvimTree"]
 let g:gruvbox_contrast_dark = "medium"
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
+
+" Nvim Lua Completion
+let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy'] 

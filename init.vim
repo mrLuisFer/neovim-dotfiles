@@ -65,6 +65,7 @@ set updatetime=300
 set shortmess+=c
 set background=dark
 set termguicolors
+set completeopt=menuone,noinsert,noselect
 
 " File types "{{{
 " ---------------------------------------------------------------------
