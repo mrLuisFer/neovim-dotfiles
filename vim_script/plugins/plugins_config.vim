@@ -42,3 +42,14 @@ let g:indentLine_fileTypeExclude=["NvimTree"]
 let g:gruvbox_contrast_dark = "medium"
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
+
+" Nvim Lua Completion
+let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy'] 
+autocmd BufEnter * lua require'completion'.on_attach()
+
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" possible value: 'UltiSnips', 'Neosnippet', 'vim-vsnip', 'snippets.nvim'
+let g:completion_enable_snippet = 'UltiSnips'

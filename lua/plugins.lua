@@ -55,7 +55,6 @@ return require('packer').startup(function()
   }
   use 'nvim-lua/completion-nvim'
   use 'neovim/nvim-lspconfig'
-  use 'williamboman/nvim-lsp-installer'
   use 'glepnir/lspsaga.nvim'
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
@@ -66,25 +65,25 @@ return require('packer').startup(function()
   use 'yggdroot/indentline'
   use 'psliwka/vim-smoothie'
   use 'glepnir/dashboard-nvim'
-  use 'dense-analysis/ale'
   use 'akinsho/nvim-bufferline.lua'
   use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
+  use 'SirVer/ultisnips'
 
   -- LANGS: ------------------------------
   use 'rust-lang/rust.vim'
 	use 'editorconfig/editorconfig-vim'
 
   -- INTEGRATIONS: ------------------------------
+  use 'norcalli/nvim-colorizer.lua'
   -- Git Integration
   use 'mhinz/vim-signify'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
   use 'junegunn/gv.vim'
   --------------------
-  use 'norcalli/nvim-colorizer.lua'
   use 'nvim-lua/plenary.nvim'
   use 'mattn/emmet-vim'
   use 'maxmellon/vim-jsx-pretty'
