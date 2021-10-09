@@ -47,12 +47,13 @@ return require('packer').startup(function()
     'neoclide/coc.nvim',
     branch = 'release'
   }
+  use 'neovim/nvim-lspconfig'
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
   use {
-    'junegunn/fzf', 
-    dir = '~/.fzf', 
-    run = './install --all' 
+    'junegunn/fzf',
+    dir = '~/.fzf',
+    run = './install --all'
   }
   use 'junegunn/fzf.vim'
   use 'terryma/vim-multiple-cursors'
