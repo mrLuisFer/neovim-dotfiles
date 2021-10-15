@@ -32,8 +32,7 @@ set showtabline=2
 set background=dark
 set termguicolors
 set cmdheight=1
-"-----------------------------------------------------------------
-"------------------------Check Python3 Host Script------------------"
+"------------------- Check Python3 Host Script ----------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
 	let g:python3_host_prog = 'C:\Python39\python.exe'
 
@@ -57,21 +56,6 @@ if has("win32") || has("win64") || has("win16") || has('win95')
 		endif
 	endfunction
 endif
-"-------------------------------------------------------------------"
-"-------------------------------Windows Scroll-------------------------------"
-" For disable scroll in windows you need install NeovimQt
-" https://github.com/equalsraf/neovim-qt
-if has("win32") || has("win64") || has("win16") || has('win95')
-	" Enable GUI Scrollbar
-	if exists(':GuiScrollBar')
-		GuiScrollBar 1
-	endif
-
-	" Right Click Context Menu (Copy-Cut-Paste)
-	nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
-	inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
-	vnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
-endif
 "-----------------------------------------------------------------
 
 "-------------------------------Sources-------------------------------"
@@ -83,8 +67,10 @@ lua require('plugins/bufferline-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
+  source ~/AppData/Local/nvim/ginit.vim
 elseif has("unix") || has("osxdarwin")
   source $HOME/.config/nvim/pluginCalls/unix.vim
+  source $HOME/.config/nvim/ginit.vim
 else
   echoerr "Unsupported platform"
 endif
