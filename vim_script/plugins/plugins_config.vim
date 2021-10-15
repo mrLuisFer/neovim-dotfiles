@@ -11,10 +11,6 @@ let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
 let g:signify_sign_change            = '~'
 
-" Vim Clap
-let g:clap_provider_alias = {'hist:': 'command_history'}
-let g:clap_layout = { 'relative': 'editor' }
-
 " INFO: Vim Typescript
 let g:typescript_indent_disable = 1
 let g:typescript_opfirst='\%([<>=,?^%|*/&]\|\([-:+]\)\1\@!\|!=\|in\%(stanceof\)\=\>\)'

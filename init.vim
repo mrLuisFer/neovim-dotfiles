@@ -149,8 +149,8 @@ endif
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
-" colorscheme material
-colorscheme onehalfdark
+colorscheme material
+" colorscheme onehalfdark
 "
 " these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes

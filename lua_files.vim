@@ -11,4 +11,3 @@ lua require('plugins/lua-completion-config')
 " THEMES:
 lua require('themes/material-config')
 
-

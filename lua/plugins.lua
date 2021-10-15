@@ -28,7 +28,6 @@ return require('packer').startup(function()
     'embark-theme/vim',
     as = 'embark'
   }
-  use 'rafi/awesome-vim-colorschemes'
   use {
     'rose-pine/neovim',
     as = 'rose-pine'
@@ -72,8 +71,6 @@ return require('packer').startup(function()
   }
   use 'SirVer/ultisnips'
 
-  -- LANGS: ------------------------------
-  use 'rust-lang/rust.vim'
 	use 'editorconfig/editorconfig-vim'
 
   -- INTEGRATIONS: ------------------------------
@@ -86,19 +83,15 @@ return require('packer').startup(function()
   --------------------
   use 'nvim-lua/plenary.nvim'
   use 'mattn/emmet-vim'
+
   use 'maxmellon/vim-jsx-pretty'
   use 'peitalin/vim-jsx-typescript'
-  use 'prettier/vim-prettier'
-  use 'cakebaker/scss-syntax.vim'
-  use 'trusktr/seti.vim'
-  use 'mlaursen/vim-react-snippets'
   use 'pangloss/vim-javascript'
-  use {
-    'styled-components/vim-styled-components',
-    branch = 'main'
-  }
   use 'leafgarland/typescript-vim'
   use 'evanleck/vim-svelte'
+
+  use 'prettier/vim-prettier'
+  use 'trusktr/seti.vim'
   use {
     'fatih/vim-go',
     run = ':GoUpdateBinaries'
