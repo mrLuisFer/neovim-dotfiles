@@ -68,8 +68,6 @@ return require('packer').startup(function()
 	use 'editorconfig/editorconfig-vim'
   use {'jdhao/better-escape.vim', event = 'InsertEnter'}
   use 'sbdchd/neoformat'
-  use 'nvim-lua/plenary.nvim'
-  use 'nvim-lua/popup.nvim'
 
   -- INTEGRATIONS:
   use 'norcalli/nvim-colorizer.lua'
