@@ -32,12 +32,10 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
 let g:indentLine_enabled = 1
 let g:indentLine_char = ' '
 let g:indentLine_faster = 1
-
 let g:indentLine_fileTypeExclude=["NvimTree"]
-" INFO: gruvbox config
+
+" INFO: gruvbox
 let g:gruvbox_contrast_dark = "medium"
-let g:tokyonight_style = 'night' " available: night, storm
-let g:tokyonight_enable_italic = 0
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"

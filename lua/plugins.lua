@@ -10,7 +10,10 @@ return require('packer').startup(function()
   use 'morhetz/gruvbox'
   use 'joshdick/onedark.vim'
   use 'safv12/andromeda.vim'
-  use 'ghifarit53/tokyonight-vim'
+  use {
+    'tiagovla/tokyodark.nvim',
+    as = 'tokyodark'
+  }
   use {
     'dracula/vim',
     as = 'dracula'

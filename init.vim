@@ -90,8 +90,8 @@ else
 endif
 "-----------------------------------------------------------------
 "-------------------------------Colorscheme-------------------------------"
-" colorscheme tokyonight
-colorscheme gruvbox
+" colorscheme gruvbox
+colorscheme tokyodark
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge

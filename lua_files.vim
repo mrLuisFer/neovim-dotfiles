@@ -14,4 +14,5 @@ lua require('plugins/vim_go_config')
 lua require('plugins/nvim_compe_config')
 " THEMES:
 lua require('themes/material-config')
+lua require('themes/tokyodark-config')
 
