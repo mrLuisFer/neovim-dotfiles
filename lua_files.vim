@@ -8,6 +8,7 @@ lua require('plugins/lspsaga-config')
 lua require('plugins/impatient-config')
 lua require('plugins/galaxyline-config')
 lua require('plugins/lua-completion-config')
+lua require('plugins/lsp-signature-config')
 " THEMES:
 lua require('themes/material-config')
 

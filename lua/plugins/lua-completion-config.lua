@@ -1,47 +1,27 @@
-local on_attach = function(client, bufnr)
-  require'completion'.on_attach(client, bufnr)
-
-  protocol.CompletionItemKind = {
-    '', -- Text
-    '', -- Method
-    '', -- Function
-    '', -- Constructor
-    '', -- Field
-    '', -- Variable
-    '', -- Class
-    'ﰮ', -- Interface
-    '', -- Module
-    '', -- Property
-    '', -- Unit
-    '', -- Value
-    '', -- Enum
-    '', -- Keyword
-    '﬌', -- Snippet
-    '', -- Color
-    '', -- File
-    '', -- Reference
-    '', -- Folder
-    '', -- EnumMember
-    '', -- Constant
-    '', -- Struct
-    '', -- Event
-    'ﬦ', -- Operator
-    '', -- TypeParameter
-  }
-end
-
 -- LSP_LANGS:
-require'lspconfig'.pyright.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.html.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.bashls.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.cssls.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.gopls.setup {on_attach=require'completion'.on_attach}
-require'lspconfig'.jsonls.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.rust_analyzer.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.stylelint_lsp.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.svelte.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.tailwindcss.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.tsserver.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.vuels.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.yamlls.setup{on_attach=require'completion'.on_attach}
+require'lspconfig'.pyright.setup{}
+
+require'lspconfig'.html.setup{}
+
+require'lspconfig'.bashls.setup{}
+
+require'lspconfig'.cssls.setup{}
+
+require'lspconfig'.gopls.setup{}
+
+require'lspconfig'.jsonls.setup{}
+
+require'lspconfig'.rust_analyzer.setup{}
+
+require'lspconfig'.stylelint_lsp.setup{}
+
+require'lspconfig'.svelte.setup{}
+
+require'lspconfig'.tailwindcss.setup{}
+
+require'lspconfig'.tsserver.setup{}
+
+require'lspconfig'.vuels.setup{}
+
+require'lspconfig'.yamlls.setup{}
 
