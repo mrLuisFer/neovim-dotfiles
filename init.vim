@@ -85,9 +85,6 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " ---------------------------------------------------------------------
 "}}}
-
-"----------------------------------------------------------------
-
 "------------------------Check Python3 Host Script------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
 	let g:python3_host_prog = 'C:\Python39\python.exe'
@@ -112,15 +109,12 @@ if has("win32") || has("win64") || has("win16") || has('win95')
 		endif
 	endfunction
 endif
-"-------------------------------------------------------------------"
 "-------------------- Neovim QT - GUI Config -----------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/ginit.vim
 elseif has("unix") || has("linux") || has("osxdarwin")
   source ~/.config/nvim/ginit.vim
 endif
-"-----------------------------------------------------------------
-
 "--------------------- Plugin Sources ---------------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/lua_files.vim
@@ -132,7 +126,6 @@ else
   echoerr "Unsupported platform :("
 endif
 "-----------------------------------------------------------------
-
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
 " colorscheme gruvbox
