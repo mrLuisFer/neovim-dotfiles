@@ -71,6 +71,10 @@ return require('packer').startup(function()
   use 'SirVer/ultisnips'
 	use 'editorconfig/editorconfig-vim'
   use 'ray-x/lsp_signature.nvim'
+  use {
+    'hrsh7th/nvim-compe',
+    requires = 'L3MON4D3/LuaSnip'
+  }
 
   -- INTEGRATIONS: ------------------------------
   use 'norcalli/nvim-colorizer.lua'

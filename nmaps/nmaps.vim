@@ -5,6 +5,7 @@
 "------------------------------------------------------------------------------------
 
 " Get out of insert mode
+imap <ESC>
 imap jk <Esc>
 imap <C-c> <Esc>l
 "mueve bloques de codigo en modo visual o V-Line
