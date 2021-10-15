@@ -24,11 +24,11 @@ set sw=2
 " set hlsearch
 let mapleader = " "
 " set laststatus=2
-" set backspace=2
+set backspace=2
 set guioptions-=T
 set guioptions-=L
 " set cursorline
-" set nocompatible
+set nocompatible
 " Finding files - Search down into subfolders
 set path+=**
 " Add a title in your terminal
@@ -52,8 +52,8 @@ set si "Smart indent
 " TextEdit might fail if hidden is not set.
 " set hidden
 " Some servers have issues with backup files, see #649.
-" set nobackup
-" set nowritebackup
+set nobackup
+set nowritebackup
 " Give more space for displaying messages.
 " set cmdheight=1
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
@@ -108,18 +108,15 @@ if has("win32") || has("win64") || has("win16") || has('win95')
 	endfunction
 endif
 "-------------------- Neovim QT - GUI Config -----------------------"
-if has("win32") || has("win64") || has("win16") || has('win95')
-  source ~/AppData/Local/nvim/ginit.vim
-elseif has("unix") || has("linux") || has("osxdarwin")
-  source ~/.config/nvim/ginit.vim
-endif
 "--------------------- Plugin Sources ---------------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/lua_files.vim
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
+  source ~/AppData/Local/nvim/ginit.vim
 elseif has("unix") || has("osxdarwin") || has('linux')
   source $HOME/.config/nvim/lua_files.vim
   source $HOME/.config/nvim/pluginCalls/unix.vim
+  source ~/.config/nvim/ginit.vim
 else
   echoerr "Unsupported platform :("
 endif

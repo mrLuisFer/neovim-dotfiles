@@ -1,4 +1,5 @@
 " MAIN:
+lua require('vim_opt')
 lua require('plugins')
 " PLUGINS:
 lua require('plugins/treelua-config')
