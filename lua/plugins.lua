@@ -61,12 +61,15 @@ return require('packer').startup(function()
   use 'psliwka/vim-smoothie'
   use 'glepnir/dashboard-nvim'
   use 'akinsho/nvim-bufferline.lua'
-
-  -- LANGS:
-  use 'rust-lang/rust.vim'
-  use 'mhinz/vim-mix-format'
-	use 'ambv/black'
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    event = "BufRead",
+  }
 	use 'editorconfig/editorconfig-vim'
+  use {'jdhao/better-escape.vim', event = 'InsertEnter'}
+  use 'sbdchd/neoformat'
+  use 'nvim-lua/plenary.nvim'
+  use 'nvim-lua/popup.nvim'
 
   -- INTEGRATIONS:
   use 'norcalli/nvim-colorizer.lua'
@@ -75,18 +78,11 @@ return require('packer').startup(function()
   use 'tpope/vim-rhubarb'
   use 'junegunn/gv.vim'
   use 'mattn/emmet-vim'
-  use 'maxmellon/vim-jsx-pretty'
-  use 'chemzqm/vim-jsx-improve'
-  use 'peitalin/vim-jsx-typescript'
   use 'prettier/vim-prettier'
   use 'cakebaker/scss-syntax.vim'
   use 'trusktr/seti.vim'
   use 'SirVer/ultisnips'
   use 'pangloss/vim-javascript'
-  use {
-    'styled-components/vim-styled-components',
-    branch = 'main'
-  }
   use 'leafgarland/typescript-vim'
   use 'evanleck/vim-svelte'
   use {

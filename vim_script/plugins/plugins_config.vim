@@ -4,12 +4,13 @@
 " ╝██║░░██╗██║░░██║██║╚████║██╔══╝░░██║██║░░╚██╗
 " ░╚█████╔╝╚█████╔╝██║░╚███║██║░░░░░██║╚██████╔╝
 " ░░╚════╝░░╚════╝░╚═╝░░╚══╝╚═╝░░░░░╚═╝░╚═════╝░
-"Git integration config
+"
+" GIT: 
 let g:signify_sign_add               = '+'
 let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
 let g:signify_sign_change            = '~'
-" Vim-go config
+" VIM_GO:
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
@@ -20,15 +21,19 @@ let g:LanguageClient_serverCommands = {
 " Run gofmt on save
 autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 
-" tab config
+" TAB_CONFIG:
 let g:indentLine_enabled = 1
 let g:indentLine_char = ' '
 let g:indentLine_faster = 1
 
 let g:indentLine_fileTypeExclude=["NvimTree"]
-" gruvbox
+" GRUVBOX:
 let g:gruvbox_contrast_dark = "medium"
-" tokyonight
+" TOKYONIGHT:
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
+
+" Better_Scape:
+let g:better_escape_interval = 200
+let g:better_escape_shortcut = ['jk', 'jj', 'kj', 'лл']
 
