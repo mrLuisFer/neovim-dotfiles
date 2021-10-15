@@ -12,60 +12,58 @@
 " I recommend use a Nerd Font -> https://www.nerdfonts.com/font-downloads
 syntax on
 syntax enable
-set number
+" set number
 set mouse=a
-set clipboard=unnamed
-set showcmd
-set ruler
-set encoding=UTF-8
-set showmatch
+" set clipboard=unnamed
+" set showcmd
+" set ruler
+" set encoding=UTF-8
+" set showmatch
 set sw=2
 " set relativenumber
-set hlsearch
+" set hlsearch
 let mapleader = " "
-set laststatus=2
-set backspace=2
+" set laststatus=2
+" set backspace=2
 set guioptions-=T
 set guioptions-=L
-set cursorline
-set nocompatible
+" set cursorline
+" set nocompatible
 " Finding files - Search down into subfolders
 set path+=**
 " Add a title in your terminal
-set title
+" set title
 " Always show tabs
-set showtabline=2
+"set showtabline=2
 scriptencoding utf-8
 " set scrolloff=10
-set scrolloff=2
+" set scrolloff=2
 " incremental substitution (neovim)
-if has('nvim')
-  set inccommand=split
-endif
+set inccommand=split
 " Be smart when using tabs ;)
-set smarttab
+" set smarttab
 " indents
 filetype plugin indent on
-set shiftwidth=2
-set tabstop=2
+" set shiftwidth=2
+" set tabstop=2
 set ai "Auto indent
 set si "Smart indent
 " set nowrap "No Wrap lines
 " TextEdit might fail if hidden is not set.
-set hidden
+" set hidden
 " Some servers have issues with backup files, see #649.
-set nobackup
-set nowritebackup
+" set nobackup
+" set nowritebackup
 " Give more space for displaying messages.
-set cmdheight=1
+" set cmdheight=1
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
-set updatetime=300
+" set updatetime=300
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
-set background=dark
-set termguicolors
-set completeopt=menuone,noinsert,noselect
+" set background=dark
+" set termguicolors
+" set completeopt=menuone,noinsert,noselect
 
 " File types "{{{
 " ---------------------------------------------------------------------
