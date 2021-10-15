@@ -80,7 +80,10 @@ return require('packer').startup(function()
   use 'norcalli/nvim-colorizer.lua'
   -- Git Integration
   use 'mhinz/vim-signify'
-  use 'tpope/vim-fugitive'
+  use {
+    'tpope/vim-fugitive',
+    cmd = 'Git',
+  }
   use 'tpope/vim-rhubarb'
   use 'junegunn/gv.vim'
   --------------------
