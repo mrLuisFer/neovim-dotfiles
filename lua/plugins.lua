@@ -59,7 +59,6 @@ return require('packer').startup(function()
   use 'terryma/vim-multiple-cursors'
   use 'yggdroot/indentline'
   use 'psliwka/vim-smoothie'
-  use 'liuchengxu/vim-clap'
   use 'glepnir/dashboard-nvim'
   use 'akinsho/nvim-bufferline.lua'
 
