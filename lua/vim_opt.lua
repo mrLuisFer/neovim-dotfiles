@@ -25,7 +25,7 @@ set.termguicolors = true
 
 set.laststatus = 2
 set.showtabline = 2
-set.scrolloff = 2
+set.scrolloff = 3
 set.shiftwidth = 2
 set.tabstop = 2
 set.cmdheight = 1

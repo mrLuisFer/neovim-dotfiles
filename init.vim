@@ -14,16 +14,8 @@ syntax on
 syntax enable
 " set number
 set mouse=a
-" set clipboard=unnamed
-" set showcmd
-" set ruler
-" set encoding=UTF-8
-" set showmatch
 set sw=2
-" set relativenumber
-" set hlsearch
 let mapleader = " "
-" set laststatus=2
 set backspace=2
 set guioptions-=T
 set guioptions-=L
@@ -31,40 +23,16 @@ set guioptions-=L
 set nocompatible
 " Finding files - Search down into subfolders
 set path+=**
-" Add a title in your terminal
-" set title
-" Always show tabs
-"set showtabline=2
 scriptencoding utf-8
-" set scrolloff=10
-" set scrolloff=2
-" incremental substitution (neovim)
 set inccommand=split
-" Be smart when using tabs ;)
-" set smarttab
-" indents
 filetype plugin indent on
-" set shiftwidth=2
-" set tabstop=2
 set ai "Auto indent
 set si "Smart indent
-" set nowrap "No Wrap lines
-" TextEdit might fail if hidden is not set.
-" set hidden
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
-" Give more space for displaying messages.
-" set cmdheight=1
-" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
-" delays and poor user experience.
-" set updatetime=300
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
-" set background=dark
-" set termguicolors
-" set completeopt=menuone,noinsert,noselect
-
 " File types "{{{
 " ---------------------------------------------------------------------
 " JavaScript
@@ -116,14 +84,14 @@ if has("win32") || has("win64") || has("win16") || has('win95')
 elseif has("unix") || has("osxdarwin") || has('linux')
   source $HOME/.config/nvim/lua_files.vim
   source $HOME/.config/nvim/pluginCalls/unix.vim
-  source ~/.config/nvim/ginit.vim
+  source $HOME/.config/nvim/ginit.vim
 else
   echoerr "Unsupported platform :("
 endif
 "-----------------------------------------------------------------
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
@@ -137,7 +105,7 @@ endif
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
-colorscheme material
+" colorscheme material
 " colorscheme onehalfdark
 "
 " these are just examples, if you want more colorschemes,
