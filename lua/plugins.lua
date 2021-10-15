@@ -52,7 +52,6 @@ return require('packer').startup(function()
     'glepnir/galaxyline.nvim',
     branch = 'main'
   }
-  use 'nvim-lua/completion-nvim'
   use 'neovim/nvim-lspconfig'
   use 'glepnir/lspsaga.nvim'
   use 'jiangmiao/auto-pairs'
@@ -70,7 +69,6 @@ return require('packer').startup(function()
     run = ':TSUpdate'
   }
   use 'SirVer/ultisnips'
-
 	use 'editorconfig/editorconfig-vim'
 
   -- INTEGRATIONS: ------------------------------
