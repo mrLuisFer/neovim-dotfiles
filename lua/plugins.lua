@@ -9,7 +9,6 @@ return require('packer').startup(function()
   }
   use 'morhetz/gruvbox'
   use 'joshdick/onedark.vim'
-  use 'safv12/andromeda.vim'
   use {
     'tiagovla/tokyodark.nvim',
     as = 'tokyodark'
@@ -24,8 +23,10 @@ return require('packer').startup(function()
   use 'sainnhe/sonokai'
   use 'mhartington/oceanic-next'
   use 'glepnir/oceanic-material'
-  use 'sainnhe/everforest'
-  use 'dunstontc/vim-vscode-theme' -- <dark_plus>
+  use {
+    'dunstontc/vim-vscode-theme', -- <dark_plus>
+    as = "vscode"
+  }
   use 'franbach/miramare'
   use {
     'embark-theme/vim',
@@ -40,7 +41,6 @@ return require('packer').startup(function()
     'overcache/NeoSolarized',
     as='NeoSolarized'
   }
-
   use 'arcticicestudio/nord-vim'
 
   -- IDE: -----------------------------------
@@ -64,7 +64,6 @@ return require('packer').startup(function()
   -- FZF
   use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
   use 'junegunn/fzf.vim'
-  use 'terryma/vim-multiple-cursors'
   use 'yggdroot/indentline'
   use 'psliwka/vim-smoothie'
   use 'glepnir/dashboard-nvim'
@@ -73,7 +72,7 @@ return require('packer').startup(function()
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
-  use 'SirVer/ultisnips'
+  -- use 'SirVer/ultisnips'
 	use 'editorconfig/editorconfig-vim'
   use 'ray-x/lsp_signature.nvim'
   use {
@@ -93,14 +92,9 @@ return require('packer').startup(function()
   use 'junegunn/gv.vim'
   --------------------
   use 'nvim-lua/plenary.nvim'
-  use 'mattn/emmet-vim'
-
-  use 'maxmellon/vim-jsx-pretty'
-  use 'peitalin/vim-jsx-typescript'
   use 'pangloss/vim-javascript'
   use 'leafgarland/typescript-vim'
   use 'evanleck/vim-svelte'
-
   use 'prettier/vim-prettier'
   use 'trusktr/seti.vim'
   use {
