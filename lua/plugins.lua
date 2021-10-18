@@ -41,6 +41,8 @@ return require('packer').startup(function()
     as='NeoSolarized'
   }
 
+  use 'arcticicestudio/nord-vim'
+
   -- IDE: -----------------------------------
   use 'wbthomason/packer.nvim'
 	use 'lewis6991/impatient.nvim'
