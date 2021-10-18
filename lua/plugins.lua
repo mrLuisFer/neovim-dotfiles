@@ -79,6 +79,7 @@ return require('packer').startup(function()
     'hrsh7th/nvim-compe',
     requires = 'L3MON4D3/LuaSnip'
   }
+  use 'williamboman/nvim-lsp-installer'
 
   -- INTEGRATIONS: ------------------------------
   use 'norcalli/nvim-colorizer.lua'
