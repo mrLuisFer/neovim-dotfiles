@@ -44,13 +44,13 @@ And do a **pull request** to the **main** branch
 
 ### 📦  Requirements
 
-- **Vim-Plug**
+- [**Packer Nvim**](https://github.com/wbthomason/packer.nvim)
 
-- **Git**
+- [**Git**](https://git-scm.com/)
 
 - [**RipGrep**](https://github.com/BurntSushi/ripgrep)
 
-- **Neovim** C:
+- [**Neovim**](https://neovim.io/) C:
 
 ## 🔥  Important
 
@@ -138,7 +138,7 @@ But the main branch is so to speak the stable version
 ```bash
 $ git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
 
-# echo "Cloned the configuration :D"
+# "Cloned the configuration :D"
 ```
 
 ### 🐧  Setup Linux:
@@ -150,7 +150,7 @@ $ cd $HOME/.config/nvim
 
 $ git clone -b main https://github.com/mrLuisFer/neovim-dotfiles.git .
 
-# echo "Cloned the configuration :D"
+# "Cloned the configuration :D"
 ```
 
 ### 🍎  Setup MacOs:
@@ -171,19 +171,18 @@ If you do not like the color that comes by default, you can execute the command 
 
 When you find one you like, go to `init.vim` and search with _neovim_ `/colorscheme` and write down the name of the **theme** you want to use.
 
-## 🐊  CoC Extensions
+## 📦 LSP Config
+[What's LSP?](https://microsoft.github.io/language-server-protocol/)
 
-[Whats Coc?](https://github.com/neoclide/coc.nvim)
+[In this configuration use lspconfig](https://github.com/neovim/nvim-lspconfig)
+And **Lsp-Installer** for install lsp languages -> [williamboman/nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer)
 
-If you want to **install** or **add** an extension for **Coc** you can check the following page and without modifying anything unless necessary, just **run the command** and it will be ready to use
-
-Install extensions like:
-
+Inside **neovim** run the following command:
 ```bash
-:CocInstall coc-json coc-tsserver
+:LspInstall tsserver <language>
 ```
 
-[You can find more extensions here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
+Or `:LspInstallInfo` for see the languages or u can press `TAB` 
 
 ## 🥐  Insall Lua
 

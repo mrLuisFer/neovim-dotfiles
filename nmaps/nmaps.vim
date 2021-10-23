@@ -15,16 +15,17 @@ xnoremap J :move '>+1<CR>gv-gv
 vnoremap < <gv
 vnoremap > >gv
 
-" Save and close
-nmap <leader>x :x <CR>
-"save file
-"guardar archivo
 if has("win64") || has("win32") || has("win16") || has('win95')
   " this is because when you save a file in windows
   " it shows that the file already exists
   nmap <leader>w :w! <CR>
+  " save and close
+  nmap <leader>x :x! <CR>
 elseif has("unix") || has("osxdarwin") || has('linux')
+  " save file
   nmap <leader>w :w <CR>
+  " save and close
+  nmap <leader>x :x <CR>
 endif
 
 "close current  window

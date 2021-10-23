@@ -17,8 +17,10 @@ return require('packer').startup(function()
     'dracula/vim',
     as = 'dracula'
   }
-  use 'liuchengxu/space-vim-theme'
-  use 'ackyshake/Spacegray.vim'
+  use {
+    'ackyshake/Spacegray.vim',
+    as = 'spacegray'
+  }
   use 'sainnhe/edge'
   use 'sainnhe/sonokai'
   use 'mhartington/oceanic-next'
@@ -36,12 +38,16 @@ return require('packer').startup(function()
     'rose-pine/neovim',
     as = 'rose-pine'
   }
-  use 'Pocco81/Catppuccino.nvim'
+  use {
+    'Pocco81/Catppuccino.nvim',
+    as = 'catppuccino'
+  }
   use {
     'overcache/NeoSolarized',
     as='NeoSolarized'
   }
   use 'arcticicestudio/nord-vim'
+  use 'trusktr/seti.vim'
 
   -- IDE: -----------------------------------
   use 'wbthomason/packer.nvim'
@@ -72,7 +78,6 @@ return require('packer').startup(function()
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
-  -- use 'SirVer/ultisnips'
 	use 'editorconfig/editorconfig-vim'
   use 'ray-x/lsp_signature.nvim'
   use {
@@ -84,20 +89,14 @@ return require('packer').startup(function()
   -- INTEGRATIONS: ------------------------------
   use 'norcalli/nvim-colorizer.lua'
   -- Git Integration
-  use 'mhinz/vim-signify'
   use {
     'tpope/vim-fugitive',
     cmd = 'Git',
   }
-  use 'tpope/vim-rhubarb'
-  use 'junegunn/gv.vim'
   --------------------
   use 'nvim-lua/plenary.nvim'
-  use 'pangloss/vim-javascript'
-  use 'leafgarland/typescript-vim'
   use 'evanleck/vim-svelte'
   use 'prettier/vim-prettier'
-  use 'trusktr/seti.vim'
   use {
     'fatih/vim-go',
     run = ':GoUpdateBinaries'
