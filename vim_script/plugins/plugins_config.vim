@@ -37,11 +37,11 @@ let g:indentLine_fileTypeExclude=["NvimTree"]
 " INFO: gruvbox
 let g:gruvbox_contrast_dark = "medium"
 
-" Use <Tab> and <S-Tab> to navigate through popup menu
+" INFO: Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
-" INFO:
+" INFO: compe
 inoremap <silent><expr> <C-Space> compe#complete()
 inoremap <silent><expr> <CR>      compe#confirm('<CR>')
 inoremap <silent><expr> <C-e>     compe#close('<C-e>')
