@@ -82,9 +82,10 @@ return require('packer').startup(function()
   use 'ray-x/lsp_signature.nvim'
   use {
     'hrsh7th/nvim-compe',
-    requires = 'L3MON4D3/LuaSnip'
+   -- requires = 'L3MON4D3/LuaSnip'
   }
   use 'williamboman/nvim-lsp-installer'
+	use 'antoinemadec/FixCursorHold.nvim'
 
   -- INTEGRATIONS: ------------------------------
   use 'norcalli/nvim-colorizer.lua'
