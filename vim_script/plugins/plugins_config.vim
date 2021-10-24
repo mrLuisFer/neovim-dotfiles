@@ -53,3 +53,8 @@ inoremap <silent><expr> <C-d>     compe#scroll({ 'delta': -4 })
 " use updatetime instead if not defined
 let g:cursorhold_updatetime = 100
 
+" INFO: Lspsaga
+" show hover doc
+nnoremap <silent>K :Lspsaga hover_doc<CR>
+inoremap <silent> <C-k> <Cmd>Lspsaga signature_help<CR>
+
