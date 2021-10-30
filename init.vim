@@ -13,6 +13,7 @@
 syntax on
 syntax enable
 " set number
+set relativenumber
 set mouse=a
 set sw=2
 let mapleader = " "
@@ -91,7 +92,7 @@ else
 endif
 "-----------------------------------------------------------------
 "-------------------------------Colorscheme-------------------------------"
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme tokyodark
 " colorscheme nord
 " colorscheme abstract
@@ -107,7 +108,7 @@ colorscheme gruvbox
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
-" colorscheme material
+colorscheme material
 " colorscheme onehalfdark
 "
 " these are just examples, if you want more colorschemes,
