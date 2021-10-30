@@ -75,7 +75,6 @@ return require('packer').startup(function()
     'glepnir/galaxyline.nvim',
     branch = 'main'
   }
-  use 'neovim/nvim-lspconfig'
   use 'glepnir/lspsaga.nvim'
   use 'jiangmiao/auto-pairs'
   use 'alvan/vim-closetag'
@@ -127,16 +126,12 @@ return require('packer').startup(function()
     -- Lsp Utils
     use 'RishabhRD/popfix'
     use 'RishabhRD/nvim-lsputils'
-    -- Smooth Scroll
-    use 'karb94/neoscroll.nvim'
     -- Rainbow Brackets
     use 'luochen1990/rainbow'
     -- Autopais
     use 'windwp/nvim-autopairs'
     -- Commenter
     use 'b3nj5m1n/kommentary'
-    -- Formatter
-    use 'mhartington/formatter.nvim'
     -- Snippets
     use 'honza/vim-snippets'
     use 'vim-scripts/UltiSnips'
