@@ -1,4 +1,16 @@
 local use = require('packer').use
+local fn = vim.fn
+local execute = vim.api.nvim_command
+
+local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
+
+if fn.empty(fn.glob(install_path)) > 0 then
+  fn.system({
+    'git', 'clone', 'https://github.com/wbthomason/packer.nvim',
+    install_path
+  })
+  execute 'packadd packer.nvim'
+end
 
 -- PACKER:
 return require('packer').startup(function()
@@ -74,12 +86,7 @@ return require('packer').startup(function()
   use 'psliwka/vim-smoothie'
   use 'glepnir/dashboard-nvim'
   use 'akinsho/nvim-bufferline.lua'
-  use {
-    'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate'
-  }
 	use 'editorconfig/editorconfig-vim'
-  use 'ray-x/lsp_signature.nvim'
   use {
     'hrsh7th/nvim-compe',
    -- requires = 'L3MON4D3/LuaSnip'
@@ -94,6 +101,7 @@ return require('packer').startup(function()
     'tpope/vim-fugitive',
     cmd = 'Git',
   }
+  use {'lewis6991/gitsigns.nvim', requires = {'nvim-lua/plenary.nvim'}}
   --------------------
   use 'nvim-lua/plenary.nvim'
   use 'evanleck/vim-svelte'
@@ -102,5 +110,38 @@ return require('packer').startup(function()
     'fatih/vim-go',
     run = ':GoUpdateBinaries'
   }
+
+
+  -- Native LSP for neovim
+    use 'neovim/nvim-lspconfig'
+    use {
+        "hrsh7th/nvim-cmp",
+        requires = {
+            'L3MON4D3/LuaSnip', -- Snippets plugin
+            'hrsh7th/cmp-nvim-lsp', -- Source nvim lsp
+            'ray-x/lsp_signature.nvim', -- LSP Signature
+            'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
+        }
+    }
+    use 'kabouzeid/nvim-lspinstall'
+    -- Lsp Utils
+    use 'RishabhRD/popfix'
+    use 'RishabhRD/nvim-lsputils'
+    -- Smooth Scroll
+    use 'karb94/neoscroll.nvim'
+    -- Rainbow Brackets
+    use 'luochen1990/rainbow'
+    -- Autopais
+    use 'windwp/nvim-autopairs'
+    -- Commenter
+    use 'b3nj5m1n/kommentary'
+    -- Formatter
+    use 'mhartington/formatter.nvim'
+    -- Snippets
+    use 'honza/vim-snippets'
+    use 'vim-scripts/UltiSnips'
+    use 'mlaursen/vim-react-snippets'
+    -- Vim sneak
+    use 'justinmk/vim-sneak'
   -----------------------------------------------------------------
 end)
