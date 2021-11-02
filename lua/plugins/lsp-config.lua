@@ -88,6 +88,23 @@ nvim_lsp.yamlls.setup{
   capabilities = capabilities,
 }
 
+nvim_lsp.vimls.setup{
+  capabilities = capabilities,
+}
+
+nvim_lsp.tailwindcss.setup{
+  capabilities = capabilities,
+}
+
+nvim_lsp.dockerls.setup{
+  capabilities = capabilities,
+}
+
+nvim_lsp.volar.setup{
+  capabilities = capabilities,
+}
+
+
 -- INFO: Install the next packages:
 -- npm install -g diagnostic-languageserver
 -- npm i -g eslint_d prettier
