@@ -88,10 +88,6 @@ nvim_lsp.yamlls.setup{
   capabilities = capabilities,
 }
 
-nvim_lsp.vimls.setup{
-  capabilities = capabilities,
-}
-
 nvim_lsp.tailwindcss.setup{
   capabilities = capabilities,
 }

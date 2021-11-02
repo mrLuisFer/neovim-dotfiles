@@ -20,7 +20,6 @@ let mapleader = " "
 set backspace=2
 set guioptions-=T
 set guioptions-=L
-" set cursorline
 set nocompatible
 " Finding files - Search down into subfolders
 set path+=**
