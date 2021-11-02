@@ -21,4 +21,5 @@ For rust analyzer
 For more details u can see the official repository:
   https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md
 
-
+Single NPM command:
+   npm i -g vscode-langservers-extracted diagnostic-languageserver dockerfile-language-server-nodejs stylelint-lsp svelte-language-server @tailwindcss/language-server typescript typescript-language-server vim-language-server @volar/server vls
