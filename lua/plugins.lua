@@ -37,10 +37,6 @@ return require('packer').startup(function()
   use 'sainnhe/sonokai'
   use 'mhartington/oceanic-next'
   use 'glepnir/oceanic-material'
-  use {
-    'dunstontc/vim-vscode-theme', -- <dark_plus>
-    as = "vscode"
-  }
   use 'franbach/miramare'
   use {
     'embark-theme/vim',
@@ -86,13 +82,9 @@ return require('packer').startup(function()
   use 'glepnir/dashboard-nvim'
   use 'akinsho/nvim-bufferline.lua'
 	use 'editorconfig/editorconfig-vim'
-  use {
-    'hrsh7th/nvim-compe',
-   -- requires = 'L3MON4D3/LuaSnip'
-  }
+  use 'hrsh7th/nvim-compe'
   use 'williamboman/nvim-lsp-installer'
 	use 'antoinemadec/FixCursorHold.nvim'
-
   -- INTEGRATIONS: ------------------------------
   use 'norcalli/nvim-colorizer.lua'
   -- Git Integration
@@ -110,33 +102,4 @@ return require('packer').startup(function()
     run = ':GoUpdateBinaries'
   }
 
-
-  -- Native LSP for neovim
-    use 'neovim/nvim-lspconfig'
-    use {
-        "hrsh7th/nvim-cmp",
-        requires = {
-            'L3MON4D3/LuaSnip', -- Snippets plugin
-            'hrsh7th/cmp-nvim-lsp', -- Source nvim lsp
-            'ray-x/lsp_signature.nvim', -- LSP Signature
-            'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
-        }
-    }
-    use 'kabouzeid/nvim-lspinstall'
-    -- Lsp Utils
-    use 'RishabhRD/popfix'
-    use 'RishabhRD/nvim-lsputils'
-    -- Rainbow Brackets
-    use 'luochen1990/rainbow'
-    -- Autopais
-    use 'windwp/nvim-autopairs'
-    -- Commenter
-    use 'b3nj5m1n/kommentary'
-    -- Snippets
-    use 'honza/vim-snippets'
-    use 'vim-scripts/UltiSnips'
-    use 'mlaursen/vim-react-snippets'
-    -- Vim sneak
-    use 'justinmk/vim-sneak'
-  -----------------------------------------------------------------
 end)
