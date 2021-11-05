@@ -79,11 +79,11 @@ endif
 "-------------------- Neovim QT - GUI Config -----------------------"
 "--------------------- Plugin Sources ---------------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
-  source ~/AppData/Local/nvim/lua_files.vim
+  " For Windows
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
   source ~/AppData/Local/nvim/ginit.vim
 elseif has("unix") || has("osxdarwin") || has('linux')
-  source $HOME/.config/nvim/lua_files.vim
+  " For Unix or Linux systems
   source $HOME/.config/nvim/pluginCalls/unix.vim
   source $HOME/.config/nvim/ginit.vim
 else
@@ -107,9 +107,29 @@ endif
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
-colorscheme material
+" colorscheme material
 " colorscheme onehalfdark
 "
 " these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes
 "-----------------------------------------------------------------
+
+" MAIN:
+lua require('vim_opt')
+lua require('plugins')
+
+" PLUGINS:
+lua require('plugins/treelua-config')
+lua require('plugins/bufferline-config')
+lua require('plugins/lspsaga-config')
+lua require('plugins/impatient-config')
+lua require('plugins/galaxyline-config')
+lua require('plugins/vim_go_config')
+lua require('plugins/nvim_compe_config')
+lua require('plugins/rainbow')
+lua require('plugins/rainbow')
+
+" THEMES:
+lua require('themes/material-config')
+lua require('themes/tokyodark-config')
+
