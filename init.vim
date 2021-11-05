@@ -12,7 +12,6 @@
 " I recommend use a Nerd Font -> https://www.nerdfonts.com/font-downloads
 syntax on
 syntax enable
-" set number
 set relativenumber
 set mouse=a
 set sw=2
@@ -103,7 +102,7 @@ endif
 " colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
-" colorscheme spacegray
+colorscheme spacegray
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
