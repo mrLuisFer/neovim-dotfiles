@@ -82,7 +82,6 @@ return require('packer').startup(function()
   use 'glepnir/dashboard-nvim'
   use 'akinsho/nvim-bufferline.lua'
 	use 'editorconfig/editorconfig-vim'
-  use 'hrsh7th/nvim-compe'
   use 'williamboman/nvim-lsp-installer'
 	use 'antoinemadec/FixCursorHold.nvim'
   -- INTEGRATIONS: ------------------------------
@@ -102,4 +101,21 @@ return require('packer').startup(function()
     run = ':GoUpdateBinaries'
   }
 
+  use 'neovim/nvim-lspconfig'
+  -- Copletion
+  use {
+    "hrsh7th/nvim-cmp",
+   requires = {
+      "hrsh7th/cmp-buffer", "hrsh7th/cmp-nvim-lsp",
+      'quangnguyen30192/cmp-nvim-ultisnips', 'hrsh7th/cmp-nvim-lua',
+      'octaltree/cmp-look', 'hrsh7th/cmp-path', 'hrsh7th/cmp-calc',
+      'f3fora/cmp-spell', 'hrsh7th/cmp-emoji'
+    }
+  }
+  use {
+    'tzachar/cmp-tabnine',
+    run = './install.sh',
+    requires = 'hrsh7th/nvim-cmp'
+  }
+  use 'onsails/lspkind-nvim'
 end)
