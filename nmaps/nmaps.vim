@@ -81,3 +81,4 @@ nnoremap <silent> gh <Cmd>Lspsaga lsp_finder<CR>
 
 " TERMINAL:
 nmap <leader>t :terminal<CR>
+
