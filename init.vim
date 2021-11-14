@@ -6,7 +6,6 @@
 "	██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║
 "	╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 "
-"
 " By: mrLuisFer
 "--------------------------------- vim config ----------------------------
 " I recommend use a Nerd Font -> https://www.nerdfonts.com/font-downloads
@@ -27,10 +26,9 @@ set backspace=2
 set guioptions-=T
 set guioptions-=L
 set cursorline
-"-----------------------------------------------------------------
-"
-" Coc Optional Config
-"
+set cmdheight=1
+set background=dark
+set termguicolors
 " TextEdit might fail if hidden is not set.
 set hidden
 " Some servers have issues with backup files, see #649.
@@ -43,6 +41,11 @@ set cmdheight=2
 set updatetime=300
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
+set showtabline=2
+set scrolloff=3
+set shiftwidth=2
+set tabstop=2
+
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
 if has("patch-8.1.1564")
@@ -76,33 +79,18 @@ function! Check_python()
 		echoerr 'Python 3 support needed'
 	endif
 endfunction
-"-------------------------------------------------------------------"
-
-"-------------------------------Windows Scroll-------------------------------"
-" For disable scroll in windows you need install NeovimQt
-" https://github.com/equalsraf/neovim-qt
-if has("win32") || has("win64") || has("win16")
-	" Enable GUI Scrollbar
-	if exists(':GuiScrollBar')
-		GuiScrollBar 1
-	endif
-
-	" Right Click Context Menu (Copy-Cut-Paste)
-	nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
-	inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
-	vnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
-endif
-"-----------------------------------------------------------------
 
 "-------------------------------Sources-------------------------------"
 if has("win32") || has("win64") || has("win16")
 	source ~/AppData/Local/nvim/pluginCalls/windows.vim
+	source ~/AppData/Local/nvim/ginit.vim
 elseif has("unix") || has("osxdarwin")
 	source $HOME/.config/nvim/pluginCalls/unix.vim
+	source $HOME/.config/nvim/ginit.vim
 else
 	echoerr "Unsupported platform"
 endif
-lua require('tree_lua')
+lua require('plugins/tree_lua')
 "-----------------------------------------------------------------
 
 "--------------------------------Plugins Config--------------------------------------------
@@ -118,9 +106,6 @@ let g:gruvbox_contrast_dark = "medium"
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 
-set cmdheight=1
-set background=dark
-set termguicolors
 "-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"

@@ -10,11 +10,9 @@
 imap jk <Esc>
 imap <C-c> <Esc>l
 "mueve bloques de codigo en modo visual o V-Line
-"Moves Blocks of code in visual mode or V-Line xnoremap K :move '<-2<CR>gv-gv xnoremap J :move '>+1<CR>gv-gv
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 " Better indenting
-" Mejor Indentación
 vnoremap < <gv
 vnoremap > >gv
 
@@ -49,28 +47,21 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 nmap <leader>bd :bdelete<CR>
 
 """ INFO: Bufferline.vim
-nnoremap <silent>[b :BufferLineCycleNext<CR>
-nnoremap <silent>b] :BufferLineCyclePrev<CR>
-
+nnoremap <silent>b} :BufferLineCyclePrev<CR>
 nnoremap <silent>be :BufferLineSortByExtension<CR>
 nnoremap <silent>bd :BufferLineSortByDirectory<CR>
-
 nnoremap <silent> gb :BufferLinePick<CR>
-
-" Use K to show documentation in preview window.
-nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 "" INFO: NVIM-DASHBOARD.vim
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
 nmap <Leader>fw :DashboardFindWord<CR>
-nmap <Leader>tc :DashboardChangeColorscheme<CR>
 " Or <Leader>fs using FZF
 nmap <Leader>ff :DashboardFindFile<CR>
 nmap <Leader>fh :DashboardFindHistory<CR>
 
 """ INFO: TREE-LUA.vim
-nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <C-b> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
 nnoremap <leader>e :NvimTreeOpen<CR>
