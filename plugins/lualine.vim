@@ -1,3 +1,3 @@
 lua << EOF
-require('lualine').setup()
+  require('lualine').setup()
 EOF
