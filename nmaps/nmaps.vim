@@ -19,12 +19,11 @@ vnoremap < <gv
 vnoremap > >gv
 
 "save file
-"guardar archivo
 nmap <leader>w :w <CR>
-"cerrar ventana
 "close current  window
 nmap <C-w> :q <CR>
 nmap <leader>q :q <CR>
+nmap <leader>x :x <CR>
 nmap <leader>so :so%<CR>
 "search commands
 "comandos de busqueda
