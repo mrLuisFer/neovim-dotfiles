@@ -5,7 +5,6 @@ Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
-Plug 'ghifarit53/tokyonight-vim'
 " Dracula Theme
 Plug 'dracula/vim', { 'as': 'dracula' }
 " Space Vim Theme
@@ -80,14 +79,7 @@ Plug 'glepnir/dashboard-nvim'
 " --- Airline Extensions ----------------------------
 Plug 'dense-analysis/ale'
 
-" Deoplete
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " -----------------------------------------------------------------
 
 "--------------------------- Integrations -----------------------------------
@@ -113,7 +105,6 @@ Plug 'cakebaker/scss-syntax.vim'
 " Seti.vim
 Plug 'trusktr/seti.vim'
 " Vim React Snippets
-"Plug 'SirVer/ultisnips'
 Plug 'mlaursen/vim-react-snippets'
 " Vim Javascript
 Plug 'pangloss/vim-javascript'

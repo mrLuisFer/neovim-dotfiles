@@ -102,6 +102,7 @@ elseif has("unix") || has("osxdarwin")
 else
 	echoerr "Unsupported platform"
 endif
+lua require('tree_lua')
 "-----------------------------------------------------------------
 
 "--------------------------------Plugins Config--------------------------------------------
@@ -114,12 +115,11 @@ let g:indentLine_fileTypeExclude=["NvimTree"]
 "--gruvbox config--
 let g:gruvbox_contrast_dark = "medium"
 
-set cmdheight=1
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 
+set cmdheight=1
 set background=dark
-
 set termguicolors
 "-----------------------------------------------------------------
 
