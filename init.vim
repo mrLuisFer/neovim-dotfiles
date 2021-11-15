@@ -92,6 +92,7 @@ else
 	echoerr "Unsupported platform"
 endif
 lua require('plugins/tree_lua')
+lua require('plugins/lualine')
 "-----------------------------------------------------------------
 
 "--------------------------------Plugins Config--------------------------------------------

@@ -34,14 +34,13 @@ return require('packer').startup(function()
   use {'Pocco81/Catppuccino.nvim'}
 
   -- IDE
+  use { 'nvim-lualine/lualine.nvim', requires = {'kyazdani42/nvim-web-devicons', opt = true} }
   use { 'easymotion/vim-easymotion'}
   use { 'christoomey/vim-tmux-navigator'}
   use { 'kyazdani42/nvim-tree.lua'}
   use { 'ryanoasis/vim-devicons'}
   use { 'kyazdani42/nvim-web-devicons'}
   use { 'preservim/nerdcommenter'}
-  use { 'vim-airline/vim-airline'}
-  use { 'vim-airline/vim-airline-themes'}
   use { 'jiangmiao/auto-pairs'}
   use { 'alvan/vim-closetag'}
   use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }

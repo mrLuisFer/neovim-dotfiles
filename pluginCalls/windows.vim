@@ -17,7 +17,6 @@
 	source ~/AppData/Local/nvim/plugins/nvim-dashboard.vim
 	source ~/AppData/Local/nvim/plugins/bufferline.vim
 	source ~/AppData/Local/nvim/plugins/tree-lua.vim
-	source ~/AppData/Local/nvim/plugins/airline.vim
 	source ~/AppData/Local/nvim/plugins/ale.vim
 	source ~/AppData/Local/nvim/plugins/deoplete-config.vim
 	"	Lang tools
