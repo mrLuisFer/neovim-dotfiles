@@ -14,7 +14,7 @@ end
 
 -- PACKER:
 return require('packer').startup(function()
-   -- THEMES: -----------------------------------
+  -- THEMES: -----------------------------------
   use {
     'marko-cerovac/material.nvim',
     as='material'
@@ -77,6 +77,7 @@ return require('packer').startup(function()
   -- FZF
   use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
   use 'junegunn/fzf.vim'
+
   use 'yggdroot/indentline'
   use 'psliwka/vim-smoothie'
   use 'glepnir/dashboard-nvim'
@@ -111,11 +112,6 @@ return require('packer').startup(function()
       'octaltree/cmp-look', 'hrsh7th/cmp-path', 'hrsh7th/cmp-calc',
       'f3fora/cmp-spell', 'hrsh7th/cmp-emoji'
     }
-  }
-  use {
-    'tzachar/cmp-tabnine',
-    run = './install.sh',
-    requires = 'hrsh7th/nvim-cmp'
   }
   use 'onsails/lspkind-nvim'
 end)

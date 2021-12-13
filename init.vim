@@ -6,14 +6,12 @@
 "	██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║
 "	╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 "
-"
 " By: mrLuisFer
 "--------------------------------- vim config ----------------------------
 " I recommend use a Nerd Font -> https://www.nerdfonts.com/font-downloads
 syntax on
 syntax enable
 set relativenumber
-set mouse=a
 set sw=2
 let mapleader = " "
 set backspace=2
@@ -27,11 +25,11 @@ set inccommand=split
 filetype plugin indent on
 set ai "Auto indent
 set si "Smart indent
-" Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
+
 " File types "{{{
 " ---------------------------------------------------------------------
 " JavaScript
@@ -50,7 +48,7 @@ autocmd FileType coffee setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " ---------------------------------------------------------------------
-"}}}
+
 "------------------------Check Python3 Host Script------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
 	let g:python3_host_prog = 'C:\Python39\python.exe'
