@@ -36,8 +36,9 @@ nmap <leader>so :so%<CR>
 nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 
-"Search for two chars with easymotion
-nmap <Leader>s <Plug>(easymotion-s2)
+" EASYMOTION:
+nmap <Leader>sj <Plug>(easymotion-j)
+nmap <Leader>sk <Plug>(easymotion-k)
 
 " TAB in general mode will move to text buffer
 nnoremap <silent> <TAB> :bnext<CR>
