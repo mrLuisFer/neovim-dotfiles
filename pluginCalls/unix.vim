@@ -11,10 +11,6 @@
 	source $HOME/.config/nvim/vim_script/plugins/plugins_config.vim
 	source $HOME/.config/nvim/vim_script/plugins/coc-config.vim
 	source $HOME/.config/nvim/vim_script/plugins/coc-extensions.vim
-	source $HOME/.config/nvim/vim_script/plugins/vim-javascript.vim
-	source $HOME/.config/nvim/vim_script/plugins/vim-typescript.vim
-	source $HOME/.config/nvim/vim_script/plugins/vim-prettier.vim
-	source $HOME/.config/nvim/vim_script/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/vim_script/plugins/nvim-dashboard.vim
 	" Key Maps
 	source $HOME/.config/nvim/nmaps/nmaps.vim
