@@ -74,11 +74,12 @@ elseif has("unix") || has("osxdarwin")
 else
   echoerr "Unsupported platform"
 endif
+
 " -------------------------------Colorscheme-------------------------------"
 " these are just examples, if you want more colorschemes,
 " please type `:colorschemes + TAB` and show all available colorschemes
-colorscheme tokyonight
-" colorscheme gruvbox
+" colorscheme tokyonight
+colorscheme gruvbox
 " colorscheme abstract
 " colorscheme space_vim_theme
 " colorscheme edge
