@@ -1,4 +1,3 @@
--- following options are the default
 require'nvim-tree'.setup {
   disable_netrw       = true,
   hijack_netrw        = true,
@@ -8,9 +7,21 @@ require'nvim-tree'.setup {
   open_on_tab         = false,
   hijack_cursor       = false,
   update_cwd          = false,
-  lsp_diagnostics     = false,
+  update_to_buf_dir   = {
+    enable = true,
+    auto_open = true,
+  },
+ diagnostics = {
+    enable = false,
+    icons = {
+      hint = "",
+      info = "",
+      warning = "",
+      error = "",
+    }
+  },
   update_focused_file = {
-    enable      = false,
+    enable      = true,
     update_cwd  = false,
     ignore_list = {}
   },
@@ -18,9 +29,14 @@ require'nvim-tree'.setup {
     cmd  = nil,
     args = {}
   },
-
+  filters = {
+    dotfiles = false,
+    custom = {}
+  },
   view = {
-    width = 30,
+    width = 35,
+    height = 35,
+    hide_root_folder = true,
     side = 'left',
     auto_resize = true,
     mappings = {
