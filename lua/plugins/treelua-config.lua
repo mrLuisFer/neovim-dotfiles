@@ -11,7 +11,7 @@ require'nvim-tree'.setup {
     enable = true,
     auto_open = true,
   },
-  diagnostics = {
+ diagnostics = {
     enable = false,
     icons = {
       hint = "",
