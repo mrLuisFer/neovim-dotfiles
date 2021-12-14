@@ -11,7 +11,8 @@
 " I recommend use a Nerd Font -> https://www.nerdfonts.com/font-downloads
 syntax on
 syntax enable
-set relativenumber
+" set relativenumber
+set number
 set sw=2
 let mapleader = " "
 set backspace=2
@@ -86,7 +87,7 @@ else
 endif
 "-----------------------------------------------------------------
 "-------------------------------Colorscheme-------------------------------"
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme tokyodark
 " colorscheme nord
 " colorscheme abstract
@@ -94,7 +95,7 @@ endif
 " colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
-colorscheme onedark
+" colorscheme onedark
 " colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
