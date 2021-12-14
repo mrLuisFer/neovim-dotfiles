@@ -75,7 +75,6 @@ nmap <leader>ñ :Lspsaga open_floaterm<CR>
 nnoremap <silent>K :Lspsaga hover_doc<CR>
 inoremap <silent> <C-k> <Cmd>Lspsaga signature_help<CR>
 nnoremap <silent> gh <Cmd>Lspsaga lsp_finder<CR>
-" nmap <leader>gr :Lspsaga rename<CR>
 
 " TERMINAL:
 nmap <leader>t :terminal<CR>
