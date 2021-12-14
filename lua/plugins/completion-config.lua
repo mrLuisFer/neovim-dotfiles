@@ -9,6 +9,8 @@ local check_back_space = function()
     return col == 0 or vim.fn.getline("."):sub(col, col):match("%s") ~= nil
 end
 
+local completeoptions = 'menu,menuone,noinsert'
+
 cmp.setup {
 
     formatting = {
@@ -49,7 +51,6 @@ cmp.setup {
                     return vim.fn.feedkeys(t(
                                                "<C-R>=UltiSnips#ExpandSnippetOrJump()<CR>"))
                 end
-
                 vim.fn.feedkeys(t("<C-n>"), "n")
             elseif check_back_space() then
                 vim.fn.feedkeys(t("<tab>"), "n")
@@ -71,11 +72,7 @@ cmp.setup {
         {name = "nvim_lua"}, {name = "look"}, {name = "path"},
         {name = "emoji"}
     },
-    completion = {completeopt = 'menu,menuone,noinsert'}
+    completion = {completeopt = completeoptions}
 }
 
--- Database completion
-vim.api.nvim_exec([[
-autocmd FileType sql,mysql,plsql lua require('cmp').setup.buffer({ sources = {{ name = 'vim-dadbod-completion' }} })
-]], false)
 
