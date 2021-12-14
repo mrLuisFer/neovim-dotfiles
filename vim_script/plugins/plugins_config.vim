@@ -36,12 +36,6 @@ let g:tokyonight_enable_italic = 0
 let g:better_escape_interval = 200
 let g:better_escape_shortcut = ['jk', 'jj', 'kj', 'лл']
 
-" VIM_JAVASCRIPT:
-let g:javascript_plugin_jsdoc = 1
-let g:javascript_plugin_ngdoc = 1
-let g:javascript_plugin_flow = 1
-let g:vim_jsx_pretty_colorful_config = 1 
-
 " VIM_CLOSETAG:
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
 let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
@@ -61,11 +55,4 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.tsx'
 " VIM_PRETTIER:
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
-
-" VIM_TYPESCRIPT:
-let g:typescript_indent_disable = 1
-let g:typescript_opfirst='\%([<>=,?^%|*/&]\|\([-:+]\)\1\@!\|!=\|in\%(stanceof\)\=\>\)'
-let g:typescript_compiler_binary = 'tsc'
-let g:typescript_compiler_options = ''
-let g:typescript_ignore_browserwords = 1
 
