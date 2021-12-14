@@ -47,15 +47,10 @@ return require('packer').startup(function()
     as = 'rose-pine'
   }
   use {
-    'Pocco81/Catppuccino.nvim',
-    as = 'catppuccino'
-  }
-  use {
     'overcache/NeoSolarized',
     as='NeoSolarized'
   }
   use 'arcticicestudio/nord-vim'
-  use 'trusktr/seti.vim'
 
   -- IDE: -----------------------------------
   use 'wbthomason/packer.nvim'
