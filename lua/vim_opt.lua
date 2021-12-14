@@ -10,6 +10,7 @@ local map = vim.api.nvim_set_keymap
 local cmd = vim.cmd
 
 g.mapleader = ' ' -- <Space>
+g.rainbow_active = 1
 
 set.number = true
 set.showcmd = true
