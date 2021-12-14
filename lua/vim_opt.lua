@@ -1,10 +1,7 @@
--- global options
 local g = vim.g
--- window scoop options
 local wo = vim.wo
--- general 
 local o = vim.o
--- ^ basically all of the above
+
 local set = vim.opt
 local map = vim.api.nvim_set_keymap
 local cmd = vim.cmd
