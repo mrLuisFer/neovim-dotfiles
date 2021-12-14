@@ -67,9 +67,7 @@ nmap <Leader>fh :DashboardFindHistory<CR>
 """ INFO: TREE-LUA.vim
 nnoremap <C-b> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
-nnoremap <leader>n :NvimTreeFindFile<CR>
 nnoremap <leader>e :NvimTreeOpen<CR>
-nnoremap <leader>te :NvimTreeClose<CR>
 
 """ INFO: Lspsaga
 nmap <leader>ñ :Lspsaga open_floaterm<CR>
