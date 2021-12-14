@@ -47,7 +47,6 @@ set suffixesadd=.js,.es,.jsx,.json,.css,.less,.sass,.styl,.php,.py,.md
 autocmd FileType coffee setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
-" ---------------------------------------------------------------------
 
 "------------------------Check Python3 Host Script------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
@@ -73,7 +72,6 @@ if has("win32") || has("win64") || has("win16") || has('win95')
 		endif
 	endfunction
 endif
-"-------------------- Neovim QT - GUI Config -----------------------"
 "--------------------- Plugin Sources ---------------------------"
 if has("win32") || has("win64") || has("win16") || has('win95')
   " For Windows
@@ -96,11 +94,11 @@ endif
 " colorscheme edge
 " colorscheme sonokai
 " colorscheme everforest
-" colorscheme onedark
+colorscheme onedark
 " colorscheme miramare
 " colorscheme dracula
 " colorscheme OceanicNext
-colorscheme spacegray
+" colorscheme spacegray
 " colorscheme embark
 " colorscheme oceanic_material
 " colorscheme NeoSolarized
@@ -125,6 +123,7 @@ lua require('plugins/vim_go_config')
 lua require('plugins/rainbow')
 lua require('plugins/completion-config')
 lua require('plugins/rainbow')
+lua require('plugins/tresitter-config')
 
 " THEMES:
 lua require('themes/material-config')
