@@ -64,6 +64,7 @@ lua require('plugins')
 lua require('plugins/treelua-config')
 lua require('plugins/galaxyline-config')
 lua require('plugins/bufferline-config')
+lua require('plugins/treesitter-config')
 
 if has("win32") || has("win64") || has("win16") || has('win95')
   source ~/AppData/Local/nvim/pluginCalls/windows.vim
@@ -92,4 +93,4 @@ colorscheme gruvbox
 " colorscheme spacegray
 " colorscheme embark
 " colorscheme oceanic_material
-"-----------------------------------------------------------------
+" -----------------------------------------------------------------

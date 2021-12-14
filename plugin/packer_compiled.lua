@@ -207,10 +207,8 @@ _G.packer_plugins = {
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
-    loaded = false,
-    needs_bufread = true,
-    only_cond = false,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/opt/nvim-treesitter",
+    loaded = true,
+    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
@@ -268,11 +266,6 @@ _G.packer_plugins = {
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/tokyonight-vim",
     url = "https://github.com/ghifarit53/tokyonight-vim"
   },
-  ["typescript-vim"] = {
-    loaded = true,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/typescript-vim",
-    url = "https://github.com/leafgarland/typescript-vim"
-  },
   ultisnips = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/ultisnips",
@@ -302,11 +295,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-go",
     url = "https://github.com/fatih/vim-go"
-  },
-  ["vim-javascript"] = {
-    loaded = true,
-    path = "/home/mrluisfer/.local/share/nvim/site/pack/packer/start/vim-javascript",
-    url = "https://github.com/pangloss/vim-javascript"
   },
   ["vim-multiple-cursors"] = {
     loaded = true,
@@ -356,7 +344,6 @@ vim.cmd [[au!]]
   -- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
 vim.cmd [[au InsertEnter * ++once lua require("packer.load")({'better-escape.vim'}, { event = "InsertEnter *" }, _G.packer_plugins)]]
-vim.cmd [[au BufRead * ++once lua require("packer.load")({'nvim-treesitter'}, { event = "BufRead *" }, _G.packer_plugins)]]
 time([[Defining lazy-load event autocommands]], false)
 vim.cmd("augroup END")
 if should_profile then save_profiles() end
