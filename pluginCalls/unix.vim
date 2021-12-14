@@ -11,6 +11,5 @@
 	source $HOME/.config/nvim/vim_script/plugins/plugins_config.vim
 	source $HOME/.config/nvim/vim_script/plugins/vim-closetag.vim
 	source $HOME/.config/nvim/vim_script/plugins/nvim-dashboard.vim
-	source $HOME/.config/nvim/vim_script/plugins/tree-lua.vim
 	" KEY_MAPS:
 	source $HOME/.config/nvim/nmaps/nmaps.vim

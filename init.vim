@@ -124,6 +124,7 @@ lua require('plugins/rainbow')
 lua require('plugins/completion-config')
 lua require('plugins/rainbow')
 lua require('plugins/tresitter-config')
+lua require('plugins/treelua-config')
 
 " THEMES:
 lua require('themes/material-config')
