@@ -16,6 +16,5 @@
 	source ~/AppData/Local/nvim/vim_script/plugins/vim-prettier.vim
 	source ~/AppData/Local/nvim/vim_script/plugins/vim-closetag.vim
 	source ~/AppData/Local/nvim/vim_script/plugins/nvim-dashboard.vim
-	source ~/AppData/Local/nvim/vim_script/plugins/tree-lua.vim
 	" Key Maps
 	source ~/AppData/Local/nvim/nmaps/nmaps.vim
