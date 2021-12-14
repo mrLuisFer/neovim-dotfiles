@@ -60,11 +60,8 @@ return require('packer').startup(function()
   use 'yggdroot/indentline'
   use 'psliwka/vim-smoothie'
   use 'glepnir/dashboard-nvim'
-  use 'akinsho/nvim-bufferline.lua'
-  use {
-    "nvim-treesitter/nvim-treesitter",
-    event = "BufRead",
-  }
+  use 'akinsho/nvim-bufferline.lua' 
+  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 	use 'editorconfig/editorconfig-vim'
   use {'jdhao/better-escape.vim', event = 'InsertEnter'}
   use 'sbdchd/neoformat'
@@ -80,8 +77,6 @@ return require('packer').startup(function()
   use 'cakebaker/scss-syntax.vim'
   use 'trusktr/seti.vim'
   use 'SirVer/ultisnips'
-  use 'pangloss/vim-javascript'
-  use 'leafgarland/typescript-vim'
   use 'evanleck/vim-svelte'
   use {
     'fatih/vim-go',
