@@ -81,7 +81,6 @@ function! Check_python()
 endfunction
 
 "-------------------------------Sources-------------------------------"
-lua require('plugins')
 if has("win32") || has("win64") || has("win16")
 	source ~/AppData/Local/nvim/pluginCalls/windows.vim
 	source ~/AppData/Local/nvim/ginit.vim
@@ -91,21 +90,9 @@ elseif has("unix") || has("osxdarwin")
 else
 	echoerr "Unsupported platform"
 endif
+
 lua require('plugins/tree_lua')
 lua require('plugins/lualine')
-"-----------------------------------------------------------------
-
-"--------------------------------Plugins Config--------------------------------------------
-"configuracion de tabs
-let g:indentLine_enabled = 1
-let g:indentLine_char = ' '
-let g:indentLine_faster = 1
-let g:indentLine_fileTypeExclude=["NvimTree"]
-"--gruvbox config--
-let g:gruvbox_contrast_dark = "medium"
-let g:tokyonight_style = 'night' " available: night, storm
-let g:tokyonight_enable_italic = 0
-"-----------------------------------------------------------------
 
 "-------------------------------Colorscheme-------------------------------"
 " colorscheme tokyonight
