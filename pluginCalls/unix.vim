@@ -7,8 +7,9 @@
 	source $HOME/.config/nvim/themes/oceanic-next.vim
 	source $HOME/.config/nvim/themes/oceanic-material.vim
 	" Plugins
+	source $HOME/.config/nvim/plugins/bufferline.vim
 	source $HOME/.config/nvim/plugins/nvim-dashboard.vim
-	source $HOME/.config/nivm/plugins/plugins_config.vim
+	source $HOME/.config/nvim/plugins/plugins_config.vim
 	"	Lang tools
 	source $HOME/.config/nvim/langs/lang.vim
 	" Key Maps
