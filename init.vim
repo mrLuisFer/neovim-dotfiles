@@ -20,8 +20,6 @@ set guioptions-=T
 set guioptions-=L
 set nocompatible
 " Finding files - Search down into subfolders
-set path+=**
-scriptencoding utf-8
 set inccommand=split
 filetype plugin indent on
 set ai "Auto indent
